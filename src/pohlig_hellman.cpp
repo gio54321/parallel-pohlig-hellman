@@ -64,8 +64,6 @@ mpz_class PohligHellman::discrete_log(mpz_class g, mpz_class b, mpz_class p, std
         mpz_class prime = factor.first;
         mpz_class e = factor.second;
 
-        std::cout << "prime: " << prime << ", e: " << e << std::endl;
-
         mpz_class p_to_e = powerMod(prime, e, p);
         mpz_class subgroup_order = order / p_to_e;
 
