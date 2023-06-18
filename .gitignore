@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+.gdb_history
+lib/*
+bin/*
