@@ -34,3 +34,4 @@
 .gdb_history
 lib/*
 bin/*
+input/*
