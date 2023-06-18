@@ -42,12 +42,43 @@ mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p)
 
 mpz_class BabyStepGiantStep::discrete_log_2(mpz_class g, mpz_class b, mpz_class p)
 {
+    std::cout << "discrete_log_2 ";
+    std::cout << "g: " << g << ", b: " << b << ", p: " << p << std::endl;
+
     mpz_class m = sqrt(p) + 1;
     std::unordered_map<mpz_class, mpz_class> table = {}; 
     table.reserve(m.get_ui());
 
     mpz_class val = g;
-    table.insert({1, 0});
+    table.insert({0, 1});
+    for (mpz_class i = 1; i < m; ++i) {
+        table.insert({val, i});
+        val = (val * g) % p;
+    }
+
+    mpz_class gm = (powerMod(modInversePrime(g, p), m, p)) % p;
+    val = b;
+
+    for (mpz_class i = 0; i < m; ++i) {
+        if (table.find(val) != table.end()) {
+            return (i * m + table[val]) % p;
+        }
+        val = (val * gm) % p;
+    }
+    return mpz_class(0);
+}
+
+mpz_class BabyStepGiantStep::discrete_log_2(mpz_class g, mpz_class b, mpz_class p, mpz_class order)
+{
+    //std::cout << "discrete_log_2 ";
+    //std::cout << "g: " << g << ", b: " << b << ", p: " << p << std::endl;
+
+    mpz_class m = sqrt(order) + 1;
+    std::unordered_map<mpz_class, mpz_class> table = {};
+    table.reserve(m.get_ui());
+
+    mpz_class val = g;
+    table.insert({0, 1});
     for (mpz_class i = 1; i < m; ++i) {
         table.insert({val, i});
         val = (val * g) % p;
@@ -75,7 +106,7 @@ uint64_t BabyStepGiantStep::discrete_log_native(uint64_t g, uint64_t b, uint64_t
     table.reserve(m);
 
     uint64_t val = g;
-    table.insert({1, 0});
+    table.insert({0, 1});
     for (uint32_t i = 1; i < m; ++i) {
         table.insert({val, i});
         val = mulMod(val, g, p);
@@ -103,7 +134,7 @@ uint64_t BabyStepGiantStep::discrete_log_native_asm(uint64_t g, uint64_t b, uint
     table.reserve(m);
 
     uint64_t val = g;
-    table.insert({1, 0});
+    table.insert({0, 1});
     for (uint32_t i = 1; i < m; ++i) {
         table.insert({val, i});
         val = mulModAsm(val, g, p);
@@ -118,5 +149,6 @@ uint64_t BabyStepGiantStep::discrete_log_native_asm(uint64_t g, uint64_t b, uint
         }
         val = mulModAsm(val, gm, p);
     }
+
     return 0; 
 }
