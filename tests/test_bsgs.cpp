@@ -15,15 +15,12 @@ mpz_class dlog_algo(mpz_class g, mpz_class b, mpz_class p, int algo, long *time_
     mpz_class result;
     {
         utimer u("discrete log", time_taken);
-        BabyStepGiantStep bsgs;
         if (algo == 1) {
-            result = bsgs.discrete_log(g, b, p);
+            result = BabyStepGiantStep::discrete_log(g, b, p);
         } else if (algo == 2) {
-            result = bsgs.discrete_log_2(g, b, p);
+            result = BabyStepGiantStep::discrete_log_native(g.get_ui(), b.get_ui(), p.get_ui());
         } else if (algo == 3) {
-            result = bsgs.discrete_log_native(g.get_ui(), b.get_ui(), p.get_ui());
-        } else if (algo == 4) {
-            result = bsgs.discrete_log_native_asm(g.get_ui(), b.get_ui(), p.get_ui());
+            result = BabyStepGiantStep::discrete_log_native_asm(g.get_ui(), b.get_ui(), p.get_ui());
         }
     }
     return result;

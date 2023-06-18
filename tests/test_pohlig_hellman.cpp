@@ -50,8 +50,7 @@ void test_pohlig_hellman() {
             }
             std::cout << std::endl;
 
-            PohligHellman ph;
-            mpz_class result = ph.discrete_log(g, b, p, factorization);
+            mpz_class result = PohligHellman::discrete_log(g, b, p, factorization);
 
             std::cout << "result: " << result << std::endl;
 

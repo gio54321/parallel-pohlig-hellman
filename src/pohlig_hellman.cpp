@@ -9,17 +9,6 @@
 #include "discrete_utils.h"
 
 
-PohligHellman::PohligHellman()
-{
-}
-
-PohligHellman::~PohligHellman()
-{
-}
-
-
-
-
 // compute discrete log for a group of prime power order
 // https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm
 mpz_class discrete_log_prime_power(mpz_class g, mpz_class b, mpz_class mod, mpz_class p, mpz_class e)
@@ -28,8 +17,7 @@ mpz_class discrete_log_prime_power(mpz_class g, mpz_class b, mpz_class mod, mpz_
     //std::cout << "g: " << g << ", b: " << b << ", mod: " << mod << ", p: " << p << ", e: " << e << std::endl;
 
     if (e == 1) {
-        BabyStepGiantStep bsgs;
-        return bsgs.discrete_log_2(g, b, mod, p);
+        return BabyStepGiantStep::discrete_log(g, b, mod, p);
     }
     mpz_class result = 0;
 
@@ -39,8 +27,7 @@ mpz_class discrete_log_prime_power(mpz_class g, mpz_class b, mpz_class mod, mpz_
         mpz_class exponent = powerMod(p, e-1-k, mod);
         mpz_class h_k = powerMod((b * powerMod(modInversePrime(g, mod), result, mod)) % mod, exponent, mod);
 
-        BabyStepGiantStep bsgs;
-        mpz_class dk = bsgs.discrete_log_2(gamma, h_k, mod, p);
+        mpz_class dk = BabyStepGiantStep::discrete_log(gamma, h_k, mod, p);
 
         result += (dk * powerMod(p, k, mod)) % mod;
     }

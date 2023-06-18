@@ -9,38 +9,7 @@
 #include "discrete_utils.h"
 
 
-BabyStepGiantStep::BabyStepGiantStep()
-{
-}
-
-BabyStepGiantStep::~BabyStepGiantStep()
-{
-}
-
-
 mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p)
-{
-    mpz_class m = sqrt(p) + 1;
-    std::unordered_map<mpz_class, mpz_class> table = {}; 
-
-    for (mpz_class i = 0; i < m; ++i) {
-        mpz_class val = powerMod(g, i, p);
-        table.insert({val, i});
-    }
-
-    mpz_class gm = (powerMod(modInversePrime(g, p), m, p)) % p;
-    mpz_class val = b;
-
-    for (mpz_class i = 0; i < m; ++i) {
-        if (table.find(val) != table.end()) {
-            return (i * m + table[val]) % p;
-        }
-        val = (val * gm) % p;
-    }
-    return 0;
-}
-
-mpz_class BabyStepGiantStep::discrete_log_2(mpz_class g, mpz_class b, mpz_class p)
 {
     std::cout << "discrete_log_2 ";
     std::cout << "g: " << g << ", b: " << b << ", p: " << p << std::endl;
@@ -68,7 +37,7 @@ mpz_class BabyStepGiantStep::discrete_log_2(mpz_class g, mpz_class b, mpz_class 
     return mpz_class(0);
 }
 
-mpz_class BabyStepGiantStep::discrete_log_2(mpz_class g, mpz_class b, mpz_class p, mpz_class order)
+mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p, mpz_class order)
 {
     //std::cout << "discrete_log_2 ";
     //std::cout << "g: " << g << ", b: " << b << ", p: " << p << std::endl;
