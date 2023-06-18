@@ -54,6 +54,29 @@ mpz_class modInversePrime(mpz_class A, mpz_class p)
     return powerMod(A, p - 2, p);
 }
 
+/*
+ * Chinese Remainder Theorem
+ *
+ * coeffs: vector of coefficients
+ * moduli: vector of moduli, assumed to be coprime
+ *
+ * returns: x such that x = coeffs[i] (mod moduli[i]) for all i
+ */
+mpz_class crt(std::vector<mpz_class> &coeffs, std::vector<mpz_class> &moduli) {
+    mpz_class prod = 1;
+    for (size_t i = 0; i < moduli.size(); i++) {
+        prod *= moduli[i];
+    }
+    mpz_class result = 0;
+    for (size_t i = 0; i < moduli.size(); i++) {
+        mpz_class pp = prod / moduli[i];
+        mpz_class inv = modInverse(pp, moduli[i]);
+        result = (result + coeffs[i] * pp * inv) % prod;
+    }
+    return result % prod;
+}
+
+
 uint64_t mulMod(uint64_t a, uint64_t b, uint64_t m) {
     uint64_t result = 0; 
     a = a % m;
