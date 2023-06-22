@@ -38,6 +38,7 @@ mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p,
 
     for (mpz_class i = 0; i < m; ++i) {
         if (table.find(val) != table.end()) {
+            std::cout << "i: " << i << ", m: " << m << ", val: " << val << ", table[val]: " << table[val] << std::endl;
             return (i * m + table[val]) % order;
         }
         val = (val * gm) % p;
@@ -48,7 +49,7 @@ mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p,
 inline void table_insert(std::vector<std::atomic_uint64_t>& table, mpz_class pos, uint64_t val)
 {
     // open addressing with linear probing
-    const mpz_class hash = pos % (table.size());
+    const mpz_class hash = pos % table.size();
     const uint64_t table_index = hash.get_ui();
 
     bool exchanged = false;
@@ -69,7 +70,7 @@ mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz
 
     const mpz_class m = sqrt(order-1) + 1;
     const mpz_class slice_size = m / num_workers;
-    const unsigned int load_factor = 10;
+    const unsigned int load_factor = 3;
 
     std::vector<std::atomic_uint64_t> table(m.get_ui() * load_factor);
 
@@ -80,7 +81,7 @@ mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz
     bool collision_found = false;
 
     std::mutex result_lock;
-    mpz_class result = mpz_class(0);
+    mpz_class result = mpz_class(-1);
 
     std::mutex debug_lock;
 
@@ -141,11 +142,16 @@ mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz
 
             // std::cout << "Worker " << num_worker << " computing " << i << " with value " << val << std::endl;
 
-            const uint64_t index = val.get_ui() % table.size();
+
+            const mpz_class hash = val % table.size();
+            const uint64_t index = hash.get_ui();
             uint64_t offset = 0;
             uint64_t table_value = table[(index + offset * offset) % table.size()];
+
             while (table_value != std::numeric_limits<uint64_t>::max()) {
-                mpz_class guess = powerMod(g, table_value, p);
+                mpz_class guess = powerMod(g, mpz_class(table_value), p);
+                // std::cout << "table_value " << table_value<<  " guess: " << guess << std::endl;
+
                 if (guess == val) {
                     std::lock_guard<std::mutex> lock(result_lock);
                     if (collision_found) {
