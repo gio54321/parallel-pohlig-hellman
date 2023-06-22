@@ -2,6 +2,9 @@
 
 mpz_class powerMod(mpz_class a, mpz_class b, mpz_class m)
 {
+    if (b == 0) {
+        return mpz_class(1);
+    }
     mpz_class res = 1;
     a = a % m;
     while(b>0)
