@@ -38,7 +38,7 @@ mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p,
 
     for (mpz_class i = 0; i < m; ++i) {
         if (table.find(val) != table.end()) {
-            std::cout << "i: " << i << ", m: " << m << ", val: " << val << ", table[val]: " << table[val] << std::endl;
+            // std::cout << "i: " << i << ", m: " << m << ", val: " << val << ", table[val]: " << table[val] << std::endl;
             return (i * m + table[val]) % order;
         }
         val = (val * gm) % p;
