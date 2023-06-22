@@ -56,6 +56,8 @@ void test_bsgs(int algo) {
             long time_taken;
             mpz_class result = dlog_algo(g, b, p, algo, &time_taken);
 
+            // std::cout << "g: " << g << ", b: " << b << ", p: " << p << ", result: " << result << std::endl;
+
             time_sum += time_taken;
             if (i == 0) {
                 time_max = time_taken;
