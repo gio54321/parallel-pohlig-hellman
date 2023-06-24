@@ -10,7 +10,7 @@
 #include "utimer.h"
 #include "pohlig_hellman.h"
 
-void test_pohlig_hellman(int num_workers) {
+void test_pohlig_hellman(int num_workers, int num_bsgs_workers) {
     std::cout << "num_workers: " << num_workers << std::endl;
     std::ifstream myfile;
     myfile.open("input/pohlig_hellman_inputs.txt");
@@ -27,7 +27,7 @@ void test_pohlig_hellman(int num_workers) {
             mpz_class b(sb);
             mpz_class p(sp);
 
-            std::cout << "g: " << g << ", b: " << b << ", p: " << p << std::endl;
+            // std::cout << "g: " << g << ", b: " << b << ", p: " << p << std::endl;
 
             std::getline(myfile, line);
             auto line_stream = std::istringstream(line);
@@ -45,15 +45,22 @@ void test_pohlig_hellman(int num_workers) {
             }
 
             // print factorization
-            std::cout << "factorization: ";
-            for (auto factor : factorization) {
-                std::cout << "(" << factor.first << ", " << factor.second << ") ";
+            // std::cout << "factorization: ";
+            // for (auto factor : factorization) {
+            //     std::cout << "(" << factor.first << ", " << factor.second << ") ";
+            // }
+            // std::cout << std::endl;
+
+            long time_taken;
+            mpz_class result;
+            {
+                utimer u("discrete log", &time_taken);
+                result = PohligHellman::discrete_log_parallel(g, b, p, factorization, num_workers, num_bsgs_workers);
             }
-            std::cout << std::endl;
 
-            mpz_class result = PohligHellman::discrete_log_parallel(g, b, p, factorization);
+            // std::cout << "result: " << result << std::endl;
+            std::cout << time_taken << " us" << std::endl;
 
-            std::cout << "result: " << result << std::endl;
 
             // check that we actually found the discrete log
             assert(powerMod(g, result, p) == b);
@@ -67,11 +74,11 @@ void test_pohlig_hellman(int num_workers) {
 
 
 int main(int argc, char** argv) {
-    if (argc != 2) {
-        std::cout << "Usage: ./main <num_workers>" << std::endl;
+    if (argc != 3) {
+        std::cout << "Usage: ./main <num_workers> <num_bsgs_workers>" << std::endl;
         return 1;
     } 
-    test_pohlig_hellman(atoi(argv[1]));
+    test_pohlig_hellman(atoi(argv[1]), atoi(argv[2]));
 
     return 0;
 }

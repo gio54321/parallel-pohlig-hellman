@@ -5,6 +5,8 @@
 #include <gmpxx.h>
 #include <vector>
 #include <thread>
+#include <mutex>
+#include <queue>
 
 #include "pohlig_hellman.h"
 #include "bsgs.h"
@@ -88,34 +90,51 @@ mpz_class discrete_log_prime_power_parallel(mpz_class g, mpz_class b, mpz_class 
     return result;
 }
 
-mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_class b, const mpz_class p, const std::vector<std::pair<mpz_class, mpz_class>> &factors) {
+mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_class b, const mpz_class p, const std::vector<std::pair<mpz_class, mpz_class>> &factors, int num_workers, int num_workers_bsgs) {
+    // TODO assert num_workers >= num_workers_bsgs
     const mpz_class order = p - 1;
 
-    std::vector<mpz_class> x;
-    x.reserve(factors.size());
+    std::vector<mpz_class> x(factors.size());
+    std::vector<mpz_class> h_i(factors.size());
 
-    std::vector<mpz_class> h_i;
-    h_i.reserve(factors.size());
+    std::queue<std::tuple<int, mpz_class, mpz_class>> jobs;
+    std::mutex jobs_mutex;
 
-    auto worker_body = [&](auto factor) {
-        mpz_class prime = factor.first;
-        mpz_class e = factor.second;
+    auto worker_body = [&]() {
+        while (true) {
+            mpz_class prime;
+            mpz_class e;
+            int job_index;
 
-        mpz_class p_to_e = powerMod(prime, e, p);
-        mpz_class subgroup_order = order / p_to_e;
+            {
+                std::lock_guard<std::mutex> lock(jobs_mutex);
+                if (jobs.empty()) {
+                    return;
+                }
+                std::tie(job_index, prime, e) = jobs.front();
+                jobs.pop();
+            }
 
-        mpz_class subgroup_gen = powerMod(g, subgroup_order, p);
-        mpz_class h = powerMod(b, subgroup_order, p);
+            mpz_class p_to_e = powerMod(prime, e, p);
+            mpz_class subgroup_order = order / p_to_e;
 
-        mpz_class x_i = discrete_log_prime_power_parallel(subgroup_gen, h, p, prime, e, 4); // TODO num_workers_bsgs
+            mpz_class subgroup_gen = powerMod(g, subgroup_order, p);
+            mpz_class h = powerMod(b, subgroup_order, p);
 
-        x.push_back(x_i);
-        h_i.push_back(p_to_e);
+            mpz_class x_i = discrete_log_prime_power_parallel(subgroup_gen, h, p, prime, e, num_workers_bsgs);
+
+            x[job_index] = x_i;
+            h_i[job_index] = p_to_e;
+        }
     };
 
+    for (size_t i = 0; i < factors.size(); ++i) {
+        jobs.push(std::make_tuple(i, factors[i].first, factors[i].second));
+    }
+
     std::vector<std::thread> threads;
-    for (auto factor : factors) {
-        threads.push_back(std::thread(worker_body, factor));
+    for (int i=0; i < num_workers - num_workers_bsgs + 1; ++i) {
+        threads.push_back(std::thread(worker_body));
     }
 
     for (auto &thread : threads) {
