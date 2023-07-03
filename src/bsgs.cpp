@@ -11,7 +11,6 @@
 #include <mutex>
 
 #include "bsgs.h"
-#include "hash_mpz.h"
 #include "discrete_utils.h"
 
 

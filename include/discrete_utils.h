@@ -7,12 +7,15 @@ mpz_class powerMod(mpz_class a, mpz_class b, mpz_class m);
 mpz_class gcdExtended(mpz_class a, mpz_class b, mpz_class* x, mpz_class* y);
 mpz_class modInverse(mpz_class A, mpz_class M);
 mpz_class modInversePrime(mpz_class A, mpz_class p);
-
 mpz_class crt(std::vector<mpz_class> &coeffs, std::vector<mpz_class> &moduli);
 
-// native implementations
-uint64_t mulMod(uint64_t a, uint64_t b, uint64_t m);
-extern "C" uint64_t mulModAsm(uint64_t a, uint64_t b, uint64_t m);
+// implement hash() for mpz_class
+// since hashing is used only after doing modular exponentiation, we can just use the least significant 64 bits
+// as the hash value
+template<> struct std::hash<mpz_class> {
+    size_t operator()(const mpz_class &x) const;
+};
 
-uint64_t powerMod(uint64_t a, uint64_t b, uint64_t m);
-uint64_t modInversePrime(uint64_t A, uint64_t p);
+size_t std::hash<mpz_class>::operator()(const mpz_class &x) const {
+    return (size_t) x.get_ui();
+}
