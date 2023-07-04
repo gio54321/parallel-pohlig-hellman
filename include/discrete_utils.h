@@ -1,3 +1,6 @@
+#ifndef DISCRETE_UTILS_H
+#define DISCRETE_UTILS_H
+
 #include <gmpxx.h>
 #include <cstdint>
 #include <vector>
@@ -16,6 +19,5 @@ template<> struct std::hash<mpz_class> {
     size_t operator()(const mpz_class &x) const;
 };
 
-size_t std::hash<mpz_class>::operator()(const mpz_class &x) const {
-    return (size_t) x.get_ui();
-}
+
+#endif
