@@ -63,8 +63,7 @@ inline void table_insert(std::vector<std::atomic_uint64_t>& table, mpz_class pos
 
 
 mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers) {
-    const float default_load_factor = 3.0;
-    return BabyStepGiantStep::discrete_log_parallel(g, b, p, order, num_workers, default_load_factor);
+    return BabyStepGiantStep::discrete_log_parallel(g, b, p, order, num_workers, BabyStepGiantStep::default_load_factor);
 }
 
 mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers, float load_factor)
