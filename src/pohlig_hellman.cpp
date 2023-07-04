@@ -133,7 +133,7 @@ mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_clas
     }
 
     std::vector<std::thread> threads;
-    for (int i=0; i < num_workers - num_workers_bsgs + 1; ++i) {
+    for (int i=0; i < num_workers; ++i) {
         threads.push_back(std::thread(worker_body));
     }
 

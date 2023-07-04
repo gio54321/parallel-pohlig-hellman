@@ -11,7 +11,7 @@
 #include "utimer.h"
 
 
-void test_bsgs(int num_workers) {
+void test_bsgs(int num_workers, float load_factor) {
     std::ifstream myfile;
     myfile.open("input/bsgs_inputs.txt");
 
@@ -28,15 +28,16 @@ void test_bsgs(int num_workers) {
             mpz_class b(sb);
             mpz_class p(sp);
 
-            // std::cout << "g: " << g << ", b: " << b << ", p: " << p << std::endl;
-
             long time_taken;
             mpz_class result;
             {
                 utimer u("check", &time_taken);
-                result = BabyStepGiantStep::discrete_log_parallel(g, b, p, p-1, num_workers);
+                if (num_workers == 0) {
+                    result = BabyStepGiantStep::discrete_log(g, b, p, p-1);
+                } else {
+                    result = BabyStepGiantStep::discrete_log_parallel(g, b, p, p-1, num_workers, load_factor);
+                }
             }
-            // std::cout << "result: " << result << std::endl;
 
             time_sum += time_taken;
             if (i == 0) {
@@ -51,7 +52,7 @@ void test_bsgs(int num_workers) {
                 }
             }
 
-            // check that we actually found the discrete log
+            // assure that we actually found the discrete log
             assert(powerMod(g, result, p) == b);
 
             if (i == 4) {
@@ -69,10 +70,11 @@ void test_bsgs(int num_workers) {
 
 
 int main(int argc, char** argv) {
-    if (argc != 2) {
-        std::cout << "Usage: ./main <num_workers>" << std::endl;
+    if (argc != 3) {
+        std::cout << "Usage: ./main <num_workers> <load_factor>" << std::endl;
+        std::cout << "if num_workers == 0, then use the sequential version" << std::endl;
         return 1;
     } 
-    test_bsgs(atoi(argv[1]));
+    test_bsgs(atoi(argv[1]), atof(argv[2]));
     return 0;
 }
