@@ -78,3 +78,7 @@ mpz_class crt(std::vector<mpz_class> &coeffs, std::vector<mpz_class> &moduli) {
     }
     return result % prod;
 }
+
+size_t std::hash<mpz_class>::operator()(const mpz_class &x) const {
+    return (size_t) x.get_ui();
+}
