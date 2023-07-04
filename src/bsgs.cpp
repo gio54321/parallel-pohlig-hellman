@@ -61,7 +61,13 @@ inline void table_insert(std::vector<std::atomic_uint64_t>& table, mpz_class pos
     }
 }
 
-mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers)
+
+mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers) {
+    const float default_load_factor = 3.0;
+    return BabyStepGiantStep::discrete_log_parallel(g, b, p, order, num_workers, default_load_factor);
+}
+
+mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers, float load_factor)
 {
     if (order < num_workers) {
         return BabyStepGiantStep::discrete_log(g, b, p, order);
@@ -69,9 +75,10 @@ mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz
 
     const mpz_class m = sqrt(order-1) + 1;
     const mpz_class slice_size = m / num_workers;
-    const unsigned int load_factor = 3;
 
-    std::vector<std::atomic_uint64_t> table(m.get_ui() * load_factor);
+    std::vector<std::atomic_uint64_t> table((size_t)(m.get_ui() * load_factor));
+
+    size_t table_slice = table.size() / num_workers;
 
     std::vector<std::thread> threads(num_workers);
 
@@ -92,9 +99,13 @@ mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz
             end = m;
         }
 
+        size_t table_slice_start = table_slice * num_worker;
+        size_t table_slice_end = table_slice * (num_worker + 1);
+        if (num_worker == num_workers - 1) {
+            table_slice_end = table.size();
+        }
 
-
-        for (uint64_t i = start.get_ui() * load_factor; i < end.get_ui() * load_factor; ++i) {
+        for (size_t i = table_slice_start; i < table_slice_end; ++i) {
             table[i] = std::numeric_limits<uint64_t>::max();
         }
 
