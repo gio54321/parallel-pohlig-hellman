@@ -12,6 +12,7 @@
 
 #include "bsgs.h"
 #include "discrete_utils.h"
+#include "oatable.hpp"
 
 
 mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p)
@@ -45,21 +46,7 @@ mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p,
     return mpz_class(0);
 }
 
-inline void table_insert(std::vector<std::atomic_uint64_t>& table, mpz_class pos, uint64_t val)
-{
-    // open addressing with linear probing
-    const mpz_class hash = pos % table.size();
-    const uint64_t table_index = hash.get_ui();
 
-    bool exchanged = false;
-    uint32_t offset = 0;
-    while (!exchanged) {
-        uint64_t expected = std::numeric_limits<uint64_t>::max();
-        exchanged = table[(table_index + offset * offset) % table.size()].compare_exchange_strong(expected, val);
-        //std::cout << "table_index: " << table_index << ", expected: " << expected << ", exchanged: " << exchanged << std::endl;
-        offset++;
-    }
-}
 
 
 mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers) {
@@ -150,31 +137,18 @@ mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz
             }
 
             // std::cout << "Worker " << num_worker << " computing " << i << " with value " << val << std::endl;
-
-
-            const mpz_class hash = val % table.size();
-            const uint64_t index = hash.get_ui();
-            uint64_t offset = 0;
-            uint64_t table_value = table[(index + offset * offset) % table.size()];
-
-            while (table_value != std::numeric_limits<uint64_t>::max()) {
-                mpz_class guess = powerMod(g, mpz_class(table_value), p);
-                // std::cout << "table_value " << table_value<<  " guess: " << guess << std::endl;
-
-                if (guess == val) {
-                    std::lock_guard<std::mutex> lock(result_lock);
-                    if (collision_found) {
-                        return;
-                    }
-                    // std::cout << "Collision found by worker " << num_worker << " with i = " << i << std::endl;
-                    // std::cout <<"table_value: " << table_value << ", guess: " << guess << ", val: " << val << std::endl;
-
-                    result = (i * m + table_value) % order;
-                    collision_found = true;
+            std::optional<mpz_class> table_value = table_search(table, val, g, p);
+            if (table_value.has_value()) {
+                std::lock_guard<std::mutex> lock(result_lock);
+                if (collision_found) {
                     return;
                 }
-                offset++;
-                table_value = table[(index + offset * offset) % table.size()];
+                // std::cout << "Collision found by worker " << num_worker << " with i = " << i << std::endl;
+                // std::cout <<"table_value: " << table_value.value() << ", val: " << val << std::endl;
+
+                result = (i * m + table_value.value()) % order;
+                collision_found = true;
+                return;
             }
             val = (val * gm) % p;
         }
