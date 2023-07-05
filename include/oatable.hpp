@@ -1,3 +1,6 @@
+#ifndef OATABLE_H
+#define OATABLE_H
+
 #include <atomic>
 #include <vector>
 #include <optional>
@@ -44,3 +47,5 @@ inline std::optional<mpz_class> table_search(std::vector<std::atomic_uint64_t>& 
     }
     return std::nullopt;
 }
+
+#endif
