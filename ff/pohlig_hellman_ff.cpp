@@ -243,9 +243,14 @@ struct Collector : ff_node_t<bsgs_task_t> {
                     std::cout << "general P-H result: " << result << std::endl;
                     assert(powerMod(t->parent_task->parent_task->g, result, t->parent_task->parent_task->p) == t->parent_task->parent_task->b);
 
+                    delete t->parent_task->parent_task;
+                    delete t->parent_task;
+                    delete t;
                     // send EOS to the emitter, terminate
                     return EOS;
                 }
+
+                delete t->parent_task;
             } else {
                 bsgs_task_t *t2 = create_bsgs_task_from_poh_pp(t->parent_task);
                 // std::cout << "sending back to bsgs ";
