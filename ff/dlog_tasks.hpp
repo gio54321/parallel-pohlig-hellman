@@ -12,6 +12,8 @@ struct poh_task_t {
 
     std::vector<mpz_class> x;
     std::vector<mpz_class> h_i;
+
+    int completed_subgroups;
 };
 
 struct poh_pp_task_t {

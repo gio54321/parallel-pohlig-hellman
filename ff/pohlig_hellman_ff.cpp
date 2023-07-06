@@ -105,7 +105,7 @@ bsgs_task_t *create_bsgs_task_from_poh_pp(poh_pp_task_t *t) {
     bsgs_task_t *bsgs_task = new bsgs_task_t;
 
     const mpz_class exponent = powerMod(t->factor, t->exponent-1-t->iteration, t->parent_task->p);
-    const mpz_class h_k = powerMod((t->b * powerMod(modInversePrime(t->g, t->parent_task->p), t->parent_task->p, t->parent_task->p)) % t->parent_task->p, exponent, t->parent_task->p);
+    const mpz_class h_k = powerMod((t->b * powerMod(modInversePrime(t->g, t->parent_task->p), t->result, t->parent_task->p)) % t->parent_task->p, exponent, t->parent_task->p);
 
     bsgs_task->g = t->gamma;
     bsgs_task->b = h_k;
@@ -123,14 +123,19 @@ bsgs_task_t *create_bsgs_task_from_poh_pp(poh_pp_task_t *t) {
 
 struct Emitter : ff_node_t<bsgs_task_t> {
     bsgs_task_t *svc(bsgs_task_t *input_task) {
+
+        // forward tasks from the feedback channel
+        if (input_task != nullptr) {
+            // std::cout << "received task: " << input_task->g << std::endl;
+            return input_task;
+        }
+
+
         auto task = parse_task();
 
         // create instances of poh_pp_task_t and bsgs_task_t
         int i=0;
         for (auto factor : task->order_factorization) {
-            // if (factor.first == 2) {
-            //     continue;
-            // }
             poh_pp_task_t *t = new poh_pp_task_t;
             t->factor = factor.first;
             t->exponent = factor.second;
@@ -161,7 +166,7 @@ struct Emitter : ff_node_t<bsgs_task_t> {
 
         }
 
-        return EOS;
+        return GO_ON;
     }
 
 private:
@@ -184,7 +189,7 @@ private:
         task->p = mpz_class(sp);
         task->order = task->p - 1;
 
-        std::cout << "g: " << task->g << ", b: " << task->b << ", p: " << task->p << std::endl;
+        // std::cout << "g: " << task->g << ", b: " << task->b << ", p: " << task->p << std::endl;
 
         std::getline(myfile, line);
         auto line_stream = std::istringstream(line);
@@ -200,8 +205,9 @@ private:
             task->order_factorization.push_back({prime, e});
         }
 
-        task->x.reserve(task->order_factorization.size());
-        task->h_i.reserve(task->order_factorization.size());
+        task->x = std::vector<mpz_class>(task->order_factorization.size());
+        task->h_i = std::vector<mpz_class>(task->order_factorization.size());
+        task->completed_subgroups = 0;
         return task;
     }
 };
@@ -211,8 +217,43 @@ struct Collector : ff_node_t<bsgs_task_t> {
         // for (int i=0;i<t->table.size();++i) {
         //     std::cout << t->table[i] << " ";
         // }
-        std::cout << "received " << t->result << std::endl;
+        // std::cout << "received " << t->result;
+        // std::cout << " g: " << t->g << ", b: " << t->b << ", p: " << t->p << ", m: " << t->m << std::endl;
         assert(powerMod(t->g, t->result, t->p) == t->b);
+
+        if (t->parent_task != nullptr) {
+            t->parent_task->result += t->result * powerMod(t->parent_task->factor, t->parent_task->iteration, t->p);
+            t->parent_task->result %= t->p;
+
+            t->parent_task->iteration += 1;
+            if (t->parent_task->iteration == t->parent_task->exponent) {
+                // std::cout << "result: " << t->parent_task->result << std::endl;
+                t->parent_task->parent_task->x[t->parent_task->job_index] = t->parent_task->result;
+                t->parent_task->parent_task->h_i[t->parent_task->job_index] = powerMod(t->parent_task->factor, t->parent_task->exponent, t->p);
+
+                t->parent_task->parent_task->completed_subgroups += 1;
+                // std::cout << "completed subgroups: " << t->parent_task->parent_task->completed_subgroups << std::endl;
+                // std::cout << "order factorization size: " << t->parent_task->parent_task->order_factorization.size() << std::endl;
+                if (t->parent_task->parent_task->completed_subgroups == t->parent_task->parent_task->order_factorization.size()) {
+                    // std::cout << "size of x: " << t->parent_task->parent_task->x.size() << std::endl;
+                    // for(int i=0;i<t->parent_task->parent_task->x.size();++i) {
+                    //     std::cout << "x: " << t->parent_task->parent_task->x[i] << ", h_i: " << t->parent_task->parent_task->h_i[i] << std::endl;
+                    // }
+                    mpz_class result = crt(t->parent_task->parent_task->x, t->parent_task->parent_task->h_i);
+                    std::cout << "general P-H result: " << result << std::endl;
+                    assert(powerMod(t->parent_task->parent_task->g, result, t->parent_task->parent_task->p) == t->parent_task->parent_task->b);
+
+                    // send EOS to the emitter, terminate
+                    return EOS;
+                }
+            } else {
+                bsgs_task_t *t2 = create_bsgs_task_from_poh_pp(t->parent_task);
+                // std::cout << "sending back to bsgs ";
+                // std::cout << "g: " << t2->g << ", b: " << t2->b << ", p: " << t2->p << ", m: " << t2->m << std::endl;
+                ff_send_out(t2);
+            }
+        }
+
         delete t;
         return GO_ON;
     }
@@ -228,6 +269,7 @@ int main(int argc, char * argv[]) {
     Collector c;
 
     ff_Pipe<> program(e, bsgs, c);
+    program.wrap_around();
 
     if (program.run_and_wait_end()<0) {
         error("running pipe");
