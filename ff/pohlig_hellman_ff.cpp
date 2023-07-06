@@ -1,5 +1,6 @@
 #include <ff/ff.hpp>
 #include <ff/map.hpp>
+#include <ff/farm.hpp>
 #include <iostream>
 #include <atomic>
 #include <vector>
@@ -101,6 +102,46 @@ struct TableSearchStage : ff_Map<bsgs_task_t> {
     }
 };
 
+poh_task_t *parse_task() {
+    poh_task_t *task = new poh_task_t;
+
+    std::ifstream myfile;
+    myfile.open("input/pohlig_hellman_inputs.txt");
+
+    std::string line;
+
+    std::getline(myfile, line);
+    std::cout << line << std::endl;
+    std::getline(myfile, line);
+    std::string sg, sb, sp;
+    std::istringstream(line) >> sg >> sb >> sp;
+    task->g = mpz_class(sg);
+    task->b = mpz_class(sb);
+    task->p = mpz_class(sp);
+    task->order = task->p - 1;
+
+    // std::cout << "g: " << task->g << ", b: " << task->b << ", p: " << task->p << std::endl;
+
+    std::getline(myfile, line);
+    auto line_stream = std::istringstream(line);
+
+    int size = 0;
+    line_stream >> size;
+
+    for (int i = 0; i < size; ++i) {
+        std::string s_prime, s_e;
+        line_stream >> s_prime >> s_e;
+        mpz_class prime(s_prime);
+        mpz_class e(s_e);
+        task->order_factorization.push_back({prime, e});
+    }
+
+    task->x = std::vector<mpz_class>(task->order_factorization.size());
+    task->h_i = std::vector<mpz_class>(task->order_factorization.size());
+    task->completed_subgroups = 0;
+    return task;
+}
+
 bsgs_task_t *create_bsgs_task_from_poh_pp(poh_pp_task_t *t) {
     bsgs_task_t *bsgs_task = new bsgs_task_t;
 
@@ -121,7 +162,7 @@ bsgs_task_t *create_bsgs_task_from_poh_pp(poh_pp_task_t *t) {
     return bsgs_task;
 }
 
-struct Emitter : ff_node_t<bsgs_task_t> {
+struct Emitter : ff_monode_t<bsgs_task_t> {
     bsgs_task_t *svc(bsgs_task_t *input_task) {
 
         // forward tasks from the feedback channel
@@ -129,7 +170,6 @@ struct Emitter : ff_node_t<bsgs_task_t> {
             // std::cout << "received task: " << input_task->g << std::endl;
             return input_task;
         }
-
 
         auto task = parse_task();
 
@@ -169,50 +209,14 @@ struct Emitter : ff_node_t<bsgs_task_t> {
         return GO_ON;
     }
 
-private:
-    poh_task_t *parse_task() {
-        poh_task_t *task = new poh_task_t;
-
-        std::ifstream myfile;
-        myfile.open("input/pohlig_hellman_inputs.txt");
-
-        std::string line;
-
-        std::getline(myfile, line);
-        std::cout << line << std::endl;
-        
-        std::getline(myfile, line);
-        std::string sg, sb, sp;
-        std::istringstream(line) >> sg >> sb >> sp;
-        task->g = mpz_class(sg);
-        task->b = mpz_class(sb);
-        task->p = mpz_class(sp);
-        task->order = task->p - 1;
-
-        // std::cout << "g: " << task->g << ", b: " << task->b << ", p: " << task->p << std::endl;
-
-        std::getline(myfile, line);
-        auto line_stream = std::istringstream(line);
-
-        int size = 0;
-        line_stream >> size;
-
-        for (int i = 0; i < size; ++i) {
-            std::string s_prime, s_e;
-            line_stream >> s_prime >> s_e;
-            mpz_class prime(s_prime);
-            mpz_class e(s_e);
-            task->order_factorization.push_back({prime, e});
-        }
-
-        task->x = std::vector<mpz_class>(task->order_factorization.size());
-        task->h_i = std::vector<mpz_class>(task->order_factorization.size());
-        task->completed_subgroups = 0;
-        return task;
+    void eosnotify(ssize_t t) {
+        // when we receive EOS, send EOS to all workers of farm
+        broadcast_task(EOS);
+        return;
     }
 };
 
-struct Collector : ff_node_t<bsgs_task_t> {
+struct Collector : ff_monode_t<bsgs_task_t> {
     bsgs_task_t *svc(bsgs_task_t *t) {
         // for (int i=0;i<t->table.size();++i) {
         //     std::cout << t->table[i] << " ";
@@ -247,6 +251,7 @@ struct Collector : ff_node_t<bsgs_task_t> {
                     delete t->parent_task;
                     delete t;
                     // send EOS to the emitter, terminate
+                    ff_send_out_to(EOS, 0);
                     return EOS;
                 }
 
@@ -255,7 +260,7 @@ struct Collector : ff_node_t<bsgs_task_t> {
                 bsgs_task_t *t2 = create_bsgs_task_from_poh_pp(t->parent_task);
                 // std::cout << "sending back to bsgs ";
                 // std::cout << "g: " << t2->g << ", b: " << t2->b << ", p: " << t2->p << ", m: " << t2->m << std::endl;
-                ff_send_out(t2);
+                ff_send_out_to(t2, 0);
             }
         }
 
@@ -265,18 +270,31 @@ struct Collector : ff_node_t<bsgs_task_t> {
 };
 
 int main(int argc, char * argv[]) {
-    ff_Pipe<bsgs_task_t> bsgs(
+
+
+    const int n_farms = 3; // TODO
+
+    std::vector<ff_node *> bsgs_instances;
+    for (int i=0; i<n_farms; ++i) {
+        auto worker = new ff_Pipe<bsgs_task_t>(
         make_unique<TableInitializationStage>(), // TODO remember to add nw
         make_unique<TableConstructionStage>(),
         make_unique<TableSearchStage>());
+        bsgs_instances.push_back(worker);
+    }
 
     Emitter e;
     Collector c;
 
-    ff_Pipe<> program(e, bsgs, c);
-    program.wrap_around();
+    ff_farm bsgs_farm;
+    bsgs_farm.add_emitter(&e);
+    bsgs_farm.add_workers(bsgs_instances);
+    bsgs_farm.add_collector(&c);
+    bsgs_farm.cleanup_workers();
 
-    if (program.run_and_wait_end()<0) {
+    bsgs_farm.wrap_around();
+
+    if (bsgs_farm.run_and_wait_end()<0) {
         error("running pipe");
         return -1;
     }
