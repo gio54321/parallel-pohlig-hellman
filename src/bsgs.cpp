@@ -15,11 +15,6 @@
 #include "oatable.hpp"
 
 
-mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p)
-{
-    return BabyStepGiantStep::discrete_log(g, b, p, p - 1);
-}
-
 mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p, mpz_class order)
 {
     mpz_class m = sqrt(order-1) + 1;
@@ -47,11 +42,6 @@ mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p,
 }
 
 
-
-
-mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers) {
-    return BabyStepGiantStep::discrete_log_parallel(g, b, p, order, num_workers, BabyStepGiantStep::default_load_factor);
-}
 
 mpz_class BabyStepGiantStep::discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers, float load_factor)
 {
