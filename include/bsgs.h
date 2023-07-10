@@ -19,6 +19,9 @@ namespace BabyStepGiantStep {
     inline mpz_class discrete_log_parallel(mpz_class g, mpz_class b, mpz_class p, mpz_class order, int num_workers) {
         return discrete_log_parallel(g, b, p, order, num_workers, default_load_factor);
     }
+
+    // old sequential implementation, left for reference
+    mpz_class discrete_log_old(mpz_class g, mpz_class b, mpz_class p, mpz_class order);
 };
 
 #endif

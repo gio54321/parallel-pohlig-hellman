@@ -15,7 +15,7 @@
 #include "oatable.hpp"
 
 
-mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p, mpz_class order)
+mpz_class BabyStepGiantStep::discrete_log_old(mpz_class g, mpz_class b, mpz_class p, mpz_class order)
 {
     mpz_class m = sqrt(order-1) + 1;
     std::unordered_map<mpz_class, mpz_class> table = {};
@@ -39,6 +39,35 @@ mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p,
         val = (val * gm) % p;
     }
     return mpz_class(0);
+}
+
+mpz_class BabyStepGiantStep::discrete_log(mpz_class g, mpz_class b, mpz_class p, mpz_class order)
+{
+    mpz_class m = sqrt(order-1) + 1;
+    std::vector<std::uint64_t> table((size_t)(m.get_ui() * BabyStepGiantStep::default_load_factor));
+
+    for (size_t i = 0; i < table.size(); ++i) {
+        table[i] = std::numeric_limits<uint64_t>::max();
+    }
+
+    table_insert(table, 1, 0);
+    mpz_class val = g;
+    for (uint64_t i = 1; i < m; ++i) {
+        table_insert(table, val, i);
+        val = (val * g) % p;
+    }
+
+    mpz_class gm = (powerMod(modInversePrime(g, p), m, p)) % p;
+    val = b;
+
+    for (mpz_class i = 0; i < m; ++i) {
+        std::optional<mpz_class> table_value = table_search(table, val, g, p);
+        if (table_value.has_value()) {
+            return (i * m + table_value.value()) % order;
+        }
+        val = (val * gm) % p;
+    }
+    return mpz_class(-1);
 }
 
 

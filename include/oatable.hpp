@@ -48,4 +48,48 @@ inline std::optional<mpz_class> table_search(std::vector<std::atomic_uint64_t>& 
     return std::nullopt;
 }
 
+
+
+inline void table_insert(std::vector<std::uint64_t>& table, mpz_class pos, uint64_t val)
+{
+    // open addressing with linear probing
+    const mpz_class hash = pos % table.size();
+    const uint64_t table_index = hash.get_ui();
+
+    size_t offset = 0;
+    for (;;) {
+        if(table[(table_index + offset * offset) % table.size()] == std::numeric_limits<uint64_t>::max()) {
+            table[(table_index + offset * offset) % table.size()] = val;
+            break;
+        }
+        offset++;
+    }
+}
+
+inline std::optional<mpz_class> table_search(std::vector<std::uint64_t>& table, mpz_class value, mpz_class g, mpz_class p)
+{
+    // open addressing with linear probing
+    const mpz_class hash = value % table.size();
+    const uint64_t index = hash.get_ui();
+
+    size_t offset = 0;
+    uint64_t table_value = table[(index + offset * offset) % table.size()];
+
+    while (table_value != std::numeric_limits<uint64_t>::max()) {
+        mpz_class guess = powerMod(g, mpz_class(table_value), p);
+        // std::cout << "table_value " << table_value<<  " guess: " << guess << std::endl;
+
+        if (guess == value) {
+            // found value in the table
+            return table_value;
+
+        }
+        offset++;
+        table_value = table[(index + offset * offset) % table.size()];
+    }
+    return std::nullopt;
+}
+
+
+
 #endif
