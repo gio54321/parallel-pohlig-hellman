@@ -13,5 +13,5 @@ bin/test_bsgs: $(LIB_SOURCES) tests/test_bsgs.cpp
 bin/test_pohlig_hellman: $(LIB_SOURCES) tests/test_pohlig_hellman.cpp
 	g++ $(CFLAGS) -I./include/ -L./lib/ $(LIB_SOURCES) tests/test_pohlig_hellman.cpp -o bin/test_pohlig_hellman $(LIBS)
 
-bin/pohlig_hellman_ff: $(LIB_SOURCES) ff/pohlig_hellman_ff.cpp
+bin/pohlig_hellman_ff: ff/pohlig_hellman_ff.cpp
 	g++ $(CFLAGS) -I./include/ -I${FF_INCLUDE} -L./lib/ ff/pohlig_hellman_ff.cpp -o bin/pohlig_hellman_ff $(LIBS) -DBLOCKING_MODE
