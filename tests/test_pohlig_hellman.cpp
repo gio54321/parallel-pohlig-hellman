@@ -14,7 +14,7 @@
 
 int main(int argc, char** argv) {
     if (argc != 4) {
-        std::cout << "Usage: ./main <input_filenamr> <num_workers> <num_bsgs_workers>" << std::endl;
+        std::cout << "Usage: ./main <input_filename> <num_workers> <num_bsgs_workers>" << std::endl;
         std::cout << "num_workers: number of workers to use for Pohlig-Hellman" << std::endl;
         std::cout << "num_bsgs_workers: number of workers to use for BSGS" << std::endl;
         std::cout << "total number of workers used: num_workers * num_bsgs_workers" << std::endl;
@@ -27,7 +27,6 @@ int main(int argc, char** argv) {
     int num_bsgs_workers = atoi(argv[3]);
 
 
-    std::cout << "num_workers: " << num_workers << std::endl;
     std::ifstream myfile;
     myfile.open(input_filename);
     if (!myfile.is_open()) {
@@ -70,7 +69,7 @@ int main(int argc, char** argv) {
     }
 
     // std::cout << "result: " << result << std::endl;
-    std::cout << time_taken << " us" << std::endl;
+    std::cout << "Result found in: " << time_taken << " microseconds" << std::endl;
 
 
     // check that we actually found the discrete log
