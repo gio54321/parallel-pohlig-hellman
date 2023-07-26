@@ -6,4 +6,4 @@ It employs a few tricks to make computation fast and somewhat scalable, namely:
 
 - all the standard implementation tricks of sequential bsgs,
 - shared hash table exploiting atomic operations,
-- implicit storage in the table the element, avoiding allocating big nums and improving memory usage.
+- implicit storage in the table of the resulting element `g^i`, avoiding allocating big nums and improving memory usage.
