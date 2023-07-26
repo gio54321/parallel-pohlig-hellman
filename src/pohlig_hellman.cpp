@@ -13,13 +13,11 @@
 #include "discrete_utils.h"
 
 
-// compute discrete log for a group of prime power order
-// https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm
+/*
+ * Sequential version of the Pohlig-Hellman algorithm on groups of prime power order
+ */
 mpz_class discrete_log_prime_power(mpz_class g, mpz_class b, mpz_class mod, mpz_class p, mpz_class e)
 {
-    //std::cout << "discrete_log_prime_power" << std::endl;
-    //std::cout << "g: " << g << ", b: " << b << ", mod: " << mod << ", p: " << p << ", e: " << e << std::endl;
-
     if (e == 1) {
         return BabyStepGiantStep::discrete_log(g, b, mod, p);
     }
@@ -37,8 +35,9 @@ mpz_class discrete_log_prime_power(mpz_class g, mpz_class b, mpz_class mod, mpz_
     return result;
 }
 
-// compute discrete log with Pohlig-Hellman algorithm
-// https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm
+/*
+ * Sequential version of the general Pohlig-Hellman algorithm
+ */
 mpz_class PohligHellman::discrete_log(mpz_class g, mpz_class b, mpz_class p, std::vector<std::pair<mpz_class, mpz_class>> &factors)
 {
     const mpz_class order = p - 1;
@@ -69,8 +68,10 @@ mpz_class PohligHellman::discrete_log(mpz_class g, mpz_class b, mpz_class p, std
     return crt(x, h_i);
 }
 
-// compute discrete log for a group of prime power order
-// https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm
+/*
+ * Parallel version of the Pohlig-Hellman algorithm on groups of prime power order
+ * it just calls the parallel version of the baby-step giant-step algorithm at each iteration
+ */
 mpz_class discrete_log_prime_power_parallel(mpz_class g, mpz_class b, mpz_class mod, mpz_class p, mpz_class e, int num_workers_bsgs)
 {
     if (e == 1) {
@@ -90,13 +91,20 @@ mpz_class discrete_log_prime_power_parallel(mpz_class g, mpz_class b, mpz_class 
     return result;
 }
 
+/*
+ * Parallel version of the general Pohlig-Hellman algorithm
+ * 
+ * num_workers is the number of workers that will compute Pohlig-Hellman iterations
+ * num_workers_bsgs is the number of workers for each baby-step giant-step computation
+ * total parallelism degree is num_workers * num_workers_bsgs
+ */
 mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_class b, const mpz_class p, const std::vector<std::pair<mpz_class, mpz_class>> &factors, int num_workers, int num_workers_bsgs) {
-    // TODO assert num_workers >= num_workers_bsgs
     const mpz_class order = p - 1;
 
     std::vector<mpz_class> x(factors.size());
     std::vector<mpz_class> h_i(factors.size());
 
+    // job queue and lock, each job is a tuple of (job_index, prime, exponent)
     std::queue<std::tuple<int, mpz_class, mpz_class>> jobs;
     std::mutex jobs_mutex;
 
@@ -107,6 +115,7 @@ mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_clas
             int job_index;
 
             {
+                // take a job from the shared queue
                 std::lock_guard<std::mutex> lock(jobs_mutex);
                 if (jobs.empty()) {
                     return;
@@ -115,6 +124,7 @@ mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_clas
                 jobs.pop();
             }
 
+            // compute the Pohlig-Hellman iteration
             mpz_class p_to_e = powerMod(prime, e, p);
             mpz_class subgroup_order = order / p_to_e;
 
@@ -123,6 +133,7 @@ mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_clas
 
             mpz_class x_i = discrete_log_prime_power_parallel(subgroup_gen, h, p, prime, e, num_workers_bsgs);
 
+            // store the result
             x[job_index] = x_i;
             h_i[job_index] = p_to_e;
         }
@@ -141,5 +152,6 @@ mpz_class PohligHellman::discrete_log_parallel(const mpz_class g, const mpz_clas
         thread.join();
     }
 
+    // finally combine the results using the Chinese Remainder Theorem
     return crt(x, h_i);
 }

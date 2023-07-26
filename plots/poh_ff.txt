@@ -1,0 +1,960 @@
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 19362943 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 22167577 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 18856260 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 18983126 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 18530253 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 21836149 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 17068734 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 21276733 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 22116263 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 14617104 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 20098647 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 17073641 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 24480556 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 17926370 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 16633020 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 16833357 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 20528222 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 16623009 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 17257240 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 21160856 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 10502885 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 15315990 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 10160425 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 12546714 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 10668214 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 11792544 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 10348334 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 12032729 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 13442261 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 8126264 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 10212555 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 10004047 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 14447718 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 10389505 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 12095168 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 10198087 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 12292949 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 11869138 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 9912433 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 13774738 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 10445371 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 11053796 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 8178057 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 8805997 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 8642534 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 9849103 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 8027544 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 8822574 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 8685641 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 8230504 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 9086146 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 9416244 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 10658809 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 8597489 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 9368193 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 7432513 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 10381597 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 6170324 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 8161036 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 9882665 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 4838209 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 5363124 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 6513303 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 5883095 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 5178511 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 5487142 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 4461088 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 4550346 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 5669479 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 4615909 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 7405359 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 7711746 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 9381544 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 6613493 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 7940783 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 6396617 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 9146092 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 5729474 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 6951008 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 7359814 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 4334626 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 5885160 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 5090508 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 3966961 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3867685 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 3661505 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 3699124 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 4219433 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 5396456 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 3378912 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 7791970 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 7918851 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 8437939 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 6447367 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 8139146 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 6579792 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 8743230 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 5743747 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 7097319 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 6444374 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 4382215 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 5842761 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 5187105 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 3974017 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3373799 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 4566182 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 3806051 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 4309796 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 5747646 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 3541120 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 8044834 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 8121454 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 8916902 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 6320994 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 8419773 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 6643515 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 9058927 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 5847001 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 7239797 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 1 1 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 6635507 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 9755240 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 10901283 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 8187239 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 10674470 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 9564479 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 12344969 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 10749072 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 14778995 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 11460625 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 7301357 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 9344526 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 7956968 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 8798176 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 10170407 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 9409402 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 8681164 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 13647242 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 7781503 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 9094339 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 12335436 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 5730179 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 6937987 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 5689658 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 6784200 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 5134909 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 7256567 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 6585425 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 7678048 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 6074489 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 5420988 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 5586596 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 4504851 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 7204793 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 6681363 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 5718643 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 5124868 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 7386994 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 5615275 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 5171349 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 7034302 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 3908665 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 4976540 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 4778347 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 4609043 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3642665 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 5176738 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 5356711 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 5919460 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 5141799 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 3086902 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 5031894 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 4558692 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 4926075 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 5202270 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 4480454 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 4898166 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 7572547 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 3857870 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 4378268 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 6652286 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 3236900 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 4870422 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 4058638 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 3172718 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3176577 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 4760302 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 4231508 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 4314205 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 3546722 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2717601 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 4765275 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 4527723 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 4823401 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 4292789 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 4213619 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 5138729 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 5862894 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 3220059 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 3359192 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 4726393 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 2857192 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2662751 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2835953 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 3009550 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 2656964 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2870330 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 3293010 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 3459461 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 3644173 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2362511 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 5114460 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 4437542 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 4057916 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 4432631 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 4087070 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 4909946 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 5858786 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 3000909 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 4024973 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 5199931 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 3218756 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 3033988 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 3120949 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 2611544 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3145302 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2760703 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 3166705 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 3787780 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 3082310 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2652780 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 4546325 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 4533616 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 4221070 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 4453518 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 4300814 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 4725501 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 5648730 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 3162006 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 3842211 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 2 2 2 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 4722500 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 4749982 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 5931267 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 5745341 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 5360458 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 5353198 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 6259895 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 6617047 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 8064497 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 5831781 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 4797037 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 5171071 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 4443347 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 4592617 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 6847085 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 5895115 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 4881016 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 6216068 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 4469740 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 5326855 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 6216119 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 3140013 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 3247119 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 3459603 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 3219326 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 2929474 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 3402991 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 4363493 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 4618722 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 3217995 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2773408 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 3316691 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2579698 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 3068184 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 4554487 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 3678979 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2945129 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 3877166 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2871941 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 4582324 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 5184897 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 2515425 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 3085996 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 3360699 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 2909937 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3197269 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2933730 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2847848 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 3404348 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2336877 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2648471 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 2868000 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2611867 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 2959547 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 3414964 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 2623254 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2564103 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 3024505 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2060397 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 3111375 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 3224755 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 1863063 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2789462 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2426653 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 2819519 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 2379158 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2774637 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2714023 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 3157116 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2229471 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2090224 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 2858388 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2089445 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 2875998 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 2385476 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 2901085 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2515540 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 3124319 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2077692 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 2858753 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 3023119 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 1992310 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2296513 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2349223 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 2053253 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 2217246 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2464259 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2989271 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 2899768 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2313074 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2126071 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 2798686 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2743947 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 3045956 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 2873595 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 2824792 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2592842 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 2995716 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2047429 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 3042721 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 2625574 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 2229710 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2194935 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2495442 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 2377009 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 2416796 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2245366 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2455604 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 2893294 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2205939 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2022965 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 2929490 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2448482 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 3002353 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 3036679 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 2817451 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2671135 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 3255660 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2304623 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 3214199 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 4 4 4 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 2572081 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 4291031 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 4559929 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 4022563 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 4107315 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3898956 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 4182435 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 4018284 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 4153802 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 3991336 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 4098861 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 4118219 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 3649163 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 4140888 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 4096588 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 5171000 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 3657357 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 4567912 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 4289400 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 3923418 microseconds
+# Running with 1 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 4575204 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 3456543 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 3924300 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 3334448 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 2975936 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 3306066 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 3540320 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 3469337 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 3452928 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 3230334 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 3627317 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 3269657 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 3950453 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 3788969 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 4097183 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 3960988 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 3380102 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 4105048 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 3543455 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 3215261 microseconds
+# Running with 2 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 3466185 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 2412206 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2490114 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2412834 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 2327433 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 2014289 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2889860 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2566834 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 2422722 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2138904 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2346977 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 2850176 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2663071 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 2585119 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 3355356 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 2981419 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2522340 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 3375570 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2562169 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 2394015 microseconds
+# Running with 4 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 2914729 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 1902763 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2304370 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2101374 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 1891041 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 1720824 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2006542 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2071020 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 2185672 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2177492 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 1890009 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 2835236 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2683587 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 2916623 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 2667200 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 3017103 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2465417 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 3188820 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2549344 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 2501601 microseconds
+# Running with 8 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 2733420 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 2119534 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2305690 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2084603 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 1636739 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 1663855 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2159608 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2221900 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 2345460 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2223279 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 1811481 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 2647324 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2713960 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 2812756 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 3222658 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 2965981 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2461130 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 3183903 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2718496 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 2496773 microseconds
+# Running with 16 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 2748322 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_0.txt
+Found result in 2083337 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_1.txt
+Found result in 2348861 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_2.txt
+Found result in 2208944 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_3.txt
+Found result in 1844312 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_4.txt
+Found result in 1617654 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_5.txt
+Found result in 2403678 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_6.txt
+Found result in 2149282 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_7.txt
+Found result in 2216891 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_8.txt
+Found result in 2261882 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_1_9.txt
+Found result in 2017742 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_0.txt
+Found result in 3056609 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_1.txt
+Found result in 2687730 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_2.txt
+Found result in 2892656 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_3.txt
+Found result in 3040745 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_4.txt
+Found result in 3195924 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_5.txt
+Found result in 2507267 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_6.txt
+Found result in 2924352 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_7.txt
+Found result in 2602275 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_8.txt
+Found result in 2336141 microseconds
+# Running with 32 workers in the farm, bsgs pipeline workers: 1 2 8 input file: input/pohlig_hellman_40_3_9.txt
+Found result in 3306815 microseconds

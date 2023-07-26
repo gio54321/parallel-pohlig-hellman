@@ -18,7 +18,7 @@ struct poh_task_t {
     std::vector<mpz_class> h_i;
 
     // number of completed subgroups, i.e., number of completed number of completed Pohlig-Hellman
-    int completed_subgroups;
+    unsigned int completed_subgroups;
 };
 
 /*

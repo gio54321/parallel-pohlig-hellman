@@ -1,256 +1,2600 @@
-# Running with 1 workers
-2408303179, 39865.4, 18185, 62340
-690952773961, 489515, 302840, 949801
-167881466665673, 1.07266e+07, 4789223, 22007663
-# Running with 2 workers
-2408303179, 23789, 16825, 34779
-690952773961, 266849, 180043, 338327
-167881466665673, 4.95874e+06, 2604466, 10138684
-# Running with 3 workers
-2408303179, 14234.6, 8112, 22654
-690952773961, 219799, 132265, 427642
-167881466665673, 3.23385e+06, 2184066, 6318799
-# Running with 4 workers
-2408303179, 14298.6, 9196, 17311
-690952773961, 194145, 109745, 265730
-167881466665673, 3.14083e+06, 1767959, 5234589
-# Running with 5 workers
-2408303179, 11957.4, 6759, 17784
-690952773961, 102935, 71578, 159996
-167881466665673, 2.38667e+06, 1615535, 3495931
-# Running with 6 workers
-2408303179, 8349.2, 4275, 13086
-690952773961, 143026, 88838, 211531
-167881466665673, 1.81188e+06, 1429374, 2498873
-# Running with 7 workers
-2408303179, 7755.8, 5194, 10210
-690952773961, 102382, 58059, 145314
-167881466665673, 2.04544e+06, 1181720, 3693448
-# Running with 8 workers
-2408303179, 7580.4, 5945, 9675
-690952773961, 126347, 81586, 166204
-167881466665673, 1.71169e+06, 1157194, 2606861
-# Running with 9 workers
-2408303179, 6627.4, 5742, 7469
-690952773961, 86678.6, 61357, 157583
-167881466665673, 1.49871e+06, 1149313, 1859076
-# Running with 10 workers
-2408303179, 6367.4, 3670, 10257
-690952773961, 89338.2, 58235, 146638
-167881466665673, 1.58213e+06, 966427, 2986853
-# Running with 11 workers
-2408303179, 7221.6, 3856, 10549
-690952773961, 89726.8, 56583, 151189
-167881466665673, 1.54771e+06, 946298, 2360336
-# Running with 12 workers
-2408303179, 6586.4, 3285, 9791
-690952773961, 100608, 78189, 141605
-167881466665673, 1.51992e+06, 1089184, 2155889
-# Running with 13 workers
-2408303179, 5641.8, 4135, 8660
-690952773961, 70448, 52542, 88973
-167881466665673, 1.2213e+06, 914556, 1887874
-# Running with 14 workers
-2408303179, 6559.4, 4758, 9196
-690952773961, 93600.4, 47672, 139774
-167881466665673, 1.35935e+06, 783873, 2038085
-# Running with 15 workers
-2408303179, 6591.2, 3920, 9601
-690952773961, 69077.8, 46817, 90838
-167881466665673, 1.16166e+06, 873039, 1607271
-# Running with 16 workers
-2408303179, 6347.8, 4949, 7610
-690952773961, 77635.2, 47463, 129160
-167881466665673, 1.07163e+06, 764741, 1376202
-# Running with 17 workers
-2408303179, 5454.2, 3525, 6770
-690952773961, 72137.4, 46146, 96569
-167881466665673, 908223, 785716, 1012803
-# Running with 18 workers
-2408303179, 5058.4, 3288, 7071
-690952773961, 54096.6, 44207, 71485
-167881466665673, 1.1027e+06, 791810, 1564873
-# Running with 19 workers
-2408303179, 6668.8, 5255, 8862
-690952773961, 50473.8, 42631, 65622
-167881466665673, 1.07537e+06, 716505, 1767392
-# Running with 20 workers
-2408303179, 5724.2, 4648, 7503
-690952773961, 57390, 39656, 81804
-167881466665673, 1.05979e+06, 752879, 1599037
-# Running with 21 workers
-2408303179, 7450.6, 5847, 10273
-690952773961, 55291.4, 37006, 79802
-167881466665673, 1.10677e+06, 679454, 1573477
-# Running with 22 workers
-2408303179, 6402.2, 5005, 8878
-690952773961, 62733.8, 38127, 89064
-167881466665673, 911010, 638853, 1189384
-# Running with 23 workers
-2408303179, 7175.6, 4943, 9536
-690952773961, 52164.4, 39795, 70734
-167881466665673, 797089, 632281, 1065819
-# Running with 24 workers
-2408303179, 7413.8, 4253, 11251
-690952773961, 63734.4, 48079, 70817
-167881466665673, 844787, 642873, 1177529
-# Running with 25 workers
-2408303179, 6893.2, 5030, 7816
-690952773961, 55118.8, 34773, 77586
-167881466665673, 810420, 588062, 1172790
-# Running with 26 workers
-2408303179, 6362.6, 5427, 7383
-690952773961, 61889.2, 42157, 82156
-167881466665673, 817017, 712634, 975874
-# Running with 27 workers
-2408303179, 5765, 5093, 6599
-690952773961, 41772, 30692, 54177
-167881466665673, 763423, 681530, 873509
-# Running with 28 workers
-2408303179, 9981.6, 7711, 12580
-690952773961, 61616, 38127, 88485
-167881466665673, 856827, 544629, 1204968
-# Running with 29 workers
-2408303179, 7380.6, 6291, 9068
-690952773961, 49878.2, 36653, 65051
-167881466665673, 894426, 618286, 1253841
-# Running with 30 workers
-2408303179, 7167.2, 5107, 9009
-690952773961, 54411.4, 39096, 85418
-167881466665673, 867917, 690442, 1209827
-# Running with 31 workers
-2408303179, 6479.6, 5348, 8770
-690952773961, 50412.6, 35807, 62468
-167881466665673, 786020, 651204, 1054911
-# Running with 32 workers
-2408303179, 7206.6, 5955, 10849
-690952773961, 59527, 37187, 86688
-167881466665673, 937095, 693355, 1181252
-# Running with 33 workers
-2408303179, 7648.6, 5711, 9580
-690952773961, 56614.8, 38833, 87313
-167881466665673, 807327, 667490, 903157
-# Running with 34 workers
-2408303179, 7854.8, 6132, 8476
-690952773961, 64053, 35171, 90723
-167881466665673, 807333, 660334, 957594
-# Running with 35 workers
-2408303179, 7307, 5811, 8636
-690952773961, 60362.2, 43172, 78240
-167881466665673, 800024, 576887, 1060710
-# Running with 36 workers
-2408303179, 6482, 5240, 7955
-690952773961, 54542.8, 39680, 76047
-167881466665673, 923029, 674521, 1275318
-# Running with 37 workers
-2408303179, 8714.8, 5747, 12468
-690952773961, 45617.2, 33980, 58037
-167881466665673, 672620, 583619, 823288
-# Running with 38 workers
-2408303179, 9790, 7011, 11404
-690952773961, 47348.8, 35912, 61808
-167881466665673, 837893, 619564, 1363518
-# Running with 39 workers
-2408303179, 7837.8, 7275, 9220
-690952773961, 48515.2, 36491, 58245
-167881466665673, 907365, 616178, 1215229
-# Running with 40 workers
-2408303179, 9346.6, 8075, 10131
-690952773961, 47621.8, 36322, 60456
-167881466665673, 873155, 614549, 1218299
-# Running with 41 workers
-2408303179, 8888.4, 6577, 11050
-690952773961, 47420.2, 34395, 68495
-167881466665673, 738109, 516439, 1065511
-# Running with 42 workers
-2408303179, 9419.8, 6870, 11578
-690952773961, 53704, 33856, 73933
-167881466665673, 877102, 597518, 1167073
-# Running with 43 workers
-2408303179, 9963.2, 7282, 11478
-690952773961, 48386.8, 36440, 72163
-167881466665673, 732138, 591032, 943271
-# Running with 44 workers
-2408303179, 9929, 6915, 11792
-690952773961, 61793.2, 39230, 85061
-167881466665673, 654037, 568919, 767664
-# Running with 45 workers
-2408303179, 10608.2, 8705, 12259
-690952773961, 47858.4, 35926, 69284
-167881466665673, 699469, 592786, 796363
-# Running with 46 workers
-2408303179, 10008, 8267, 11133
-690952773961, 45644.4, 33163, 69461
-167881466665673, 731022, 621739, 1011566
-# Running with 47 workers
-2408303179, 9320.2, 6474, 12188
-690952773961, 49348.4, 33833, 70362
-167881466665673, 676042, 590499, 772302
-# Running with 48 workers
-2408303179, 9294, 8103, 10778
-690952773961, 53686.4, 38506, 77852
-167881466665673, 727651, 562413, 1040276
-# Running with 49 workers
-2408303179, 10332.8, 8295, 12098
-690952773961, 43545, 32807, 62098
-167881466665673, 806043, 557864, 1044262
-# Running with 50 workers
-2408303179, 9202.6, 7750, 10453
-690952773961, 52822.2, 33217, 81091
-167881466665673, 771535, 556737, 988200
-# Running with 51 workers
-2408303179, 10414, 8580, 12734
-690952773961, 46339.4, 35052, 66240
-167881466665673, 778788, 655491, 957987
-# Running with 52 workers
-2408303179, 9535.6, 7900, 12890
-690952773961, 48509.6, 36339, 67756
-167881466665673, 667977, 559836, 851017
-# Running with 53 workers
-2408303179, 9125, 7154, 10423
-690952773961, 49630.8, 32333, 68672
-167881466665673, 760368, 577410, 963831
-# Running with 54 workers
-2408303179, 10871.6, 9178, 13605
-690952773961, 44005.6, 36485, 55109
-167881466665673, 779548, 689488, 835054
-# Running with 55 workers
-2408303179, 10915.8, 8171, 14684
-690952773961, 43765.4, 32905, 67009
-167881466665673, 629337, 586119, 666963
-# Running with 56 workers
-2408303179, 10996.2, 8653, 14486
-690952773961, 49534.2, 33547, 64345
-167881466665673, 670016, 498009, 963587
-# Running with 57 workers
-2408303179, 9264, 7370, 12565
-690952773961, 47192.8, 38096, 60644
-167881466665673, 766774, 597709, 1081055
-# Running with 58 workers
-2408303179, 9722.4, 7732, 13437
-690952773961, 56241.2, 41575, 75330
-167881466665673, 731230, 548090, 1031313
-# Running with 59 workers
-2408303179, 10560, 9251, 13279
-690952773961, 44289.8, 33763, 59571
-167881466665673, 653794, 535769, 916335
-# Running with 60 workers
-2408303179, 9801.4, 8644, 10971
-690952773961, 49503.2, 42073, 60683
-167881466665673, 829445, 649318, 918080
-# Running with 61 workers
-2408303179, 10539, 9235, 12186
-690952773961, 51932.4, 38181, 65356
-167881466665673, 658940, 475132, 809046
-# Running with 62 workers
-2408303179, 10005.8, 8134, 11542
-690952773961, 50323.2, 37371, 66324
-167881466665673, 696395, 577177, 887561
-# Running with 63 workers
-2408303179, 12604, 9140, 15067
-690952773961, 41879, 34264, 51886
-167881466665673, 689259, 571705, 864508
-# Running with 64 workers
-2408303179, 10993.6, 8821, 16407
-690952773961, 49059.4, 33334, 69977
-167881466665673, 696032, 523657, 866629
+# Running with 0 workers: input/bsgs_40_0.txt
+Found result in: 243382 microseconds
+# Running with 0 workers: input/bsgs_40_1.txt
+Found result in: 1197457 microseconds
+# Running with 0 workers: input/bsgs_40_2.txt
+Found result in: 485461 microseconds
+# Running with 0 workers: input/bsgs_40_3.txt
+Found result in: 1409492 microseconds
+# Running with 0 workers: input/bsgs_40_4.txt
+Found result in: 532536 microseconds
+# Running with 0 workers: input/bsgs_40_5.txt
+Found result in: 530808 microseconds
+# Running with 0 workers: input/bsgs_40_6.txt
+Found result in: 283798 microseconds
+# Running with 0 workers: input/bsgs_40_7.txt
+Found result in: 453006 microseconds
+# Running with 0 workers: input/bsgs_40_8.txt
+Found result in: 1188849 microseconds
+# Running with 0 workers: input/bsgs_40_9.txt
+Found result in: 312315 microseconds
+# Running with 0 workers: input/bsgs_48_0.txt
+Found result in: 13581402 microseconds
+# Running with 0 workers: input/bsgs_48_1.txt
+Found result in: 10187890 microseconds
+# Running with 0 workers: input/bsgs_48_2.txt
+Found result in: 8593932 microseconds
+# Running with 0 workers: input/bsgs_48_3.txt
+Found result in: 4745489 microseconds
+# Running with 0 workers: input/bsgs_48_4.txt
+Found result in: 13462192 microseconds
+# Running with 0 workers: input/bsgs_48_5.txt
+Found result in: 9737725 microseconds
+# Running with 0 workers: input/bsgs_48_6.txt
+Found result in: 6052890 microseconds
+# Running with 0 workers: input/bsgs_48_7.txt
+Found result in: 4440567 microseconds
+# Running with 0 workers: input/bsgs_48_8.txt
+Found result in: 20192005 microseconds
+# Running with 0 workers: input/bsgs_48_9.txt
+Found result in: 5678885 microseconds
+# Running with 1 workers: input/bsgs_40_0.txt
+Found result in: 310856 microseconds
+# Running with 1 workers: input/bsgs_40_1.txt
+Found result in: 1162022 microseconds
+# Running with 1 workers: input/bsgs_40_2.txt
+Found result in: 498817 microseconds
+# Running with 1 workers: input/bsgs_40_3.txt
+Found result in: 1405366 microseconds
+# Running with 1 workers: input/bsgs_40_4.txt
+Found result in: 603053 microseconds
+# Running with 1 workers: input/bsgs_40_5.txt
+Found result in: 543071 microseconds
+# Running with 1 workers: input/bsgs_40_6.txt
+Found result in: 337136 microseconds
+# Running with 1 workers: input/bsgs_40_7.txt
+Found result in: 517829 microseconds
+# Running with 1 workers: input/bsgs_40_8.txt
+Found result in: 1340520 microseconds
+# Running with 1 workers: input/bsgs_40_9.txt
+Found result in: 382060 microseconds
+# Running with 1 workers: input/bsgs_48_0.txt
+Found result in: 14138268 microseconds
+# Running with 1 workers: input/bsgs_48_1.txt
+Found result in: 11485825 microseconds
+# Running with 1 workers: input/bsgs_48_2.txt
+Found result in: 10657590 microseconds
+# Running with 1 workers: input/bsgs_48_3.txt
+Found result in: 5941276 microseconds
+# Running with 1 workers: input/bsgs_48_4.txt
+Found result in: 14771669 microseconds
+# Running with 1 workers: input/bsgs_48_5.txt
+Found result in: 10320945 microseconds
+# Running with 1 workers: input/bsgs_48_6.txt
+Found result in: 6573997 microseconds
+# Running with 1 workers: input/bsgs_48_7.txt
+Found result in: 4936118 microseconds
+# Running with 1 workers: input/bsgs_48_8.txt
+Found result in: 21334755 microseconds
+# Running with 1 workers: input/bsgs_48_9.txt
+Found result in: 6128536 microseconds
+# Running with 2 workers: input/bsgs_40_0.txt
+Found result in: 200222 microseconds
+# Running with 2 workers: input/bsgs_40_1.txt
+Found result in: 600821 microseconds
+# Running with 2 workers: input/bsgs_40_2.txt
+Found result in: 406030 microseconds
+# Running with 2 workers: input/bsgs_40_3.txt
+Found result in: 722445 microseconds
+# Running with 2 workers: input/bsgs_40_4.txt
+Found result in: 296460 microseconds
+# Running with 2 workers: input/bsgs_40_5.txt
+Found result in: 462768 microseconds
+# Running with 2 workers: input/bsgs_40_6.txt
+Found result in: 239022 microseconds
+# Running with 2 workers: input/bsgs_40_7.txt
+Found result in: 430836 microseconds
+# Running with 2 workers: input/bsgs_40_8.txt
+Found result in: 633611 microseconds
+# Running with 2 workers: input/bsgs_40_9.txt
+Found result in: 277359 microseconds
+# Running with 2 workers: input/bsgs_48_0.txt
+Found result in: 11859850 microseconds
+# Running with 2 workers: input/bsgs_48_1.txt
+Found result in: 6654653 microseconds
+# Running with 2 workers: input/bsgs_48_2.txt
+Found result in: 7484129 microseconds
+# Running with 2 workers: input/bsgs_48_3.txt
+Found result in: 3860243 microseconds
+# Running with 2 workers: input/bsgs_48_4.txt
+Found result in: 13125474 microseconds
+# Running with 2 workers: input/bsgs_48_5.txt
+Found result in: 8682154 microseconds
+# Running with 2 workers: input/bsgs_48_6.txt
+Found result in: 4687724 microseconds
+# Running with 2 workers: input/bsgs_48_7.txt
+Found result in: 3243924 microseconds
+# Running with 2 workers: input/bsgs_48_8.txt
+Found result in: 9673510 microseconds
+# Running with 2 workers: input/bsgs_48_9.txt
+Found result in: 4716601 microseconds
+# Running with 3 workers: input/bsgs_40_0.txt
+Found result in: 149774 microseconds
+# Running with 3 workers: input/bsgs_40_1.txt
+Found result in: 355924 microseconds
+# Running with 3 workers: input/bsgs_40_2.txt
+Found result in: 187988 microseconds
+# Running with 3 workers: input/bsgs_40_3.txt
+Found result in: 504694 microseconds
+# Running with 3 workers: input/bsgs_40_4.txt
+Found result in: 444927 microseconds
+# Running with 3 workers: input/bsgs_40_5.txt
+Found result in: 425289 microseconds
+# Running with 3 workers: input/bsgs_40_6.txt
+Found result in: 193615 microseconds
+# Running with 3 workers: input/bsgs_40_7.txt
+Found result in: 389010 microseconds
+# Running with 3 workers: input/bsgs_40_8.txt
+Found result in: 381005 microseconds
+# Running with 3 workers: input/bsgs_40_9.txt
+Found result in: 240791 microseconds
+# Running with 3 workers: input/bsgs_48_0.txt
+Found result in: 3414311 microseconds
+# Running with 3 workers: input/bsgs_48_1.txt
+Found result in: 8744158 microseconds
+# Running with 3 workers: input/bsgs_48_2.txt
+Found result in: 6455783 microseconds
+# Running with 3 workers: input/bsgs_48_3.txt
+Found result in: 3017692 microseconds
+# Running with 3 workers: input/bsgs_48_4.txt
+Found result in: 4783051 microseconds
+# Running with 3 workers: input/bsgs_48_5.txt
+Found result in: 2441361 microseconds
+# Running with 3 workers: input/bsgs_48_6.txt
+Found result in: 4080008 microseconds
+# Running with 3 workers: input/bsgs_48_7.txt
+Found result in: 2098389 microseconds
+# Running with 3 workers: input/bsgs_48_8.txt
+Found result in: 5249992 microseconds
+# Running with 3 workers: input/bsgs_48_9.txt
+Found result in: 3860807 microseconds
+# Running with 4 workers: input/bsgs_40_0.txt
+Found result in: 120083 microseconds
+# Running with 4 workers: input/bsgs_40_1.txt
+Found result in: 251294 microseconds
+# Running with 4 workers: input/bsgs_40_2.txt
+Found result in: 349458 microseconds
+# Running with 4 workers: input/bsgs_40_3.txt
+Found result in: 351660 microseconds
+# Running with 4 workers: input/bsgs_40_4.txt
+Found result in: 117494 microseconds
+# Running with 4 workers: input/bsgs_40_5.txt
+Found result in: 137235 microseconds
+# Running with 4 workers: input/bsgs_40_6.txt
+Found result in: 200103 microseconds
+# Running with 4 workers: input/bsgs_40_7.txt
+Found result in: 366545 microseconds
+# Running with 4 workers: input/bsgs_40_8.txt
+Found result in: 268557 microseconds
+# Running with 4 workers: input/bsgs_40_9.txt
+Found result in: 205695 microseconds
+# Running with 4 workers: input/bsgs_48_0.txt
+Found result in: 5000663 microseconds
+# Running with 4 workers: input/bsgs_48_1.txt
+Found result in: 3574179 microseconds
+# Running with 4 workers: input/bsgs_48_2.txt
+Found result in: 6613357 microseconds
+# Running with 4 workers: input/bsgs_48_3.txt
+Found result in: 2736682 microseconds
+# Running with 4 workers: input/bsgs_48_4.txt
+Found result in: 6669543 microseconds
+# Running with 4 workers: input/bsgs_48_5.txt
+Found result in: 3662534 microseconds
+# Running with 4 workers: input/bsgs_48_6.txt
+Found result in: 3443783 microseconds
+# Running with 4 workers: input/bsgs_48_7.txt
+Found result in: 2272654 microseconds
+# Running with 4 workers: input/bsgs_48_8.txt
+Found result in: 3056724 microseconds
+# Running with 4 workers: input/bsgs_48_9.txt
+Found result in: 3402076 microseconds
+# Running with 5 workers: input/bsgs_40_0.txt
+Found result in: 105545 microseconds
+# Running with 5 workers: input/bsgs_40_1.txt
+Found result in: 194472 microseconds
+# Running with 5 workers: input/bsgs_40_2.txt
+Found result in: 118628 microseconds
+# Running with 5 workers: input/bsgs_40_3.txt
+Found result in: 272941 microseconds
+# Running with 5 workers: input/bsgs_40_4.txt
+Found result in: 165247 microseconds
+# Running with 5 workers: input/bsgs_40_5.txt
+Found result in: 178646 microseconds
+# Running with 5 workers: input/bsgs_40_6.txt
+Found result in: 159268 microseconds
+# Running with 5 workers: input/bsgs_40_7.txt
+Found result in: 149305 microseconds
+# Running with 5 workers: input/bsgs_40_8.txt
+Found result in: 196826 microseconds
+# Running with 5 workers: input/bsgs_40_9.txt
+Found result in: 107452 microseconds
+# Running with 5 workers: input/bsgs_48_0.txt
+Found result in: 4055442 microseconds
+# Running with 5 workers: input/bsgs_48_1.txt
+Found result in: 2714873 microseconds
+# Running with 5 workers: input/bsgs_48_2.txt
+Found result in: 1713956 microseconds
+# Running with 5 workers: input/bsgs_48_3.txt
+Found result in: 1933208 microseconds
+# Running with 5 workers: input/bsgs_48_4.txt
+Found result in: 2931541 microseconds
+# Running with 5 workers: input/bsgs_48_5.txt
+Found result in: 2518532 microseconds
+# Running with 5 workers: input/bsgs_48_6.txt
+Found result in: 2179937 microseconds
+# Running with 5 workers: input/bsgs_48_7.txt
+Found result in: 1852116 microseconds
+# Running with 5 workers: input/bsgs_48_8.txt
+Found result in: 6009094 microseconds
+# Running with 5 workers: input/bsgs_48_9.txt
+Found result in: 1717556 microseconds
+# Running with 6 workers: input/bsgs_40_0.txt
+Found result in: 96250 microseconds
+# Running with 6 workers: input/bsgs_40_1.txt
+Found result in: 142629 microseconds
+# Running with 6 workers: input/bsgs_40_2.txt
+Found result in: 146051 microseconds
+# Running with 6 workers: input/bsgs_40_3.txt
+Found result in: 223991 microseconds
+# Running with 6 workers: input/bsgs_40_4.txt
+Found result in: 202560 microseconds
+# Running with 6 workers: input/bsgs_40_5.txt
+Found result in: 205883 microseconds
+# Running with 6 workers: input/bsgs_40_6.txt
+Found result in: 148228 microseconds
+# Running with 6 workers: input/bsgs_40_7.txt
+Found result in: 154652 microseconds
+# Running with 6 workers: input/bsgs_40_8.txt
+Found result in: 152018 microseconds
+# Running with 6 workers: input/bsgs_40_9.txt
+Found result in: 183923 microseconds
+# Running with 6 workers: input/bsgs_48_0.txt
+Found result in: 2889886 microseconds
+# Running with 6 workers: input/bsgs_48_1.txt
+Found result in: 4365216 microseconds
+# Running with 6 workers: input/bsgs_48_2.txt
+Found result in: 2052815 microseconds
+# Running with 6 workers: input/bsgs_48_3.txt
+Found result in: 1929196 microseconds
+# Running with 6 workers: input/bsgs_48_4.txt
+Found result in: 4476739 microseconds
+# Running with 6 workers: input/bsgs_48_5.txt
+Found result in: 1470317 microseconds
+# Running with 6 workers: input/bsgs_48_6.txt
+Found result in: 2779874 microseconds
+# Running with 6 workers: input/bsgs_48_7.txt
+Found result in: 1316043 microseconds
+# Running with 6 workers: input/bsgs_48_8.txt
+Found result in: 4282437 microseconds
+# Running with 6 workers: input/bsgs_48_9.txt
+Found result in: 3063128 microseconds
+# Running with 7 workers: input/bsgs_40_0.txt
+Found result in: 101253 microseconds
+# Running with 7 workers: input/bsgs_40_1.txt
+Found result in: 131583 microseconds
+# Running with 7 workers: input/bsgs_40_2.txt
+Found result in: 105625 microseconds
+# Running with 7 workers: input/bsgs_40_3.txt
+Found result in: 216802 microseconds
+# Running with 7 workers: input/bsgs_40_4.txt
+Found result in: 123489 microseconds
+# Running with 7 workers: input/bsgs_40_5.txt
+Found result in: 91276 microseconds
+# Running with 7 workers: input/bsgs_40_6.txt
+Found result in: 105973 microseconds
+# Running with 7 workers: input/bsgs_40_7.txt
+Found result in: 194215 microseconds
+# Running with 7 workers: input/bsgs_40_8.txt
+Found result in: 137049 microseconds
+# Running with 7 workers: input/bsgs_40_9.txt
+Found result in: 106842 microseconds
+# Running with 7 workers: input/bsgs_48_0.txt
+Found result in: 2013539 microseconds
+# Running with 7 workers: input/bsgs_48_1.txt
+Found result in: 2193711 microseconds
+# Running with 7 workers: input/bsgs_48_2.txt
+Found result in: 2796204 microseconds
+# Running with 7 workers: input/bsgs_48_3.txt
+Found result in: 2024412 microseconds
+# Running with 7 workers: input/bsgs_48_4.txt
+Found result in: 2322460 microseconds
+# Running with 7 workers: input/bsgs_48_5.txt
+Found result in: 2380020 microseconds
+# Running with 7 workers: input/bsgs_48_6.txt
+Found result in: 2331798 microseconds
+# Running with 7 workers: input/bsgs_48_7.txt
+Found result in: 1671351 microseconds
+# Running with 7 workers: input/bsgs_48_8.txt
+Found result in: 3108219 microseconds
+# Running with 7 workers: input/bsgs_48_9.txt
+Found result in: 1860931 microseconds
+# Running with 8 workers: input/bsgs_40_0.txt
+Found result in: 96885 microseconds
+# Running with 8 workers: input/bsgs_40_1.txt
+Found result in: 99050 microseconds
+# Running with 8 workers: input/bsgs_40_2.txt
+Found result in: 194738 microseconds
+# Running with 8 workers: input/bsgs_40_3.txt
+Found result in: 188987 microseconds
+# Running with 8 workers: input/bsgs_40_4.txt
+Found result in: 97370 microseconds
+# Running with 8 workers: input/bsgs_40_5.txt
+Found result in: 119806 microseconds
+# Running with 8 workers: input/bsgs_40_6.txt
+Found result in: 107207 microseconds
+# Running with 8 workers: input/bsgs_40_7.txt
+Found result in: 210287 microseconds
+# Running with 8 workers: input/bsgs_40_8.txt
+Found result in: 106167 microseconds
+# Running with 8 workers: input/bsgs_40_9.txt
+Found result in: 132134 microseconds
+# Running with 8 workers: input/bsgs_48_0.txt
+Found result in: 1596798 microseconds
+# Running with 8 workers: input/bsgs_48_1.txt
+Found result in: 1882650 microseconds
+# Running with 8 workers: input/bsgs_48_2.txt
+Found result in: 2993799 microseconds
+# Running with 8 workers: input/bsgs_48_3.txt
+Found result in: 1632888 microseconds
+# Running with 8 workers: input/bsgs_48_4.txt
+Found result in: 3132893 microseconds
+# Running with 8 workers: input/bsgs_48_5.txt
+Found result in: 2962178 microseconds
+# Running with 8 workers: input/bsgs_48_6.txt
+Found result in: 2784980 microseconds
+# Running with 8 workers: input/bsgs_48_7.txt
+Found result in: 1210444 microseconds
+# Running with 8 workers: input/bsgs_48_8.txt
+Found result in: 2406898 microseconds
+# Running with 8 workers: input/bsgs_48_9.txt
+Found result in: 3027303 microseconds
+# Running with 9 workers: input/bsgs_40_0.txt
+Found result in: 94675 microseconds
+# Running with 9 workers: input/bsgs_40_1.txt
+Found result in: 82203 microseconds
+# Running with 9 workers: input/bsgs_40_2.txt
+Found result in: 81515 microseconds
+# Running with 9 workers: input/bsgs_40_3.txt
+Found result in: 156779 microseconds
+# Running with 9 workers: input/bsgs_40_4.txt
+Found result in: 124827 microseconds
+# Running with 9 workers: input/bsgs_40_5.txt
+Found result in: 144721 microseconds
+# Running with 9 workers: input/bsgs_40_6.txt
+Found result in: 134973 microseconds
+# Running with 9 workers: input/bsgs_40_7.txt
+Found result in: 87067 microseconds
+# Running with 9 workers: input/bsgs_40_8.txt
+Found result in: 217776 microseconds
+# Running with 9 workers: input/bsgs_40_9.txt
+Found result in: 113712 microseconds
+# Running with 9 workers: input/bsgs_48_0.txt
+Found result in: 2453928 microseconds
+# Running with 9 workers: input/bsgs_48_1.txt
+Found result in: 3234002 microseconds
+# Running with 9 workers: input/bsgs_48_2.txt
+Found result in: 3131947 microseconds
+# Running with 9 workers: input/bsgs_48_3.txt
+Found result in: 1857612 microseconds
+# Running with 9 workers: input/bsgs_48_4.txt
+Found result in: 1516418 microseconds
+# Running with 9 workers: input/bsgs_48_5.txt
+Found result in: 1382850 microseconds
+# Running with 9 workers: input/bsgs_48_6.txt
+Found result in: 1453664 microseconds
+# Running with 9 workers: input/bsgs_48_7.txt
+Found result in: 1065070 microseconds
+# Running with 9 workers: input/bsgs_48_8.txt
+Found result in: 1591485 microseconds
+# Running with 9 workers: input/bsgs_48_9.txt
+Found result in: 990719 microseconds
+# Running with 10 workers: input/bsgs_40_0.txt
+Found result in: 87035 microseconds
+# Running with 10 workers: input/bsgs_40_1.txt
+Found result in: 179712 microseconds
+# Running with 10 workers: input/bsgs_40_2.txt
+Found result in: 107769 microseconds
+# Running with 10 workers: input/bsgs_40_3.txt
+Found result in: 141669 microseconds
+# Running with 10 workers: input/bsgs_40_4.txt
+Found result in: 109285 microseconds
+# Running with 10 workers: input/bsgs_40_5.txt
+Found result in: 151553 microseconds
+# Running with 10 workers: input/bsgs_40_6.txt
+Found result in: 103350 microseconds
+# Running with 10 workers: input/bsgs_40_7.txt
+Found result in: 112309 microseconds
+# Running with 10 workers: input/bsgs_40_8.txt
+Found result in: 185356 microseconds
+# Running with 10 workers: input/bsgs_40_9.txt
+Found result in: 90190 microseconds
+# Running with 10 workers: input/bsgs_48_0.txt
+Found result in: 3105775 microseconds
+# Running with 10 workers: input/bsgs_48_1.txt
+Found result in: 1525548 microseconds
+# Running with 10 workers: input/bsgs_48_2.txt
+Found result in: 1170893 microseconds
+# Running with 10 workers: input/bsgs_48_3.txt
+Found result in: 1244898 microseconds
+# Running with 10 workers: input/bsgs_48_4.txt
+Found result in: 2419896 microseconds
+# Running with 10 workers: input/bsgs_48_5.txt
+Found result in: 1898418 microseconds
+# Running with 10 workers: input/bsgs_48_6.txt
+Found result in: 1532457 microseconds
+# Running with 10 workers: input/bsgs_48_7.txt
+Found result in: 1100539 microseconds
+# Running with 10 workers: input/bsgs_48_8.txt
+Found result in: 3454336 microseconds
+# Running with 10 workers: input/bsgs_48_9.txt
+Found result in: 1135163 microseconds
+# Running with 11 workers: input/bsgs_40_0.txt
+Found result in: 83461 microseconds
+# Running with 11 workers: input/bsgs_40_1.txt
+Found result in: 152883 microseconds
+# Running with 11 workers: input/bsgs_40_2.txt
+Found result in: 106639 microseconds
+# Running with 11 workers: input/bsgs_40_3.txt
+Found result in: 118462 microseconds
+# Running with 11 workers: input/bsgs_40_4.txt
+Found result in: 89194 microseconds
+# Running with 11 workers: input/bsgs_40_5.txt
+Found result in: 80814 microseconds
+# Running with 11 workers: input/bsgs_40_6.txt
+Found result in: 94985 microseconds
+# Running with 11 workers: input/bsgs_40_7.txt
+Found result in: 123973 microseconds
+# Running with 11 workers: input/bsgs_40_8.txt
+Found result in: 156177 microseconds
+# Running with 11 workers: input/bsgs_40_9.txt
+Found result in: 96688 microseconds
+# Running with 11 workers: input/bsgs_48_0.txt
+Found result in: 1543276 microseconds
+# Running with 11 workers: input/bsgs_48_1.txt
+Found result in: 1370741 microseconds
+# Running with 11 workers: input/bsgs_48_2.txt
+Found result in: 1552851 microseconds
+# Running with 11 workers: input/bsgs_48_3.txt
+Found result in: 1226782 microseconds
+# Running with 11 workers: input/bsgs_48_4.txt
+Found result in: 1135907 microseconds
+# Running with 11 workers: input/bsgs_48_5.txt
+Found result in: 1604678 microseconds
+# Running with 11 workers: input/bsgs_48_6.txt
+Found result in: 1038642 microseconds
+# Running with 11 workers: input/bsgs_48_7.txt
+Found result in: 934207 microseconds
+# Running with 11 workers: input/bsgs_48_8.txt
+Found result in: 2739715 microseconds
+# Running with 11 workers: input/bsgs_48_9.txt
+Found result in: 1312028 microseconds
+# Running with 12 workers: input/bsgs_40_0.txt
+Found result in: 77086 microseconds
+# Running with 12 workers: input/bsgs_40_1.txt
+Found result in: 142446 microseconds
+# Running with 12 workers: input/bsgs_40_2.txt
+Found result in: 134532 microseconds
+# Running with 12 workers: input/bsgs_40_3.txt
+Found result in: 107976 microseconds
+# Running with 12 workers: input/bsgs_40_4.txt
+Found result in: 76421 microseconds
+# Running with 12 workers: input/bsgs_40_5.txt
+Found result in: 103899 microseconds
+# Running with 12 workers: input/bsgs_40_6.txt
+Found result in: 135321 microseconds
+# Running with 12 workers: input/bsgs_40_7.txt
+Found result in: 144477 microseconds
+# Running with 12 workers: input/bsgs_40_8.txt
+Found result in: 139782 microseconds
+# Running with 12 workers: input/bsgs_40_9.txt
+Found result in: 172383 microseconds
+# Running with 12 workers: input/bsgs_48_0.txt
+Found result in: 2163333 microseconds
+# Running with 12 workers: input/bsgs_48_1.txt
+Found result in: 2485422 microseconds
+# Running with 12 workers: input/bsgs_48_2.txt
+Found result in: 1732757 microseconds
+# Running with 12 workers: input/bsgs_48_3.txt
+Found result in: 1618010 microseconds
+# Running with 12 workers: input/bsgs_48_4.txt
+Found result in: 1948221 microseconds
+# Running with 12 workers: input/bsgs_48_5.txt
+Found result in: 1202752 microseconds
+# Running with 12 workers: input/bsgs_48_6.txt
+Found result in: 2593229 microseconds
+# Running with 12 workers: input/bsgs_48_7.txt
+Found result in: 953755 microseconds
+# Running with 12 workers: input/bsgs_48_8.txt
+Found result in: 2159010 microseconds
+# Running with 12 workers: input/bsgs_48_9.txt
+Found result in: 1420037 microseconds
+# Running with 13 workers: input/bsgs_40_0.txt
+Found result in: 76972 microseconds
+# Running with 13 workers: input/bsgs_40_1.txt
+Found result in: 118633 microseconds
+# Running with 13 workers: input/bsgs_40_2.txt
+Found result in: 98444 microseconds
+# Running with 13 workers: input/bsgs_40_3.txt
+Found result in: 99452 microseconds
+# Running with 13 workers: input/bsgs_40_4.txt
+Found result in: 104904 microseconds
+# Running with 13 workers: input/bsgs_40_5.txt
+Found result in: 134551 microseconds
+# Running with 13 workers: input/bsgs_40_6.txt
+Found result in: 81604 microseconds
+# Running with 13 workers: input/bsgs_40_7.txt
+Found result in: 68656 microseconds
+# Running with 13 workers: input/bsgs_40_8.txt
+Found result in: 123041 microseconds
+# Running with 13 workers: input/bsgs_40_9.txt
+Found result in: 86277 microseconds
+# Running with 13 workers: input/bsgs_48_0.txt
+Found result in: 1001760 microseconds
+# Running with 13 workers: input/bsgs_48_1.txt
+Found result in: 1036105 microseconds
+# Running with 13 workers: input/bsgs_48_2.txt
+Found result in: 1989536 microseconds
+# Running with 13 workers: input/bsgs_48_3.txt
+Found result in: 990531 microseconds
+# Running with 13 workers: input/bsgs_48_4.txt
+Found result in: 2697462 microseconds
+# Running with 13 workers: input/bsgs_48_5.txt
+Found result in: 940238 microseconds
+# Running with 13 workers: input/bsgs_48_6.txt
+Found result in: 1161383 microseconds
+# Running with 13 workers: input/bsgs_48_7.txt
+Found result in: 855838 microseconds
+# Running with 13 workers: input/bsgs_48_8.txt
+Found result in: 1683315 microseconds
+# Running with 13 workers: input/bsgs_48_9.txt
+Found result in: 1512669 microseconds
+# Running with 14 workers: input/bsgs_40_0.txt
+Found result in: 74478 microseconds
+# Running with 14 workers: input/bsgs_40_1.txt
+Found result in: 100179 microseconds
+# Running with 14 workers: input/bsgs_40_2.txt
+Found result in: 73652 microseconds
+# Running with 14 workers: input/bsgs_40_3.txt
+Found result in: 85576 microseconds
+# Running with 14 workers: input/bsgs_40_4.txt
+Found result in: 87320 microseconds
+# Running with 14 workers: input/bsgs_40_5.txt
+Found result in: 61146 microseconds
+# Running with 14 workers: input/bsgs_40_6.txt
+Found result in: 76853 microseconds
+# Running with 14 workers: input/bsgs_40_7.txt
+Found result in: 84938 microseconds
+# Running with 14 workers: input/bsgs_40_8.txt
+Found result in: 112609 microseconds
+# Running with 14 workers: input/bsgs_40_9.txt
+Found result in: 71381 microseconds
+# Running with 14 workers: input/bsgs_48_0.txt
+Found result in: 1593465 microseconds
+# Running with 14 workers: input/bsgs_48_1.txt
+Found result in: 1067866 microseconds
+# Running with 14 workers: input/bsgs_48_2.txt
+Found result in: 2167203 microseconds
+# Running with 14 workers: input/bsgs_48_3.txt
+Found result in: 977672 microseconds
+# Running with 14 workers: input/bsgs_48_4.txt
+Found result in: 1586614 microseconds
+# Running with 14 workers: input/bsgs_48_5.txt
+Found result in: 1956609 microseconds
+# Running with 14 workers: input/bsgs_48_6.txt
+Found result in: 1640590 microseconds
+# Running with 14 workers: input/bsgs_48_7.txt
+Found result in: 1177904 microseconds
+# Running with 14 workers: input/bsgs_48_8.txt
+Found result in: 1122990 microseconds
+# Running with 14 workers: input/bsgs_48_9.txt
+Found result in: 1492446 microseconds
+# Running with 15 workers: input/bsgs_40_0.txt
+Found result in: 70688 microseconds
+# Running with 15 workers: input/bsgs_40_1.txt
+Found result in: 86838 microseconds
+# Running with 15 workers: input/bsgs_40_2.txt
+Found result in: 89142 microseconds
+# Running with 15 workers: input/bsgs_40_3.txt
+Found result in: 82101 microseconds
+# Running with 15 workers: input/bsgs_40_4.txt
+Found result in: 139914 microseconds
+# Running with 15 workers: input/bsgs_40_5.txt
+Found result in: 86681 microseconds
+# Running with 15 workers: input/bsgs_40_6.txt
+Found result in: 134205 microseconds
+# Running with 15 workers: input/bsgs_40_7.txt
+Found result in: 103149 microseconds
+# Running with 15 workers: input/bsgs_40_8.txt
+Found result in: 93567 microseconds
+# Running with 15 workers: input/bsgs_40_9.txt
+Found result in: 80842 microseconds
+# Running with 15 workers: input/bsgs_48_0.txt
+Found result in: 1360942 microseconds
+# Running with 15 workers: input/bsgs_48_1.txt
+Found result in: 1931256 microseconds
+# Running with 15 workers: input/bsgs_48_2.txt
+Found result in: 957481 microseconds
+# Running with 15 workers: input/bsgs_48_3.txt
+Found result in: 989002 microseconds
+# Running with 15 workers: input/bsgs_48_4.txt
+Found result in: 2208772 microseconds
+# Running with 15 workers: input/bsgs_48_5.txt
+Found result in: 1115992 microseconds
+# Running with 15 workers: input/bsgs_48_6.txt
+Found result in: 878712 microseconds
+# Running with 15 workers: input/bsgs_48_7.txt
+Found result in: 762063 microseconds
+# Running with 15 workers: input/bsgs_48_8.txt
+Found result in: 2259203 microseconds
+# Running with 15 workers: input/bsgs_48_9.txt
+Found result in: 965586 microseconds
+# Running with 16 workers: input/bsgs_40_0.txt
+Found result in: 66268 microseconds
+# Running with 16 workers: input/bsgs_40_1.txt
+Found result in: 76622 microseconds
+# Running with 16 workers: input/bsgs_40_2.txt
+Found result in: 95615 microseconds
+# Running with 16 workers: input/bsgs_40_3.txt
+Found result in: 70986 microseconds
+# Running with 16 workers: input/bsgs_40_4.txt
+Found result in: 69038 microseconds
+# Running with 16 workers: input/bsgs_40_5.txt
+Found result in: 100956 microseconds
+# Running with 16 workers: input/bsgs_40_6.txt
+Found result in: 85396 microseconds
+# Running with 16 workers: input/bsgs_40_7.txt
+Found result in: 110426 microseconds
+# Running with 16 workers: input/bsgs_40_8.txt
+Found result in: 82142 microseconds
+# Running with 16 workers: input/bsgs_40_9.txt
+Found result in: 82150 microseconds
+# Running with 16 workers: input/bsgs_48_0.txt
+Found result in: 1114774 microseconds
+# Running with 16 workers: input/bsgs_48_1.txt
+Found result in: 934919 microseconds
+# Running with 16 workers: input/bsgs_48_2.txt
+Found result in: 1190893 microseconds
+# Running with 16 workers: input/bsgs_48_3.txt
+Found result in: 1040328 microseconds
+# Running with 16 workers: input/bsgs_48_4.txt
+Found result in: 1378981 microseconds
+# Running with 16 workers: input/bsgs_48_5.txt
+Found result in: 1444092 microseconds
+# Running with 16 workers: input/bsgs_48_6.txt
+Found result in: 953031 microseconds
+# Running with 16 workers: input/bsgs_48_7.txt
+Found result in: 789710 microseconds
+# Running with 16 workers: input/bsgs_48_8.txt
+Found result in: 1875231 microseconds
+# Running with 16 workers: input/bsgs_48_9.txt
+Found result in: 1571906 microseconds
+# Running with 17 workers: input/bsgs_40_0.txt
+Found result in: 69295 microseconds
+# Running with 17 workers: input/bsgs_40_1.txt
+Found result in: 69575 microseconds
+# Running with 17 workers: input/bsgs_40_2.txt
+Found result in: 81053 microseconds
+# Running with 17 workers: input/bsgs_40_3.txt
+Found result in: 64648 microseconds
+# Running with 17 workers: input/bsgs_40_4.txt
+Found result in: 83979 microseconds
+# Running with 17 workers: input/bsgs_40_5.txt
+Found result in: 114782 microseconds
+# Running with 17 workers: input/bsgs_40_6.txt
+Found result in: 83753 microseconds
+# Running with 17 workers: input/bsgs_40_7.txt
+Found result in: 123774 microseconds
+# Running with 17 workers: input/bsgs_40_8.txt
+Found result in: 69361 microseconds
+# Running with 17 workers: input/bsgs_40_9.txt
+Found result in: 69170 microseconds
+# Running with 17 workers: input/bsgs_48_0.txt
+Found result in: 881306 microseconds
+# Running with 17 workers: input/bsgs_48_1.txt
+Found result in: 891958 microseconds
+# Running with 17 workers: input/bsgs_48_2.txt
+Found result in: 1404171 microseconds
+# Running with 17 workers: input/bsgs_48_3.txt
+Found result in: 829512 microseconds
+# Running with 17 workers: input/bsgs_48_4.txt
+Found result in: 1958668 microseconds
+# Running with 17 workers: input/bsgs_48_5.txt
+Found result in: 727558 microseconds
+# Running with 17 workers: input/bsgs_48_6.txt
+Found result in: 1022794 microseconds
+# Running with 17 workers: input/bsgs_48_7.txt
+Found result in: 719561 microseconds
+# Running with 17 workers: input/bsgs_48_8.txt
+Found result in: 1495936 microseconds
+# Running with 17 workers: input/bsgs_48_9.txt
+Found result in: 1118926 microseconds
+# Running with 18 workers: input/bsgs_40_0.txt
+Found result in: 64062 microseconds
+# Running with 18 workers: input/bsgs_40_1.txt
+Found result in: 57111 microseconds
+# Running with 18 workers: input/bsgs_40_2.txt
+Found result in: 61099 microseconds
+# Running with 18 workers: input/bsgs_40_3.txt
+Found result in: 127991 microseconds
+# Running with 18 workers: input/bsgs_40_4.txt
+Found result in: 103054 microseconds
+# Running with 18 workers: input/bsgs_40_5.txt
+Found result in: 68558 microseconds
+# Running with 18 workers: input/bsgs_40_6.txt
+Found result in: 64542 microseconds
+# Running with 18 workers: input/bsgs_40_7.txt
+Found result in: 68378 microseconds
+# Running with 18 workers: input/bsgs_40_8.txt
+Found result in: 123971 microseconds
+# Running with 18 workers: input/bsgs_40_9.txt
+Found result in: 92186 microseconds
+# Running with 18 workers: input/bsgs_48_0.txt
+Found result in: 2054607 microseconds
+# Running with 18 workers: input/bsgs_48_1.txt
+Found result in: 1590086 microseconds
+# Running with 18 workers: input/bsgs_48_2.txt
+Found result in: 1621221 microseconds
+# Running with 18 workers: input/bsgs_48_3.txt
+Found result in: 1406260 microseconds
+# Running with 18 workers: input/bsgs_48_4.txt
+Found result in: 1149395 microseconds
+# Running with 18 workers: input/bsgs_48_5.txt
+Found result in: 1031058 microseconds
+# Running with 18 workers: input/bsgs_48_6.txt
+Found result in: 1137047 microseconds
+# Running with 18 workers: input/bsgs_48_7.txt
+Found result in: 714931 microseconds
+# Running with 18 workers: input/bsgs_48_8.txt
+Found result in: 1178857 microseconds
+# Running with 18 workers: input/bsgs_48_9.txt
+Found result in: 677448 microseconds
+# Running with 19 workers: input/bsgs_40_0.txt
+Found result in: 60612 microseconds
+# Running with 19 workers: input/bsgs_40_1.txt
+Found result in: 53187 microseconds
+# Running with 19 workers: input/bsgs_40_2.txt
+Found result in: 68920 microseconds
+# Running with 19 workers: input/bsgs_40_3.txt
+Found result in: 122208 microseconds
+# Running with 19 workers: input/bsgs_40_4.txt
+Found result in: 69919 microseconds
+# Running with 19 workers: input/bsgs_40_5.txt
+Found result in: 79349 microseconds
+# Running with 19 workers: input/bsgs_40_6.txt
+Found result in: 61802 microseconds
+# Running with 19 workers: input/bsgs_40_7.txt
+Found result in: 73399 microseconds
+# Running with 19 workers: input/bsgs_40_8.txt
+Found result in: 107288 microseconds
+# Running with 19 workers: input/bsgs_40_9.txt
+Found result in: 64132 microseconds
+# Running with 19 workers: input/bsgs_48_0.txt
+Found result in: 1173943 microseconds
+# Running with 19 workers: input/bsgs_48_1.txt
+Found result in: 798443 microseconds
+# Running with 19 workers: input/bsgs_48_2.txt
+Found result in: 1797303 microseconds
+# Running with 19 workers: input/bsgs_48_3.txt
+Found result in: 866392 microseconds
+# Running with 19 workers: input/bsgs_48_4.txt
+Found result in: 1705185 microseconds
+# Running with 19 workers: input/bsgs_48_5.txt
+Found result in: 883575 microseconds
+# Running with 19 workers: input/bsgs_48_6.txt
+Found result in: 838233 microseconds
+# Running with 19 workers: input/bsgs_48_7.txt
+Found result in: 690389 microseconds
+# Running with 19 workers: input/bsgs_48_8.txt
+Found result in: 921529 microseconds
+# Running with 19 workers: input/bsgs_48_9.txt
+Found result in: 803722 microseconds
+# Running with 20 workers: input/bsgs_40_0.txt
+Found result in: 63156 microseconds
+# Running with 20 workers: input/bsgs_40_1.txt
+Found result in: 103459 microseconds
+# Running with 20 workers: input/bsgs_40_2.txt
+Found result in: 85980 microseconds
+# Running with 20 workers: input/bsgs_40_3.txt
+Found result in: 114230 microseconds
+# Running with 20 workers: input/bsgs_40_4.txt
+Found result in: 62227 microseconds
+# Running with 20 workers: input/bsgs_40_5.txt
+Found result in: 99771 microseconds
+# Running with 20 workers: input/bsgs_40_6.txt
+Found result in: 67598 microseconds
+# Running with 20 workers: input/bsgs_40_7.txt
+Found result in: 91785 microseconds
+# Running with 20 workers: input/bsgs_40_8.txt
+Found result in: 102657 microseconds
+# Running with 20 workers: input/bsgs_40_9.txt
+Found result in: 71710 microseconds
+# Running with 20 workers: input/bsgs_48_0.txt
+Found result in: 1589268 microseconds
+# Running with 20 workers: input/bsgs_48_1.txt
+Found result in: 786415 microseconds
+# Running with 20 workers: input/bsgs_48_2.txt
+Found result in: 861183 microseconds
+# Running with 20 workers: input/bsgs_48_3.txt
+Found result in: 892643 microseconds
+# Running with 20 workers: input/bsgs_48_4.txt
+Found result in: 981668 microseconds
+# Running with 20 workers: input/bsgs_48_5.txt
+Found result in: 750137 microseconds
+# Running with 20 workers: input/bsgs_48_6.txt
+Found result in: 1153490 microseconds
+# Running with 20 workers: input/bsgs_48_7.txt
+Found result in: 792456 microseconds
+# Running with 20 workers: input/bsgs_48_8.txt
+Found result in: 1869733 microseconds
+# Running with 20 workers: input/bsgs_48_9.txt
+Found result in: 897760 microseconds
+# Running with 21 workers: input/bsgs_40_0.txt
+Found result in: 63109 microseconds
+# Running with 21 workers: input/bsgs_40_1.txt
+Found result in: 93767 microseconds
+# Running with 21 workers: input/bsgs_40_2.txt
+Found result in: 71509 microseconds
+# Running with 21 workers: input/bsgs_40_3.txt
+Found result in: 114924 microseconds
+# Running with 21 workers: input/bsgs_40_4.txt
+Found result in: 79823 microseconds
+# Running with 21 workers: input/bsgs_40_5.txt
+Found result in: 57106 microseconds
+# Running with 21 workers: input/bsgs_40_6.txt
+Found result in: 68735 microseconds
+# Running with 21 workers: input/bsgs_40_7.txt
+Found result in: 107137 microseconds
+# Running with 21 workers: input/bsgs_40_8.txt
+Found result in: 99287 microseconds
+# Running with 21 workers: input/bsgs_40_9.txt
+Found result in: 46664 microseconds
+# Running with 21 workers: input/bsgs_48_0.txt
+Found result in: 863712 microseconds
+# Running with 21 workers: input/bsgs_48_1.txt
+Found result in: 1501064 microseconds
+# Running with 21 workers: input/bsgs_48_2.txt
+Found result in: 1136038 microseconds
+# Running with 21 workers: input/bsgs_48_3.txt
+Found result in: 1098445 microseconds
+# Running with 21 workers: input/bsgs_48_4.txt
+Found result in: 1427772 microseconds
+# Running with 21 workers: input/bsgs_48_5.txt
+Found result in: 1032966 microseconds
+# Running with 21 workers: input/bsgs_48_6.txt
+Found result in: 949027 microseconds
+# Running with 21 workers: input/bsgs_48_7.txt
+Found result in: 832891 microseconds
+# Running with 21 workers: input/bsgs_48_8.txt
+Found result in: 1497806 microseconds
+# Running with 21 workers: input/bsgs_48_9.txt
+Found result in: 1014720 microseconds
+# Running with 22 workers: input/bsgs_40_0.txt
+Found result in: 61835 microseconds
+# Running with 22 workers: input/bsgs_40_1.txt
+Found result in: 86662 microseconds
+# Running with 22 workers: input/bsgs_40_2.txt
+Found result in: 105901 microseconds
+# Running with 22 workers: input/bsgs_40_3.txt
+Found result in: 104900 microseconds
+# Running with 22 workers: input/bsgs_40_4.txt
+Found result in: 75821 microseconds
+# Running with 22 workers: input/bsgs_40_5.txt
+Found result in: 72178 microseconds
+# Running with 22 workers: input/bsgs_40_6.txt
+Found result in: 66674 microseconds
+# Running with 22 workers: input/bsgs_40_7.txt
+Found result in: 57162 microseconds
+# Running with 22 workers: input/bsgs_40_8.txt
+Found result in: 84987 microseconds
+# Running with 22 workers: input/bsgs_40_9.txt
+Found result in: 78353 microseconds
+# Running with 22 workers: input/bsgs_48_0.txt
+Found result in: 1221427 microseconds
+# Running with 22 workers: input/bsgs_48_1.txt
+Found result in: 710811 microseconds
+# Running with 22 workers: input/bsgs_48_2.txt
+Found result in: 1210677 microseconds
+# Running with 22 workers: input/bsgs_48_3.txt
+Found result in: 773631 microseconds
+# Running with 22 workers: input/bsgs_48_4.txt
+Found result in: 839166 microseconds
+# Running with 22 workers: input/bsgs_48_5.txt
+Found result in: 1298289 microseconds
+# Running with 22 workers: input/bsgs_48_6.txt
+Found result in: 737461 microseconds
+# Running with 22 workers: input/bsgs_48_7.txt
+Found result in: 668711 microseconds
+# Running with 22 workers: input/bsgs_48_8.txt
+Found result in: 1227209 microseconds
+# Running with 22 workers: input/bsgs_48_9.txt
+Found result in: 998670 microseconds
+# Running with 23 workers: input/bsgs_40_0.txt
+Found result in: 61856 microseconds
+# Running with 23 workers: input/bsgs_40_1.txt
+Found result in: 76993 microseconds
+# Running with 23 workers: input/bsgs_40_2.txt
+Found result in: 62770 microseconds
+# Running with 23 workers: input/bsgs_40_3.txt
+Found result in: 103128 microseconds
+# Running with 23 workers: input/bsgs_40_4.txt
+Found result in: 63167 microseconds
+# Running with 23 workers: input/bsgs_40_5.txt
+Found result in: 80772 microseconds
+# Running with 23 workers: input/bsgs_40_6.txt
+Found result in: 58474 microseconds
+# Running with 23 workers: input/bsgs_40_7.txt
+Found result in: 70993 microseconds
+# Running with 23 workers: input/bsgs_40_8.txt
+Found result in: 85430 microseconds
+# Running with 23 workers: input/bsgs_40_9.txt
+Found result in: 64477 microseconds
+# Running with 23 workers: input/bsgs_48_0.txt
+Found result in: 1296073 microseconds
+# Running with 23 workers: input/bsgs_48_1.txt
+Found result in: 983297 microseconds
+# Running with 23 workers: input/bsgs_48_2.txt
+Found result in: 1309685 microseconds
+# Running with 23 workers: input/bsgs_48_3.txt
+Found result in: 764480 microseconds
+# Running with 23 workers: input/bsgs_48_4.txt
+Found result in: 1287862 microseconds
+# Running with 23 workers: input/bsgs_48_5.txt
+Found result in: 766452 microseconds
+# Running with 23 workers: input/bsgs_48_6.txt
+Found result in: 750556 microseconds
+# Running with 23 workers: input/bsgs_48_7.txt
+Found result in: 625461 microseconds
+# Running with 23 workers: input/bsgs_48_8.txt
+Found result in: 1025297 microseconds
+# Running with 23 workers: input/bsgs_48_9.txt
+Found result in: 691932 microseconds
+# Running with 24 workers: input/bsgs_40_0.txt
+Found result in: 59782 microseconds
+# Running with 24 workers: input/bsgs_40_1.txt
+Found result in: 66673 microseconds
+# Running with 24 workers: input/bsgs_40_2.txt
+Found result in: 72342 microseconds
+# Running with 24 workers: input/bsgs_40_3.txt
+Found result in: 105414 microseconds
+# Running with 24 workers: input/bsgs_40_4.txt
+Found result in: 55502 microseconds
+# Running with 24 workers: input/bsgs_40_5.txt
+Found result in: 84759 microseconds
+# Running with 24 workers: input/bsgs_40_6.txt
+Found result in: 62025 microseconds
+# Running with 24 workers: input/bsgs_40_7.txt
+Found result in: 75035 microseconds
+# Running with 24 workers: input/bsgs_40_8.txt
+Found result in: 66826 microseconds
+# Running with 24 workers: input/bsgs_40_9.txt
+Found result in: 91827 microseconds
+# Running with 24 workers: input/bsgs_48_0.txt
+Found result in: 941000 microseconds
+# Running with 24 workers: input/bsgs_48_1.txt
+Found result in: 1210523 microseconds
+# Running with 24 workers: input/bsgs_48_2.txt
+Found result in: 1542119 microseconds
+# Running with 24 workers: input/bsgs_48_3.txt
+Found result in: 1016851 microseconds
+# Running with 24 workers: input/bsgs_48_4.txt
+Found result in: 739798 microseconds
+# Running with 24 workers: input/bsgs_48_5.txt
+Found result in: 1005625 microseconds
+# Running with 24 workers: input/bsgs_48_6.txt
+Found result in: 1256767 microseconds
+# Running with 24 workers: input/bsgs_48_7.txt
+Found result in: 684997 microseconds
+# Running with 24 workers: input/bsgs_48_8.txt
+Found result in: 807318 microseconds
+# Running with 24 workers: input/bsgs_48_9.txt
+Found result in: 1119108 microseconds
+# Running with 25 workers: input/bsgs_40_0.txt
+Found result in: 65275 microseconds
+# Running with 25 workers: input/bsgs_40_1.txt
+Found result in: 64804 microseconds
+# Running with 25 workers: input/bsgs_40_2.txt
+Found result in: 61115 microseconds
+# Running with 25 workers: input/bsgs_40_3.txt
+Found result in: 86051 microseconds
+# Running with 25 workers: input/bsgs_40_4.txt
+Found result in: 56569 microseconds
+# Running with 25 workers: input/bsgs_40_5.txt
+Found result in: 64734 microseconds
+# Running with 25 workers: input/bsgs_40_6.txt
+Found result in: 58420 microseconds
+# Running with 25 workers: input/bsgs_40_7.txt
+Found result in: 89258 microseconds
+# Running with 25 workers: input/bsgs_40_8.txt
+Found result in: 64264 microseconds
+# Running with 25 workers: input/bsgs_40_9.txt
+Found result in: 58275 microseconds
+# Running with 25 workers: input/bsgs_48_0.txt
+Found result in: 892806 microseconds
+# Running with 25 workers: input/bsgs_48_1.txt
+Found result in: 896054 microseconds
+# Running with 25 workers: input/bsgs_48_2.txt
+Found result in: 842051 microseconds
+# Running with 25 workers: input/bsgs_48_3.txt
+Found result in: 874398 microseconds
+# Running with 25 workers: input/bsgs_48_4.txt
+Found result in: 1213532 microseconds
+# Running with 25 workers: input/bsgs_48_5.txt
+Found result in: 866864 microseconds
+# Running with 25 workers: input/bsgs_48_6.txt
+Found result in: 945574 microseconds
+# Running with 25 workers: input/bsgs_48_7.txt
+Found result in: 686687 microseconds
+# Running with 25 workers: input/bsgs_48_8.txt
+Found result in: 1538388 microseconds
+# Running with 25 workers: input/bsgs_48_9.txt
+Found result in: 830303 microseconds
+# Running with 26 workers: input/bsgs_40_0.txt
+Found result in: 64329 microseconds
+# Running with 26 workers: input/bsgs_40_1.txt
+Found result in: 58263 microseconds
+# Running with 26 workers: input/bsgs_40_2.txt
+Found result in: 113885 microseconds
+# Running with 26 workers: input/bsgs_40_3.txt
+Found result in: 83860 microseconds
+# Running with 26 workers: input/bsgs_40_4.txt
+Found result in: 70387 microseconds
+# Running with 26 workers: input/bsgs_40_5.txt
+Found result in: 70553 microseconds
+# Running with 26 workers: input/bsgs_40_6.txt
+Found result in: 61146 microseconds
+# Running with 26 workers: input/bsgs_40_7.txt
+Found result in: 57707 microseconds
+# Running with 26 workers: input/bsgs_40_8.txt
+Found result in: 55090 microseconds
+# Running with 26 workers: input/bsgs_40_9.txt
+Found result in: 68203 microseconds
+# Running with 26 workers: input/bsgs_48_0.txt
+Found result in: 730136 microseconds
+# Running with 26 workers: input/bsgs_48_1.txt
+Found result in: 925258 microseconds
+# Running with 26 workers: input/bsgs_48_2.txt
+Found result in: 987616 microseconds
+# Running with 26 workers: input/bsgs_48_3.txt
+Found result in: 691921 microseconds
+# Running with 26 workers: input/bsgs_48_4.txt
+Found result in: 1523022 microseconds
+# Running with 26 workers: input/bsgs_48_5.txt
+Found result in: 771647 microseconds
+# Running with 26 workers: input/bsgs_48_6.txt
+Found result in: 941144 microseconds
+# Running with 26 workers: input/bsgs_48_7.txt
+Found result in: 667875 microseconds
+# Running with 26 workers: input/bsgs_48_8.txt
+Found result in: 1246136 microseconds
+# Running with 26 workers: input/bsgs_48_9.txt
+Found result in: 1186963 microseconds
+# Running with 27 workers: input/bsgs_40_0.txt
+Found result in: 59338 microseconds
+# Running with 27 workers: input/bsgs_40_1.txt
+Found result in: 62955 microseconds
+# Running with 27 workers: input/bsgs_40_2.txt
+Found result in: 50033 microseconds
+# Running with 27 workers: input/bsgs_40_3.txt
+Found result in: 75868 microseconds
+# Running with 27 workers: input/bsgs_40_4.txt
+Found result in: 95019 microseconds
+# Running with 27 workers: input/bsgs_40_5.txt
+Found result in: 86035 microseconds
+# Running with 27 workers: input/bsgs_40_6.txt
+Found result in: 74019 microseconds
+# Running with 27 workers: input/bsgs_40_7.txt
+Found result in: 60483 microseconds
+# Running with 27 workers: input/bsgs_40_8.txt
+Found result in: 96919 microseconds
+# Running with 27 workers: input/bsgs_40_9.txt
+Found result in: 52396 microseconds
+# Running with 27 workers: input/bsgs_48_0.txt
+Found result in: 1027058 microseconds
+# Running with 27 workers: input/bsgs_48_1.txt
+Found result in: 1121424 microseconds
+# Running with 27 workers: input/bsgs_48_2.txt
+Found result in: 1348304 microseconds
+# Running with 27 workers: input/bsgs_48_3.txt
+Found result in: 1324465 microseconds
+# Running with 27 workers: input/bsgs_48_4.txt
+Found result in: 1021279 microseconds
+# Running with 27 workers: input/bsgs_48_5.txt
+Found result in: 637539 microseconds
+# Running with 27 workers: input/bsgs_48_6.txt
+Found result in: 814474 microseconds
+# Running with 27 workers: input/bsgs_48_7.txt
+Found result in: 591123 microseconds
+# Running with 27 workers: input/bsgs_48_8.txt
+Found result in: 1211861 microseconds
+# Running with 27 workers: input/bsgs_48_9.txt
+Found result in: 658290 microseconds
+# Running with 28 workers: input/bsgs_40_0.txt
+Found result in: 63170 microseconds
+# Running with 28 workers: input/bsgs_40_1.txt
+Found result in: 54589 microseconds
+# Running with 28 workers: input/bsgs_40_2.txt
+Found result in: 68364 microseconds
+# Running with 28 workers: input/bsgs_40_3.txt
+Found result in: 87271 microseconds
+# Running with 28 workers: input/bsgs_40_4.txt
+Found result in: 59704 microseconds
+# Running with 28 workers: input/bsgs_40_5.txt
+Found result in: 53934 microseconds
+# Running with 28 workers: input/bsgs_40_6.txt
+Found result in: 71333 microseconds
+# Running with 28 workers: input/bsgs_40_7.txt
+Found result in: 74040 microseconds
+# Running with 28 workers: input/bsgs_40_8.txt
+Found result in: 95838 microseconds
+# Running with 28 workers: input/bsgs_40_9.txt
+Found result in: 67091 microseconds
+# Running with 28 workers: input/bsgs_48_0.txt
+Found result in: 1382405 microseconds
+# Running with 28 workers: input/bsgs_48_1.txt
+Found result in: 885212 microseconds
+# Running with 28 workers: input/bsgs_48_2.txt
+Found result in: 1237030 microseconds
+# Running with 28 workers: input/bsgs_48_3.txt
+Found result in: 810005 microseconds
+# Running with 28 workers: input/bsgs_48_4.txt
+Found result in: 1609144 microseconds
+# Running with 28 workers: input/bsgs_48_5.txt
+Found result in: 1299103 microseconds
+# Running with 28 workers: input/bsgs_48_6.txt
+Found result in: 1446919 microseconds
+# Running with 28 workers: input/bsgs_48_7.txt
+Found result in: 983362 microseconds
+# Running with 28 workers: input/bsgs_48_8.txt
+Found result in: 995498 microseconds
+# Running with 28 workers: input/bsgs_48_9.txt
+Found result in: 666244 microseconds
+# Running with 29 workers: input/bsgs_40_0.txt
+Found result in: 65306 microseconds
+# Running with 29 workers: input/bsgs_40_1.txt
+Found result in: 105253 microseconds
+# Running with 29 workers: input/bsgs_40_2.txt
+Found result in: 61130 microseconds
+# Running with 29 workers: input/bsgs_40_3.txt
+Found result in: 83312 microseconds
+# Running with 29 workers: input/bsgs_40_4.txt
+Found result in: 67016 microseconds
+# Running with 29 workers: input/bsgs_40_5.txt
+Found result in: 68490 microseconds
+# Running with 29 workers: input/bsgs_40_6.txt
+Found result in: 57999 microseconds
+# Running with 29 workers: input/bsgs_40_7.txt
+Found result in: 84267 microseconds
+# Running with 29 workers: input/bsgs_40_8.txt
+Found result in: 85951 microseconds
+# Running with 29 workers: input/bsgs_40_9.txt
+Found result in: 74462 microseconds
+# Running with 29 workers: input/bsgs_48_0.txt
+Found result in: 868494 microseconds
+# Running with 29 workers: input/bsgs_48_1.txt
+Found result in: 881386 microseconds
+# Running with 29 workers: input/bsgs_48_2.txt
+Found result in: 1443240 microseconds
+# Running with 29 workers: input/bsgs_48_3.txt
+Found result in: 790953 microseconds
+# Running with 29 workers: input/bsgs_48_4.txt
+Found result in: 928078 microseconds
+# Running with 29 workers: input/bsgs_48_5.txt
+Found result in: 808695 microseconds
+# Running with 29 workers: input/bsgs_48_6.txt
+Found result in: 949059 microseconds
+# Running with 29 workers: input/bsgs_48_7.txt
+Found result in: 610064 microseconds
+# Running with 29 workers: input/bsgs_48_8.txt
+Found result in: 785208 microseconds
+# Running with 29 workers: input/bsgs_48_9.txt
+Found result in: 778497 microseconds
+# Running with 30 workers: input/bsgs_40_0.txt
+Found result in: 59184 microseconds
+# Running with 30 workers: input/bsgs_40_1.txt
+Found result in: 94940 microseconds
+# Running with 30 workers: input/bsgs_40_2.txt
+Found result in: 82301 microseconds
+# Running with 30 workers: input/bsgs_40_3.txt
+Found result in: 77587 microseconds
+# Running with 30 workers: input/bsgs_40_4.txt
+Found result in: 82743 microseconds
+# Running with 30 workers: input/bsgs_40_5.txt
+Found result in: 80832 microseconds
+# Running with 30 workers: input/bsgs_40_6.txt
+Found result in: 75139 microseconds
+# Running with 30 workers: input/bsgs_40_7.txt
+Found result in: 90682 microseconds
+# Running with 30 workers: input/bsgs_40_8.txt
+Found result in: 79704 microseconds
+# Running with 30 workers: input/bsgs_40_9.txt
+Found result in: 67724 microseconds
+# Running with 30 workers: input/bsgs_48_0.txt
+Found result in: 1096942 microseconds
+# Running with 30 workers: input/bsgs_48_1.txt
+Found result in: 1083059 microseconds
+# Running with 30 workers: input/bsgs_48_2.txt
+Found result in: 740039 microseconds
+# Running with 30 workers: input/bsgs_48_3.txt
+Found result in: 899343 microseconds
+# Running with 30 workers: input/bsgs_48_4.txt
+Found result in: 1272775 microseconds
+# Running with 30 workers: input/bsgs_48_5.txt
+Found result in: 935132 microseconds
+# Running with 30 workers: input/bsgs_48_6.txt
+Found result in: 645361 microseconds
+# Running with 30 workers: input/bsgs_48_7.txt
+Found result in: 615952 microseconds
+# Running with 30 workers: input/bsgs_48_8.txt
+Found result in: 1539370 microseconds
+# Running with 30 workers: input/bsgs_48_9.txt
+Found result in: 874838 microseconds
+# Running with 31 workers: input/bsgs_40_0.txt
+Found result in: 66273 microseconds
+# Running with 31 workers: input/bsgs_40_1.txt
+Found result in: 74498 microseconds
+# Running with 31 workers: input/bsgs_40_2.txt
+Found result in: 55748 microseconds
+# Running with 31 workers: input/bsgs_40_3.txt
+Found result in: 72256 microseconds
+# Running with 31 workers: input/bsgs_40_4.txt
+Found result in: 68641 microseconds
+# Running with 31 workers: input/bsgs_40_5.txt
+Found result in: 80407 microseconds
+# Running with 31 workers: input/bsgs_40_6.txt
+Found result in: 59720 microseconds
+# Running with 31 workers: input/bsgs_40_7.txt
+Found result in: 60844 microseconds
+# Running with 31 workers: input/bsgs_40_8.txt
+Found result in: 71310 microseconds
+# Running with 31 workers: input/bsgs_40_9.txt
+Found result in: 63578 microseconds
+# Running with 31 workers: input/bsgs_48_0.txt
+Found result in: 1019247 microseconds
+# Running with 31 workers: input/bsgs_48_1.txt
+Found result in: 906983 microseconds
+# Running with 31 workers: input/bsgs_48_2.txt
+Found result in: 975880 microseconds
+# Running with 31 workers: input/bsgs_48_3.txt
+Found result in: 761084 microseconds
+# Running with 31 workers: input/bsgs_48_4.txt
+Found result in: 916840 microseconds
+# Running with 31 workers: input/bsgs_48_5.txt
+Found result in: 625711 microseconds
+# Running with 31 workers: input/bsgs_48_6.txt
+Found result in: 774458 microseconds
+# Running with 31 workers: input/bsgs_48_7.txt
+Found result in: 569696 microseconds
+# Running with 31 workers: input/bsgs_48_8.txt
+Found result in: 1289573 microseconds
+# Running with 31 workers: input/bsgs_48_9.txt
+Found result in: 560021 microseconds
+# Running with 32 workers: input/bsgs_40_0.txt
+Found result in: 60520 microseconds
+# Running with 32 workers: input/bsgs_40_1.txt
+Found result in: 88428 microseconds
+# Running with 32 workers: input/bsgs_40_2.txt
+Found result in: 68291 microseconds
+# Running with 32 workers: input/bsgs_40_3.txt
+Found result in: 64758 microseconds
+# Running with 32 workers: input/bsgs_40_4.txt
+Found result in: 60998 microseconds
+# Running with 32 workers: input/bsgs_40_5.txt
+Found result in: 57572 microseconds
+# Running with 32 workers: input/bsgs_40_6.txt
+Found result in: 53645 microseconds
+# Running with 32 workers: input/bsgs_40_7.txt
+Found result in: 68983 microseconds
+# Running with 32 workers: input/bsgs_40_8.txt
+Found result in: 69476 microseconds
+# Running with 32 workers: input/bsgs_40_9.txt
+Found result in: 63386 microseconds
+# Running with 32 workers: input/bsgs_48_0.txt
+Found result in: 1042689 microseconds
+# Running with 32 workers: input/bsgs_48_1.txt
+Found result in: 829182 microseconds
+# Running with 32 workers: input/bsgs_48_2.txt
+Found result in: 1120876 microseconds
+# Running with 32 workers: input/bsgs_48_3.txt
+Found result in: 764631 microseconds
+# Running with 32 workers: input/bsgs_48_4.txt
+Found result in: 1165617 microseconds
+# Running with 32 workers: input/bsgs_48_5.txt
+Found result in: 783353 microseconds
+# Running with 32 workers: input/bsgs_48_6.txt
+Found result in: 834519 microseconds
+# Running with 32 workers: input/bsgs_48_7.txt
+Found result in: 659842 microseconds
+# Running with 32 workers: input/bsgs_48_8.txt
+Found result in: 1093571 microseconds
+# Running with 32 workers: input/bsgs_48_9.txt
+Found result in: 1005080 microseconds
+# Running with 33 workers: input/bsgs_40_0.txt
+Found result in: 74319 microseconds
+# Running with 33 workers: input/bsgs_40_1.txt
+Found result in: 75861 microseconds
+# Running with 33 workers: input/bsgs_40_2.txt
+Found result in: 74855 microseconds
+# Running with 33 workers: input/bsgs_40_3.txt
+Found result in: 63164 microseconds
+# Running with 33 workers: input/bsgs_40_4.txt
+Found result in: 74402 microseconds
+# Running with 33 workers: input/bsgs_40_5.txt
+Found result in: 66336 microseconds
+# Running with 33 workers: input/bsgs_40_6.txt
+Found result in: 85031 microseconds
+# Running with 33 workers: input/bsgs_40_7.txt
+Found result in: 79291 microseconds
+# Running with 33 workers: input/bsgs_40_8.txt
+Found result in: 74678 microseconds
+# Running with 33 workers: input/bsgs_40_9.txt
+Found result in: 83295 microseconds
+# Running with 33 workers: input/bsgs_48_0.txt
+Found result in: 843149 microseconds
+# Running with 33 workers: input/bsgs_48_1.txt
+Found result in: 1000433 microseconds
+# Running with 33 workers: input/bsgs_48_2.txt
+Found result in: 1281381 microseconds
+# Running with 33 workers: input/bsgs_48_3.txt
+Found result in: 804117 microseconds
+# Running with 33 workers: input/bsgs_48_4.txt
+Found result in: 782301 microseconds
+# Running with 33 workers: input/bsgs_48_5.txt
+Found result in: 818230 microseconds
+# Running with 33 workers: input/bsgs_48_6.txt
+Found result in: 666910 microseconds
+# Running with 33 workers: input/bsgs_48_7.txt
+Found result in: 609727 microseconds
+# Running with 33 workers: input/bsgs_48_8.txt
+Found result in: 807647 microseconds
+# Running with 33 workers: input/bsgs_48_9.txt
+Found result in: 743520 microseconds
+# Running with 34 workers: input/bsgs_40_0.txt
+Found result in: 73918 microseconds
+# Running with 34 workers: input/bsgs_40_1.txt
+Found result in: 82962 microseconds
+# Running with 34 workers: input/bsgs_40_2.txt
+Found result in: 85577 microseconds
+# Running with 34 workers: input/bsgs_40_3.txt
+Found result in: 60665 microseconds
+# Running with 34 workers: input/bsgs_40_4.txt
+Found result in: 76849 microseconds
+# Running with 34 workers: input/bsgs_40_5.txt
+Found result in: 75712 microseconds
+# Running with 34 workers: input/bsgs_40_6.txt
+Found result in: 74766 microseconds
+# Running with 34 workers: input/bsgs_40_7.txt
+Found result in: 105084 microseconds
+# Running with 34 workers: input/bsgs_40_8.txt
+Found result in: 67219 microseconds
+# Running with 34 workers: input/bsgs_40_9.txt
+Found result in: 61979 microseconds
+# Running with 34 workers: input/bsgs_48_0.txt
+Found result in: 813086 microseconds
+# Running with 34 workers: input/bsgs_48_1.txt
+Found result in: 816101 microseconds
+# Running with 34 workers: input/bsgs_48_2.txt
+Found result in: 1373314 microseconds
+# Running with 34 workers: input/bsgs_48_3.txt
+Found result in: 729433 microseconds
+# Running with 34 workers: input/bsgs_48_4.txt
+Found result in: 1159253 microseconds
+# Running with 34 workers: input/bsgs_48_5.txt
+Found result in: 690746 microseconds
+# Running with 34 workers: input/bsgs_48_6.txt
+Found result in: 979965 microseconds
+# Running with 34 workers: input/bsgs_48_7.txt
+Found result in: 593004 microseconds
+# Running with 34 workers: input/bsgs_48_8.txt
+Found result in: 728546 microseconds
+# Running with 34 workers: input/bsgs_48_9.txt
+Found result in: 1209499 microseconds
+# Running with 35 workers: input/bsgs_40_0.txt
+Found result in: 62523 microseconds
+# Running with 35 workers: input/bsgs_40_1.txt
+Found result in: 61745 microseconds
+# Running with 35 workers: input/bsgs_40_2.txt
+Found result in: 95667 microseconds
+# Running with 35 workers: input/bsgs_40_3.txt
+Found result in: 64601 microseconds
+# Running with 35 workers: input/bsgs_40_4.txt
+Found result in: 71319 microseconds
+# Running with 35 workers: input/bsgs_40_5.txt
+Found result in: 46950 microseconds
+# Running with 35 workers: input/bsgs_40_6.txt
+Found result in: 46409 microseconds
+# Running with 35 workers: input/bsgs_40_7.txt
+Found result in: 57395 microseconds
+# Running with 35 workers: input/bsgs_40_8.txt
+Found result in: 56050 microseconds
+# Running with 35 workers: input/bsgs_40_9.txt
+Found result in: 60648 microseconds
+# Running with 35 workers: input/bsgs_48_0.txt
+Found result in: 735079 microseconds
+# Running with 35 workers: input/bsgs_48_1.txt
+Found result in: 785603 microseconds
+# Running with 35 workers: input/bsgs_48_2.txt
+Found result in: 795195 microseconds
+# Running with 35 workers: input/bsgs_48_3.txt
+Found result in: 681756 microseconds
+# Running with 35 workers: input/bsgs_48_4.txt
+Found result in: 717266 microseconds
+# Running with 35 workers: input/bsgs_48_5.txt
+Found result in: 847988 microseconds
+# Running with 35 workers: input/bsgs_48_6.txt
+Found result in: 875138 microseconds
+# Running with 35 workers: input/bsgs_48_7.txt
+Found result in: 761758 microseconds
+# Running with 35 workers: input/bsgs_48_8.txt
+Found result in: 1360795 microseconds
+# Running with 35 workers: input/bsgs_48_9.txt
+Found result in: 838987 microseconds
+# Running with 36 workers: input/bsgs_40_0.txt
+Found result in: 57166 microseconds
+# Running with 36 workers: input/bsgs_40_1.txt
+Found result in: 56540 microseconds
+# Running with 36 workers: input/bsgs_40_2.txt
+Found result in: 59574 microseconds
+# Running with 36 workers: input/bsgs_40_3.txt
+Found result in: 105672 microseconds
+# Running with 36 workers: input/bsgs_40_4.txt
+Found result in: 63900 microseconds
+# Running with 36 workers: input/bsgs_40_5.txt
+Found result in: 57253 microseconds
+# Running with 36 workers: input/bsgs_40_6.txt
+Found result in: 53559 microseconds
+# Running with 36 workers: input/bsgs_40_7.txt
+Found result in: 66946 microseconds
+# Running with 36 workers: input/bsgs_40_8.txt
+Found result in: 98200 microseconds
+# Running with 36 workers: input/bsgs_40_9.txt
+Found result in: 83209 microseconds
+# Running with 36 workers: input/bsgs_48_0.txt
+Found result in: 1366359 microseconds
+# Running with 36 workers: input/bsgs_48_1.txt
+Found result in: 937265 microseconds
+# Running with 36 workers: input/bsgs_48_2.txt
+Found result in: 1041260 microseconds
+# Running with 36 workers: input/bsgs_48_3.txt
+Found result in: 1287148 microseconds
+# Running with 36 workers: input/bsgs_48_4.txt
+Found result in: 1070462 microseconds
+# Running with 36 workers: input/bsgs_48_5.txt
+Found result in: 1098426 microseconds
+# Running with 36 workers: input/bsgs_48_6.txt
+Found result in: 998255 microseconds
+# Running with 36 workers: input/bsgs_48_7.txt
+Found result in: 667451 microseconds
+# Running with 36 workers: input/bsgs_48_8.txt
+Found result in: 1295319 microseconds
+# Running with 36 workers: input/bsgs_48_9.txt
+Found result in: 653314 microseconds
+# Running with 37 workers: input/bsgs_40_0.txt
+Found result in: 65452 microseconds
+# Running with 37 workers: input/bsgs_40_1.txt
+Found result in: 51818 microseconds
+# Running with 37 workers: input/bsgs_40_2.txt
+Found result in: 62198 microseconds
+# Running with 37 workers: input/bsgs_40_3.txt
+Found result in: 112857 microseconds
+# Running with 37 workers: input/bsgs_40_4.txt
+Found result in: 54687 microseconds
+# Running with 37 workers: input/bsgs_40_5.txt
+Found result in: 84309 microseconds
+# Running with 37 workers: input/bsgs_40_6.txt
+Found result in: 52459 microseconds
+# Running with 37 workers: input/bsgs_40_7.txt
+Found result in: 80916 microseconds
+# Running with 37 workers: input/bsgs_40_8.txt
+Found result in: 80233 microseconds
+# Running with 37 workers: input/bsgs_40_9.txt
+Found result in: 63976 microseconds
+# Running with 37 workers: input/bsgs_48_0.txt
+Found result in: 865650 microseconds
+# Running with 37 workers: input/bsgs_48_1.txt
+Found result in: 786303 microseconds
+# Running with 37 workers: input/bsgs_48_2.txt
+Found result in: 1283667 microseconds
+# Running with 37 workers: input/bsgs_48_3.txt
+Found result in: 827260 microseconds
+# Running with 37 workers: input/bsgs_48_4.txt
+Found result in: 696069 microseconds
+# Running with 37 workers: input/bsgs_48_5.txt
+Found result in: 661611 microseconds
+# Running with 37 workers: input/bsgs_48_6.txt
+Found result in: 735946 microseconds
+# Running with 37 workers: input/bsgs_48_7.txt
+Found result in: 584615 microseconds
+# Running with 37 workers: input/bsgs_48_8.txt
+Found result in: 1068942 microseconds
+# Running with 37 workers: input/bsgs_48_9.txt
+Found result in: 693453 microseconds
+# Running with 38 workers: input/bsgs_40_0.txt
+Found result in: 67628 microseconds
+# Running with 38 workers: input/bsgs_40_1.txt
+Found result in: 49809 microseconds
+# Running with 38 workers: input/bsgs_40_2.txt
+Found result in: 71542 microseconds
+# Running with 38 workers: input/bsgs_40_3.txt
+Found result in: 103301 microseconds
+# Running with 38 workers: input/bsgs_40_4.txt
+Found result in: 70733 microseconds
+# Running with 38 workers: input/bsgs_40_5.txt
+Found result in: 79706 microseconds
+# Running with 38 workers: input/bsgs_40_6.txt
+Found result in: 61848 microseconds
+# Running with 38 workers: input/bsgs_40_7.txt
+Found result in: 74478 microseconds
+# Running with 38 workers: input/bsgs_40_8.txt
+Found result in: 77086 microseconds
+# Running with 38 workers: input/bsgs_40_9.txt
+Found result in: 60973 microseconds
+# Running with 38 workers: input/bsgs_48_0.txt
+Found result in: 1361962 microseconds
+# Running with 38 workers: input/bsgs_48_1.txt
+Found result in: 746642 microseconds
+# Running with 38 workers: input/bsgs_48_2.txt
+Found result in: 1153997 microseconds
+# Running with 38 workers: input/bsgs_48_3.txt
+Found result in: 793320 microseconds
+# Running with 38 workers: input/bsgs_48_4.txt
+Found result in: 1116143 microseconds
+# Running with 38 workers: input/bsgs_48_5.txt
+Found result in: 875940 microseconds
+# Running with 38 workers: input/bsgs_48_6.txt
+Found result in: 720071 microseconds
+# Running with 38 workers: input/bsgs_48_7.txt
+Found result in: 608227 microseconds
+# Running with 38 workers: input/bsgs_48_8.txt
+Found result in: 897244 microseconds
+# Running with 38 workers: input/bsgs_48_9.txt
+Found result in: 790393 microseconds
+# Running with 39 workers: input/bsgs_40_0.txt
+Found result in: 62724 microseconds
+# Running with 39 workers: input/bsgs_40_1.txt
+Found result in: 88048 microseconds
+# Running with 39 workers: input/bsgs_40_2.txt
+Found result in: 62474 microseconds
+# Running with 39 workers: input/bsgs_40_3.txt
+Found result in: 95702 microseconds
+# Running with 39 workers: input/bsgs_40_4.txt
+Found result in: 85257 microseconds
+# Running with 39 workers: input/bsgs_40_5.txt
+Found result in: 52131 microseconds
+# Running with 39 workers: input/bsgs_40_6.txt
+Found result in: 54874 microseconds
+# Running with 39 workers: input/bsgs_40_7.txt
+Found result in: 44511 microseconds
+# Running with 39 workers: input/bsgs_40_8.txt
+Found result in: 65090 microseconds
+# Running with 39 workers: input/bsgs_40_9.txt
+Found result in: 69353 microseconds
+# Running with 39 workers: input/bsgs_48_0.txt
+Found result in: 718116 microseconds
+# Running with 39 workers: input/bsgs_48_1.txt
+Found result in: 893006 microseconds
+# Running with 39 workers: input/bsgs_48_2.txt
+Found result in: 666841 microseconds
+# Running with 39 workers: input/bsgs_48_3.txt
+Found result in: 676929 microseconds
+# Running with 39 workers: input/bsgs_48_4.txt
+Found result in: 1334397 microseconds
+# Running with 39 workers: input/bsgs_48_5.txt
+Found result in: 779258 microseconds
+# Running with 39 workers: input/bsgs_48_6.txt
+Found result in: 799583 microseconds
+# Running with 39 workers: input/bsgs_48_7.txt
+Found result in: 596967 microseconds
+# Running with 39 workers: input/bsgs_48_8.txt
+Found result in: 688287 microseconds
+# Running with 39 workers: input/bsgs_48_9.txt
+Found result in: 824848 microseconds
+# Running with 40 workers: input/bsgs_40_0.txt
+Found result in: 70137 microseconds
+# Running with 40 workers: input/bsgs_40_1.txt
+Found result in: 77382 microseconds
+# Running with 40 workers: input/bsgs_40_2.txt
+Found result in: 50349 microseconds
+# Running with 40 workers: input/bsgs_40_3.txt
+Found result in: 81146 microseconds
+# Running with 40 workers: input/bsgs_40_4.txt
+Found result in: 65454 microseconds
+# Running with 40 workers: input/bsgs_40_5.txt
+Found result in: 69337 microseconds
+# Running with 40 workers: input/bsgs_40_6.txt
+Found result in: 69197 microseconds
+# Running with 40 workers: input/bsgs_40_7.txt
+Found result in: 66360 microseconds
+# Running with 40 workers: input/bsgs_40_8.txt
+Found result in: 76256 microseconds
+# Running with 40 workers: input/bsgs_40_9.txt
+Found result in: 68349 microseconds
+# Running with 40 workers: input/bsgs_48_0.txt
+Found result in: 954244 microseconds
+# Running with 40 workers: input/bsgs_48_1.txt
+Found result in: 694802 microseconds
+# Running with 40 workers: input/bsgs_48_2.txt
+Found result in: 762062 microseconds
+# Running with 40 workers: input/bsgs_48_3.txt
+Found result in: 767497 microseconds
+# Running with 40 workers: input/bsgs_48_4.txt
+Found result in: 980239 microseconds
+# Running with 40 workers: input/bsgs_48_5.txt
+Found result in: 765005 microseconds
+# Running with 40 workers: input/bsgs_48_6.txt
+Found result in: 1175963 microseconds
+# Running with 40 workers: input/bsgs_48_7.txt
+Found result in: 666783 microseconds
+# Running with 40 workers: input/bsgs_48_8.txt
+Found result in: 1248800 microseconds
+# Running with 40 workers: input/bsgs_48_9.txt
+Found result in: 810956 microseconds
+# Running with 41 workers: input/bsgs_40_0.txt
+Found result in: 66021 microseconds
+# Running with 41 workers: input/bsgs_40_1.txt
+Found result in: 69697 microseconds
+# Running with 41 workers: input/bsgs_40_2.txt
+Found result in: 66184 microseconds
+# Running with 41 workers: input/bsgs_40_3.txt
+Found result in: 89430 microseconds
+# Running with 41 workers: input/bsgs_40_4.txt
+Found result in: 58206 microseconds
+# Running with 41 workers: input/bsgs_40_5.txt
+Found result in: 70276 microseconds
+# Running with 41 workers: input/bsgs_40_6.txt
+Found result in: 56405 microseconds
+# Running with 41 workers: input/bsgs_40_7.txt
+Found result in: 65897 microseconds
+# Running with 41 workers: input/bsgs_40_8.txt
+Found result in: 71771 microseconds
+# Running with 41 workers: input/bsgs_40_9.txt
+Found result in: 57264 microseconds
+# Running with 41 workers: input/bsgs_48_0.txt
+Found result in: 1003163 microseconds
+# Running with 41 workers: input/bsgs_48_1.txt
+Found result in: 653953 microseconds
+# Running with 41 workers: input/bsgs_48_2.txt
+Found result in: 856895 microseconds
+# Running with 41 workers: input/bsgs_48_3.txt
+Found result in: 688858 microseconds
+# Running with 41 workers: input/bsgs_48_4.txt
+Found result in: 1097756 microseconds
+# Running with 41 workers: input/bsgs_48_5.txt
+Found result in: 625582 microseconds
+# Running with 41 workers: input/bsgs_48_6.txt
+Found result in: 701806 microseconds
+# Running with 41 workers: input/bsgs_48_7.txt
+Found result in: 610622 microseconds
+# Running with 41 workers: input/bsgs_48_8.txt
+Found result in: 1117188 microseconds
+# Running with 41 workers: input/bsgs_48_9.txt
+Found result in: 584222 microseconds
+# Running with 42 workers: input/bsgs_40_0.txt
+Found result in: 58457 microseconds
+# Running with 42 workers: input/bsgs_40_1.txt
+Found result in: 70057 microseconds
+# Running with 42 workers: input/bsgs_40_2.txt
+Found result in: 62844 microseconds
+# Running with 42 workers: input/bsgs_40_3.txt
+Found result in: 68673 microseconds
+# Running with 42 workers: input/bsgs_40_4.txt
+Found result in: 83195 microseconds
+# Running with 42 workers: input/bsgs_40_5.txt
+Found result in: 75490 microseconds
+# Running with 42 workers: input/bsgs_40_6.txt
+Found result in: 61976 microseconds
+# Running with 42 workers: input/bsgs_40_7.txt
+Found result in: 83710 microseconds
+# Running with 42 workers: input/bsgs_40_8.txt
+Found result in: 63301 microseconds
+# Running with 42 workers: input/bsgs_40_9.txt
+Found result in: 68142 microseconds
+# Running with 42 workers: input/bsgs_48_0.txt
+Found result in: 784999 microseconds
+# Running with 42 workers: input/bsgs_48_1.txt
+Found result in: 825817 microseconds
+# Running with 42 workers: input/bsgs_48_2.txt
+Found result in: 935459 microseconds
+# Running with 42 workers: input/bsgs_48_3.txt
+Found result in: 687507 microseconds
+# Running with 42 workers: input/bsgs_48_4.txt
+Found result in: 895567 microseconds
+# Running with 42 workers: input/bsgs_48_5.txt
+Found result in: 1099712 microseconds
+# Running with 42 workers: input/bsgs_48_6.txt
+Found result in: 834935 microseconds
+# Running with 42 workers: input/bsgs_48_7.txt
+Found result in: 699896 microseconds
+# Running with 42 workers: input/bsgs_48_8.txt
+Found result in: 997406 microseconds
+# Running with 42 workers: input/bsgs_48_9.txt
+Found result in: 890437 microseconds
+# Running with 43 workers: input/bsgs_40_0.txt
+Found result in: 61633 microseconds
+# Running with 43 workers: input/bsgs_40_1.txt
+Found result in: 73821 microseconds
+# Running with 43 workers: input/bsgs_40_2.txt
+Found result in: 50963 microseconds
+# Running with 43 workers: input/bsgs_40_3.txt
+Found result in: 72646 microseconds
+# Running with 43 workers: input/bsgs_40_4.txt
+Found result in: 69125 microseconds
+# Running with 43 workers: input/bsgs_40_5.txt
+Found result in: 58995 microseconds
+# Running with 43 workers: input/bsgs_40_6.txt
+Found result in: 60194 microseconds
+# Running with 43 workers: input/bsgs_40_7.txt
+Found result in: 90645 microseconds
+# Running with 43 workers: input/bsgs_40_8.txt
+Found result in: 59792 microseconds
+# Running with 43 workers: input/bsgs_40_9.txt
+Found result in: 51866 microseconds
+# Running with 43 workers: input/bsgs_48_0.txt
+Found result in: 722576 microseconds
+# Running with 43 workers: input/bsgs_48_1.txt
+Found result in: 613468 microseconds
+# Running with 43 workers: input/bsgs_48_2.txt
+Found result in: 1193822 microseconds
+# Running with 43 workers: input/bsgs_48_3.txt
+Found result in: 632563 microseconds
+# Running with 43 workers: input/bsgs_48_4.txt
+Found result in: 1341986 microseconds
+# Running with 43 workers: input/bsgs_48_5.txt
+Found result in: 729097 microseconds
+# Running with 43 workers: input/bsgs_48_6.txt
+Found result in: 774794 microseconds
+# Running with 43 workers: input/bsgs_48_7.txt
+Found result in: 582299 microseconds
+# Running with 43 workers: input/bsgs_48_8.txt
+Found result in: 757285 microseconds
+# Running with 43 workers: input/bsgs_48_9.txt
+Found result in: 763245 microseconds
+# Running with 44 workers: input/bsgs_40_0.txt
+Found result in: 64452 microseconds
+# Running with 44 workers: input/bsgs_40_1.txt
+Found result in: 63543 microseconds
+# Running with 44 workers: input/bsgs_40_2.txt
+Found result in: 77440 microseconds
+# Running with 44 workers: input/bsgs_40_3.txt
+Found result in: 79437 microseconds
+# Running with 44 workers: input/bsgs_40_4.txt
+Found result in: 64771 microseconds
+# Running with 44 workers: input/bsgs_40_5.txt
+Found result in: 81957 microseconds
+# Running with 44 workers: input/bsgs_40_6.txt
+Found result in: 61959 microseconds
+# Running with 44 workers: input/bsgs_40_7.txt
+Found result in: 52238 microseconds
+# Running with 44 workers: input/bsgs_40_8.txt
+Found result in: 53525 microseconds
+# Running with 44 workers: input/bsgs_40_9.txt
+Found result in: 57521 microseconds
+# Running with 44 workers: input/bsgs_48_0.txt
+Found result in: 1361840 microseconds
+# Running with 44 workers: input/bsgs_48_1.txt
+Found result in: 644787 microseconds
+# Running with 44 workers: input/bsgs_48_2.txt
+Found result in: 637666 microseconds
+# Running with 44 workers: input/bsgs_48_3.txt
+Found result in: 748941 microseconds
+# Running with 44 workers: input/bsgs_48_4.txt
+Found result in: 828493 microseconds
+# Running with 44 workers: input/bsgs_48_5.txt
+Found result in: 1006433 microseconds
+# Running with 44 workers: input/bsgs_48_6.txt
+Found result in: 676733 microseconds
+# Running with 44 workers: input/bsgs_48_7.txt
+Found result in: 644640 microseconds
+# Running with 44 workers: input/bsgs_48_8.txt
+Found result in: 664425 microseconds
+# Running with 44 workers: input/bsgs_48_9.txt
+Found result in: 538811 microseconds
+# Running with 45 workers: input/bsgs_40_0.txt
+Found result in: 61840 microseconds
+# Running with 45 workers: input/bsgs_40_1.txt
+Found result in: 61578 microseconds
+# Running with 45 workers: input/bsgs_40_2.txt
+Found result in: 54661 microseconds
+# Running with 45 workers: input/bsgs_40_3.txt
+Found result in: 72998 microseconds
+# Running with 45 workers: input/bsgs_40_4.txt
+Found result in: 76868 microseconds
+# Running with 45 workers: input/bsgs_40_5.txt
+Found result in: 73070 microseconds
+# Running with 45 workers: input/bsgs_40_6.txt
+Found result in: 72457 microseconds
+# Running with 45 workers: input/bsgs_40_7.txt
+Found result in: 61760 microseconds
+# Running with 45 workers: input/bsgs_40_8.txt
+Found result in: 88286 microseconds
+# Running with 45 workers: input/bsgs_40_9.txt
+Found result in: 58001 microseconds
+# Running with 45 workers: input/bsgs_48_0.txt
+Found result in: 990820 microseconds
+# Running with 45 workers: input/bsgs_48_1.txt
+Found result in: 770698 microseconds
+# Running with 45 workers: input/bsgs_48_2.txt
+Found result in: 874746 microseconds
+# Running with 45 workers: input/bsgs_48_3.txt
+Found result in: 754224 microseconds
+# Running with 45 workers: input/bsgs_48_4.txt
+Found result in: 1098752 microseconds
+# Running with 45 workers: input/bsgs_48_5.txt
+Found result in: 495652 microseconds
+# Running with 45 workers: input/bsgs_48_6.txt
+Found result in: 697280 microseconds
+# Running with 45 workers: input/bsgs_48_7.txt
+Found result in: 615039 microseconds
+# Running with 45 workers: input/bsgs_48_8.txt
+Found result in: 1235417 microseconds
+# Running with 45 workers: input/bsgs_48_9.txt
+Found result in: 564250 microseconds
+# Running with 46 workers: input/bsgs_40_0.txt
+Found result in: 60960 microseconds
+# Running with 46 workers: input/bsgs_40_1.txt
+Found result in: 41742 microseconds
+# Running with 46 workers: input/bsgs_40_2.txt
+Found result in: 63827 microseconds
+# Running with 46 workers: input/bsgs_40_3.txt
+Found result in: 69258 microseconds
+# Running with 46 workers: input/bsgs_40_4.txt
+Found result in: 44728 microseconds
+# Running with 46 workers: input/bsgs_40_5.txt
+Found result in: 49551 microseconds
+# Running with 46 workers: input/bsgs_40_6.txt
+Found result in: 46868 microseconds
+# Running with 46 workers: input/bsgs_40_7.txt
+Found result in: 67983 microseconds
+# Running with 46 workers: input/bsgs_40_8.txt
+Found result in: 78542 microseconds
+# Running with 46 workers: input/bsgs_40_9.txt
+Found result in: 57873 microseconds
+# Running with 46 workers: input/bsgs_48_0.txt
+Found result in: 1104418 microseconds
+# Running with 46 workers: input/bsgs_48_1.txt
+Found result in: 900064 microseconds
+# Running with 46 workers: input/bsgs_48_2.txt
+Found result in: 915995 microseconds
+# Running with 46 workers: input/bsgs_48_3.txt
+Found result in: 700999 microseconds
+# Running with 46 workers: input/bsgs_48_4.txt
+Found result in: 650065 microseconds
+# Running with 46 workers: input/bsgs_48_5.txt
+Found result in: 678734 microseconds
+# Running with 46 workers: input/bsgs_48_6.txt
+Found result in: 691847 microseconds
+# Running with 46 workers: input/bsgs_48_7.txt
+Found result in: 588784 microseconds
+# Running with 46 workers: input/bsgs_48_8.txt
+Found result in: 1086061 microseconds
+# Running with 46 workers: input/bsgs_48_9.txt
+Found result in: 629061 microseconds
+# Running with 47 workers: input/bsgs_40_0.txt
+Found result in: 68441 microseconds
+# Running with 47 workers: input/bsgs_40_1.txt
+Found result in: 51015 microseconds
+# Running with 47 workers: input/bsgs_40_2.txt
+Found result in: 57511 microseconds
+# Running with 47 workers: input/bsgs_40_3.txt
+Found result in: 73404 microseconds
+# Running with 47 workers: input/bsgs_40_4.txt
+Found result in: 66855 microseconds
+# Running with 47 workers: input/bsgs_40_5.txt
+Found result in: 65552 microseconds
+# Running with 47 workers: input/bsgs_40_6.txt
+Found result in: 39621 microseconds
+# Running with 47 workers: input/bsgs_40_7.txt
+Found result in: 61807 microseconds
+# Running with 47 workers: input/bsgs_40_8.txt
+Found result in: 83780 microseconds
+# Running with 47 workers: input/bsgs_40_9.txt
+Found result in: 56606 microseconds
+# Running with 47 workers: input/bsgs_48_0.txt
+Found result in: 759603 microseconds
+# Running with 47 workers: input/bsgs_48_1.txt
+Found result in: 774049 microseconds
+# Running with 47 workers: input/bsgs_48_2.txt
+Found result in: 1056871 microseconds
+# Running with 47 workers: input/bsgs_48_3.txt
+Found result in: 719180 microseconds
+# Running with 47 workers: input/bsgs_48_4.txt
+Found result in: 933476 microseconds
+# Running with 47 workers: input/bsgs_48_5.txt
+Found result in: 634842 microseconds
+# Running with 47 workers: input/bsgs_48_6.txt
+Found result in: 805239 microseconds
+# Running with 47 workers: input/bsgs_48_7.txt
+Found result in: 533044 microseconds
+# Running with 47 workers: input/bsgs_48_8.txt
+Found result in: 899766 microseconds
+# Running with 47 workers: input/bsgs_48_9.txt
+Found result in: 722971 microseconds
+# Running with 48 workers: input/bsgs_40_0.txt
+Found result in: 61295 microseconds
+# Running with 48 workers: input/bsgs_40_1.txt
+Found result in: 47556 microseconds
+# Running with 48 workers: input/bsgs_40_2.txt
+Found result in: 63667 microseconds
+# Running with 48 workers: input/bsgs_40_3.txt
+Found result in: 66815 microseconds
+# Running with 48 workers: input/bsgs_40_4.txt
+Found result in: 56455 microseconds
+# Running with 48 workers: input/bsgs_40_5.txt
+Found result in: 77731 microseconds
+# Running with 48 workers: input/bsgs_40_6.txt
+Found result in: 76380 microseconds
+# Running with 48 workers: input/bsgs_40_7.txt
+Found result in: 47887 microseconds
+# Running with 48 workers: input/bsgs_40_8.txt
+Found result in: 73643 microseconds
+# Running with 48 workers: input/bsgs_40_9.txt
+Found result in: 73034 microseconds
+# Running with 48 workers: input/bsgs_48_0.txt
+Found result in: 921457 microseconds
+# Running with 48 workers: input/bsgs_48_1.txt
+Found result in: 725927 microseconds
+# Running with 48 workers: input/bsgs_48_2.txt
+Found result in: 1256934 microseconds
+# Running with 48 workers: input/bsgs_48_3.txt
+Found result in: 797823 microseconds
+# Running with 48 workers: input/bsgs_48_4.txt
+Found result in: 647765 microseconds
+# Running with 48 workers: input/bsgs_48_5.txt
+Found result in: 560209 microseconds
+# Running with 48 workers: input/bsgs_48_6.txt
+Found result in: 845114 microseconds
+# Running with 48 workers: input/bsgs_48_7.txt
+Found result in: 475583 microseconds
+# Running with 48 workers: input/bsgs_48_8.txt
+Found result in: 822677 microseconds
+# Running with 48 workers: input/bsgs_48_9.txt
+Found result in: 847516 microseconds
+# Running with 49 workers: input/bsgs_40_0.txt
+Found result in: 64351 microseconds
+# Running with 49 workers: input/bsgs_40_1.txt
+Found result in: 85819 microseconds
+# Running with 49 workers: input/bsgs_40_2.txt
+Found result in: 54719 microseconds
+# Running with 49 workers: input/bsgs_40_3.txt
+Found result in: 63925 microseconds
+# Running with 49 workers: input/bsgs_40_4.txt
+Found result in: 57261 microseconds
+# Running with 49 workers: input/bsgs_40_5.txt
+Found result in: 51535 microseconds
+# Running with 49 workers: input/bsgs_40_6.txt
+Found result in: 55680 microseconds
+# Running with 49 workers: input/bsgs_40_7.txt
+Found result in: 59051 microseconds
+# Running with 49 workers: input/bsgs_40_8.txt
+Found result in: 71342 microseconds
+# Running with 49 workers: input/bsgs_40_9.txt
+Found result in: 59495 microseconds
+# Running with 49 workers: input/bsgs_48_0.txt
+Found result in: 963766 microseconds
+# Running with 49 workers: input/bsgs_48_1.txt
+Found result in: 888651 microseconds
+# Running with 49 workers: input/bsgs_48_2.txt
+Found result in: 621704 microseconds
+# Running with 49 workers: input/bsgs_48_3.txt
+Found result in: 683215 microseconds
+# Running with 49 workers: input/bsgs_48_4.txt
+Found result in: 1027245 microseconds
+# Running with 49 workers: input/bsgs_48_5.txt
+Found result in: 824493 microseconds
+# Running with 49 workers: input/bsgs_48_6.txt
+Found result in: 715072 microseconds
+# Running with 49 workers: input/bsgs_48_7.txt
+Found result in: 487765 microseconds
+# Running with 49 workers: input/bsgs_48_8.txt
+Found result in: 605332 microseconds
+# Running with 49 workers: input/bsgs_48_9.txt
+Found result in: 494321 microseconds
+# Running with 50 workers: input/bsgs_40_0.txt
+Found result in: 65256 microseconds
+# Running with 50 workers: input/bsgs_40_1.txt
+Found result in: 69405 microseconds
+# Running with 50 workers: input/bsgs_40_2.txt
+Found result in: 55775 microseconds
+# Running with 50 workers: input/bsgs_40_3.txt
+Found result in: 56854 microseconds
+# Running with 50 workers: input/bsgs_40_4.txt
+Found result in: 74032 microseconds
+# Running with 50 workers: input/bsgs_40_5.txt
+Found result in: 60846 microseconds
+# Running with 50 workers: input/bsgs_40_6.txt
+Found result in: 58862 microseconds
+# Running with 50 workers: input/bsgs_40_7.txt
+Found result in: 60100 microseconds
+# Running with 50 workers: input/bsgs_40_8.txt
+Found result in: 59443 microseconds
+# Running with 50 workers: input/bsgs_40_9.txt
+Found result in: 52410 microseconds
+# Running with 50 workers: input/bsgs_48_0.txt
+Found result in: 807429 microseconds
+# Running with 50 workers: input/bsgs_48_1.txt
+Found result in: 740910 microseconds
+# Running with 50 workers: input/bsgs_48_2.txt
+Found result in: 775988 microseconds
+# Running with 50 workers: input/bsgs_48_3.txt
+Found result in: 626674 microseconds
+# Running with 50 workers: input/bsgs_48_4.txt
+Found result in: 637394 microseconds
+# Running with 50 workers: input/bsgs_48_5.txt
+Found result in: 863823 microseconds
+# Running with 50 workers: input/bsgs_48_6.txt
+Found result in: 969562 microseconds
+# Running with 50 workers: input/bsgs_48_7.txt
+Found result in: 598243 microseconds
+# Running with 50 workers: input/bsgs_48_8.txt
+Found result in: 1027145 microseconds
+# Running with 50 workers: input/bsgs_48_9.txt
+Found result in: 951309 microseconds
+# Running with 51 workers: input/bsgs_40_0.txt
+Found result in: 62172 microseconds
+# Running with 51 workers: input/bsgs_40_1.txt
+Found result in: 72407 microseconds
+# Running with 51 workers: input/bsgs_40_2.txt
+Found result in: 49649 microseconds
+# Running with 51 workers: input/bsgs_40_3.txt
+Found result in: 58250 microseconds
+# Running with 51 workers: input/bsgs_40_4.txt
+Found result in: 92645 microseconds
+# Running with 51 workers: input/bsgs_40_5.txt
+Found result in: 72757 microseconds
+# Running with 51 workers: input/bsgs_40_6.txt
+Found result in: 73301 microseconds
+# Running with 51 workers: input/bsgs_40_7.txt
+Found result in: 72196 microseconds
+# Running with 51 workers: input/bsgs_40_8.txt
+Found result in: 61772 microseconds
+# Running with 51 workers: input/bsgs_40_9.txt
+Found result in: 65076 microseconds
+# Running with 51 workers: input/bsgs_48_0.txt
+Found result in: 745443 microseconds
+# Running with 51 workers: input/bsgs_48_1.txt
+Found result in: 707903 microseconds
+# Running with 51 workers: input/bsgs_48_2.txt
+Found result in: 890291 microseconds
+# Running with 51 workers: input/bsgs_48_3.txt
+Found result in: 680009 microseconds
+# Running with 51 workers: input/bsgs_48_4.txt
+Found result in: 947625 microseconds
+# Running with 51 workers: input/bsgs_48_5.txt
+Found result in: 652047 microseconds
+# Running with 51 workers: input/bsgs_48_6.txt
+Found result in: 609587 microseconds
+# Running with 51 workers: input/bsgs_48_7.txt
+Found result in: 565840 microseconds
+# Running with 51 workers: input/bsgs_48_8.txt
+Found result in: 1077178 microseconds
+# Running with 51 workers: input/bsgs_48_9.txt
+Found result in: 665114 microseconds
+# Running with 52 workers: input/bsgs_40_0.txt
+Found result in: 56254 microseconds
+# Running with 52 workers: input/bsgs_40_1.txt
+Found result in: 60794 microseconds
+# Running with 52 workers: input/bsgs_40_2.txt
+Found result in: 70191 microseconds
+# Running with 52 workers: input/bsgs_40_3.txt
+Found result in: 61128 microseconds
+# Running with 52 workers: input/bsgs_40_4.txt
+Found result in: 63512 microseconds
+# Running with 52 workers: input/bsgs_40_5.txt
+Found result in: 48174 microseconds
+# Running with 52 workers: input/bsgs_40_6.txt
+Found result in: 53137 microseconds
+# Running with 52 workers: input/bsgs_40_7.txt
+Found result in: 54919 microseconds
+# Running with 52 workers: input/bsgs_40_8.txt
+Found result in: 62922 microseconds
+# Running with 52 workers: input/bsgs_40_9.txt
+Found result in: 58721 microseconds
+# Running with 52 workers: input/bsgs_48_0.txt
+Found result in: 688033 microseconds
+# Running with 52 workers: input/bsgs_48_1.txt
+Found result in: 744580 microseconds
+# Running with 52 workers: input/bsgs_48_2.txt
+Found result in: 1090448 microseconds
+# Running with 52 workers: input/bsgs_48_3.txt
+Found result in: 669102 microseconds
+# Running with 52 workers: input/bsgs_48_4.txt
+Found result in: 1156503 microseconds
+# Running with 52 workers: input/bsgs_48_5.txt
+Found result in: 763090 microseconds
+# Running with 52 workers: input/bsgs_48_6.txt
+Found result in: 1002961 microseconds
+# Running with 52 workers: input/bsgs_48_7.txt
+Found result in: 598494 microseconds
+# Running with 52 workers: input/bsgs_48_8.txt
+Found result in: 912951 microseconds
+# Running with 52 workers: input/bsgs_48_9.txt
+Found result in: 879439 microseconds
+# Running with 53 workers: input/bsgs_40_0.txt
+Found result in: 57798 microseconds
+# Running with 53 workers: input/bsgs_40_1.txt
+Found result in: 75932 microseconds
+# Running with 53 workers: input/bsgs_40_2.txt
+Found result in: 46538 microseconds
+# Running with 53 workers: input/bsgs_40_3.txt
+Found result in: 49716 microseconds
+# Running with 53 workers: input/bsgs_40_4.txt
+Found result in: 54604 microseconds
+# Running with 53 workers: input/bsgs_40_5.txt
+Found result in: 53452 microseconds
+# Running with 53 workers: input/bsgs_40_6.txt
+Found result in: 57380 microseconds
+# Running with 53 workers: input/bsgs_40_7.txt
+Found result in: 57191 microseconds
+# Running with 53 workers: input/bsgs_40_8.txt
+Found result in: 53858 microseconds
+# Running with 53 workers: input/bsgs_40_9.txt
+Found result in: 55212 microseconds
+# Running with 53 workers: input/bsgs_48_0.txt
+Found result in: 878043 microseconds
+# Running with 53 workers: input/bsgs_48_1.txt
+Found result in: 717894 microseconds
+# Running with 53 workers: input/bsgs_48_2.txt
+Found result in: 1153160 microseconds
+# Running with 53 workers: input/bsgs_48_3.txt
+Found result in: 644202 microseconds
+# Running with 53 workers: input/bsgs_48_4.txt
+Found result in: 856996 microseconds
+# Running with 53 workers: input/bsgs_48_5.txt
+Found result in: 649825 microseconds
+# Running with 53 workers: input/bsgs_48_6.txt
+Found result in: 685753 microseconds
+# Running with 53 workers: input/bsgs_48_7.txt
+Found result in: 558451 microseconds
+# Running with 53 workers: input/bsgs_48_8.txt
+Found result in: 760240 microseconds
+# Running with 53 workers: input/bsgs_48_9.txt
+Found result in: 504194 microseconds
+# Running with 54 workers: input/bsgs_40_0.txt
+Found result in: 64225 microseconds
+# Running with 54 workers: input/bsgs_40_1.txt
+Found result in: 53987 microseconds
+# Running with 54 workers: input/bsgs_40_2.txt
+Found result in: 52921 microseconds
+# Running with 54 workers: input/bsgs_40_3.txt
+Found result in: 90938 microseconds
+# Running with 54 workers: input/bsgs_40_4.txt
+Found result in: 86492 microseconds
+# Running with 54 workers: input/bsgs_40_5.txt
+Found result in: 71951 microseconds
+# Running with 54 workers: input/bsgs_40_6.txt
+Found result in: 61167 microseconds
+# Running with 54 workers: input/bsgs_40_7.txt
+Found result in: 61070 microseconds
+# Running with 54 workers: input/bsgs_40_8.txt
+Found result in: 83599 microseconds
+# Running with 54 workers: input/bsgs_40_9.txt
+Found result in: 60880 microseconds
+# Running with 54 workers: input/bsgs_48_0.txt
+Found result in: 1206707 microseconds
+# Running with 54 workers: input/bsgs_48_1.txt
+Found result in: 716895 microseconds
+# Running with 54 workers: input/bsgs_48_2.txt
+Found result in: 656640 microseconds
+# Running with 54 workers: input/bsgs_48_3.txt
+Found result in: 831662 microseconds
+# Running with 54 workers: input/bsgs_48_4.txt
+Found result in: 1181216 microseconds
+# Running with 54 workers: input/bsgs_48_5.txt
+Found result in: 628554 microseconds
+# Running with 54 workers: input/bsgs_48_6.txt
+Found result in: 745071 microseconds
+# Running with 54 workers: input/bsgs_48_7.txt
+Found result in: 541893 microseconds
+# Running with 54 workers: input/bsgs_48_8.txt
+Found result in: 562419 microseconds
+# Running with 54 workers: input/bsgs_48_9.txt
+Found result in: 561581 microseconds
+# Running with 55 workers: input/bsgs_40_0.txt
+Found result in: 61220 microseconds
+# Running with 55 workers: input/bsgs_40_1.txt
+Found result in: 57937 microseconds
+# Running with 55 workers: input/bsgs_40_2.txt
+Found result in: 57900 microseconds
+# Running with 55 workers: input/bsgs_40_3.txt
+Found result in: 88826 microseconds
+# Running with 55 workers: input/bsgs_40_4.txt
+Found result in: 62129 microseconds
+# Running with 55 workers: input/bsgs_40_5.txt
+Found result in: 74069 microseconds
+# Running with 55 workers: input/bsgs_40_6.txt
+Found result in: 56261 microseconds
+# Running with 55 workers: input/bsgs_40_7.txt
+Found result in: 63328 microseconds
+# Running with 55 workers: input/bsgs_40_8.txt
+Found result in: 83009 microseconds
+# Running with 55 workers: input/bsgs_40_9.txt
+Found result in: 52462 microseconds
+# Running with 55 workers: input/bsgs_48_0.txt
+Found result in: 786648 microseconds
+# Running with 55 workers: input/bsgs_48_1.txt
+Found result in: 678217 microseconds
+# Running with 55 workers: input/bsgs_48_2.txt
+Found result in: 780551 microseconds
+# Running with 55 workers: input/bsgs_48_3.txt
+Found result in: 621712 microseconds
+# Running with 55 workers: input/bsgs_48_4.txt
+Found result in: 833119 microseconds
+# Running with 55 workers: input/bsgs_48_5.txt
+Found result in: 531026 microseconds
+# Running with 55 workers: input/bsgs_48_6.txt
+Found result in: 634078 microseconds
+# Running with 55 workers: input/bsgs_48_7.txt
+Found result in: 526292 microseconds
+# Running with 55 workers: input/bsgs_48_8.txt
+Found result in: 1107032 microseconds
+# Running with 55 workers: input/bsgs_48_9.txt
+Found result in: 590093 microseconds
+# Running with 56 workers: input/bsgs_40_0.txt
+Found result in: 69257 microseconds
+# Running with 56 workers: input/bsgs_40_1.txt
+Found result in: 56366 microseconds
+# Running with 56 workers: input/bsgs_40_2.txt
+Found result in: 61512 microseconds
+# Running with 56 workers: input/bsgs_40_3.txt
+Found result in: 84318 microseconds
+# Running with 56 workers: input/bsgs_40_4.txt
+Found result in: 67746 microseconds
+# Running with 56 workers: input/bsgs_40_5.txt
+Found result in: 51252 microseconds
+# Running with 56 workers: input/bsgs_40_6.txt
+Found result in: 63531 microseconds
+# Running with 56 workers: input/bsgs_40_7.txt
+Found result in: 88088 microseconds
+# Running with 56 workers: input/bsgs_40_8.txt
+Found result in: 82810 microseconds
+# Running with 56 workers: input/bsgs_40_9.txt
+Found result in: 63746 microseconds
+# Running with 56 workers: input/bsgs_48_0.txt
+Found result in: 983318 microseconds
+# Running with 56 workers: input/bsgs_48_1.txt
+Found result in: 708372 microseconds
+# Running with 56 workers: input/bsgs_48_2.txt
+Found result in: 942293 microseconds
+# Running with 56 workers: input/bsgs_48_3.txt
+Found result in: 637301 microseconds
+# Running with 56 workers: input/bsgs_48_4.txt
+Found result in: 1122878 microseconds
+# Running with 56 workers: input/bsgs_48_5.txt
+Found result in: 982114 microseconds
+# Running with 56 workers: input/bsgs_48_6.txt
+Found result in: 1085371 microseconds
+# Running with 56 workers: input/bsgs_48_7.txt
+Found result in: 592658 microseconds
+# Running with 56 workers: input/bsgs_48_8.txt
+Found result in: 1034526 microseconds
+# Running with 56 workers: input/bsgs_48_9.txt
+Found result in: 682000 microseconds
+# Running with 57 workers: input/bsgs_40_0.txt
+Found result in: 68367 microseconds
+# Running with 57 workers: input/bsgs_40_1.txt
+Found result in: 50293 microseconds
+# Running with 57 workers: input/bsgs_40_2.txt
+Found result in: 54974 microseconds
+# Running with 57 workers: input/bsgs_40_3.txt
+Found result in: 75329 microseconds
+# Running with 57 workers: input/bsgs_40_4.txt
+Found result in: 69187 microseconds
+# Running with 57 workers: input/bsgs_40_5.txt
+Found result in: 66190 microseconds
+# Running with 57 workers: input/bsgs_40_6.txt
+Found result in: 61992 microseconds
+# Running with 57 workers: input/bsgs_40_7.txt
+Found result in: 62183 microseconds
+# Running with 57 workers: input/bsgs_40_8.txt
+Found result in: 96529 microseconds
+# Running with 57 workers: input/bsgs_40_9.txt
+Found result in: 68212 microseconds
+# Running with 57 workers: input/bsgs_48_0.txt
+Found result in: 628610 microseconds
+# Running with 57 workers: input/bsgs_48_1.txt
+Found result in: 668873 microseconds
+# Running with 57 workers: input/bsgs_48_2.txt
+Found result in: 1071765 microseconds
+# Running with 57 workers: input/bsgs_48_3.txt
+Found result in: 734208 microseconds
+# Running with 57 workers: input/bsgs_48_4.txt
+Found result in: 779060 microseconds
+# Running with 57 workers: input/bsgs_48_5.txt
+Found result in: 709373 microseconds
+# Running with 57 workers: input/bsgs_48_6.txt
+Found result in: 707359 microseconds
+# Running with 57 workers: input/bsgs_48_7.txt
+Found result in: 565641 microseconds
+# Running with 57 workers: input/bsgs_48_8.txt
+Found result in: 795217 microseconds
+# Running with 57 workers: input/bsgs_48_9.txt
+Found result in: 774238 microseconds
+# Running with 58 workers: input/bsgs_40_0.txt
+Found result in: 64068 microseconds
+# Running with 58 workers: input/bsgs_40_1.txt
+Found result in: 80770 microseconds
+# Running with 58 workers: input/bsgs_40_2.txt
+Found result in: 62947 microseconds
+# Running with 58 workers: input/bsgs_40_3.txt
+Found result in: 80404 microseconds
+# Running with 58 workers: input/bsgs_40_4.txt
+Found result in: 60095 microseconds
+# Running with 58 workers: input/bsgs_40_5.txt
+Found result in: 82291 microseconds
+# Running with 58 workers: input/bsgs_40_6.txt
+Found result in: 58136 microseconds
+# Running with 58 workers: input/bsgs_40_7.txt
+Found result in: 68737 microseconds
+# Running with 58 workers: input/bsgs_40_8.txt
+Found result in: 72679 microseconds
+# Running with 58 workers: input/bsgs_40_9.txt
+Found result in: 68498 microseconds
+# Running with 58 workers: input/bsgs_48_0.txt
+Found result in: 886283 microseconds
+# Running with 58 workers: input/bsgs_48_1.txt
+Found result in: 706507 microseconds
+# Running with 58 workers: input/bsgs_48_2.txt
+Found result in: 1104526 microseconds
+# Running with 58 workers: input/bsgs_48_3.txt
+Found result in: 660092 microseconds
+# Running with 58 workers: input/bsgs_48_4.txt
+Found result in: 1083907 microseconds
+# Running with 58 workers: input/bsgs_48_5.txt
+Found result in: 793390 microseconds
+# Running with 58 workers: input/bsgs_48_6.txt
+Found result in: 898704 microseconds
+# Running with 58 workers: input/bsgs_48_7.txt
+Found result in: 526771 microseconds
+# Running with 58 workers: input/bsgs_48_8.txt
+Found result in: 748781 microseconds
+# Running with 58 workers: input/bsgs_48_9.txt
+Found result in: 739809 microseconds
+# Running with 59 workers: input/bsgs_40_0.txt
+Found result in: 76878 microseconds
+# Running with 59 workers: input/bsgs_40_1.txt
+Found result in: 75356 microseconds
+# Running with 59 workers: input/bsgs_40_2.txt
+Found result in: 63576 microseconds
+# Running with 59 workers: input/bsgs_40_3.txt
+Found result in: 89274 microseconds
+# Running with 59 workers: input/bsgs_40_4.txt
+Found result in: 70968 microseconds
+# Running with 59 workers: input/bsgs_40_5.txt
+Found result in: 52321 microseconds
+# Running with 59 workers: input/bsgs_40_6.txt
+Found result in: 56626 microseconds
+# Running with 59 workers: input/bsgs_40_7.txt
+Found result in: 72029 microseconds
+# Running with 59 workers: input/bsgs_40_8.txt
+Found result in: 58313 microseconds
+# Running with 59 workers: input/bsgs_40_9.txt
+Found result in: 57371 microseconds
+# Running with 59 workers: input/bsgs_48_0.txt
+Found result in: 774070 microseconds
+# Running with 59 workers: input/bsgs_48_1.txt
+Found result in: 694746 microseconds
+# Running with 59 workers: input/bsgs_48_2.txt
+Found result in: 616560 microseconds
+# Running with 59 workers: input/bsgs_48_3.txt
+Found result in: 684958 microseconds
+# Running with 59 workers: input/bsgs_48_4.txt
+Found result in: 691705 microseconds
+# Running with 59 workers: input/bsgs_48_5.txt
+Found result in: 461308 microseconds
+# Running with 59 workers: input/bsgs_48_6.txt
+Found result in: 645731 microseconds
+# Running with 59 workers: input/bsgs_48_7.txt
+Found result in: 508918 microseconds
+# Running with 59 workers: input/bsgs_48_8.txt
+Found result in: 630857 microseconds
+# Running with 59 workers: input/bsgs_48_9.txt
+Found result in: 602371 microseconds
+# Running with 60 workers: input/bsgs_40_0.txt
+Found result in: 64291 microseconds
+# Running with 60 workers: input/bsgs_40_1.txt
+Found result in: 71654 microseconds
+# Running with 60 workers: input/bsgs_40_2.txt
+Found result in: 71586 microseconds
+# Running with 60 workers: input/bsgs_40_3.txt
+Found result in: 79092 microseconds
+# Running with 60 workers: input/bsgs_40_4.txt
+Found result in: 66208 microseconds
+# Running with 60 workers: input/bsgs_40_5.txt
+Found result in: 59381 microseconds
+# Running with 60 workers: input/bsgs_40_6.txt
+Found result in: 70563 microseconds
+# Running with 60 workers: input/bsgs_40_7.txt
+Found result in: 83896 microseconds
+# Running with 60 workers: input/bsgs_40_8.txt
+Found result in: 65902 microseconds
+# Running with 60 workers: input/bsgs_40_9.txt
+Found result in: 69262 microseconds
+# Running with 60 workers: input/bsgs_48_0.txt
+Found result in: 727590 microseconds
+# Running with 60 workers: input/bsgs_48_1.txt
+Found result in: 664099 microseconds
+# Running with 60 workers: input/bsgs_48_2.txt
+Found result in: 777301 microseconds
+# Running with 60 workers: input/bsgs_48_3.txt
+Found result in: 796381 microseconds
+# Running with 60 workers: input/bsgs_48_4.txt
+Found result in: 832048 microseconds
+# Running with 60 workers: input/bsgs_48_5.txt
+Found result in: 678225 microseconds
+# Running with 60 workers: input/bsgs_48_6.txt
+Found result in: 685561 microseconds
+# Running with 60 workers: input/bsgs_48_7.txt
+Found result in: 566161 microseconds
+# Running with 60 workers: input/bsgs_48_8.txt
+Found result in: 1083458 microseconds
+# Running with 60 workers: input/bsgs_48_9.txt
+Found result in: 881746 microseconds
+# Running with 61 workers: input/bsgs_40_0.txt
+Found result in: 51411 microseconds
+# Running with 61 workers: input/bsgs_40_1.txt
+Found result in: 66884 microseconds
+# Running with 61 workers: input/bsgs_40_2.txt
+Found result in: 61931 microseconds
+# Running with 61 workers: input/bsgs_40_3.txt
+Found result in: 74641 microseconds
+# Running with 61 workers: input/bsgs_40_4.txt
+Found result in: 61585 microseconds
+# Running with 61 workers: input/bsgs_40_5.txt
+Found result in: 64467 microseconds
+# Running with 61 workers: input/bsgs_40_6.txt
+Found result in: 61490 microseconds
+# Running with 61 workers: input/bsgs_40_7.txt
+Found result in: 55945 microseconds
+# Running with 61 workers: input/bsgs_40_8.txt
+Found result in: 55721 microseconds
+# Running with 61 workers: input/bsgs_40_9.txt
+Found result in: 47386 microseconds
+# Running with 61 workers: input/bsgs_48_0.txt
+Found result in: 652704 microseconds
+# Running with 61 workers: input/bsgs_48_1.txt
+Found result in: 631671 microseconds
+# Running with 61 workers: input/bsgs_48_2.txt
+Found result in: 945672 microseconds
+# Running with 61 workers: input/bsgs_48_3.txt
+Found result in: 658051 microseconds
+# Running with 61 workers: input/bsgs_48_4.txt
+Found result in: 609227 microseconds
+# Running with 61 workers: input/bsgs_48_5.txt
+Found result in: 600868 microseconds
+# Running with 61 workers: input/bsgs_48_6.txt
+Found result in: 744932 microseconds
+# Running with 61 workers: input/bsgs_48_7.txt
+Found result in: 503057 microseconds
+# Running with 61 workers: input/bsgs_48_8.txt
+Found result in: 964006 microseconds
+# Running with 61 workers: input/bsgs_48_9.txt
+Found result in: 698558 microseconds
+# Running with 62 workers: input/bsgs_40_0.txt
+Found result in: 73909 microseconds
+# Running with 62 workers: input/bsgs_40_1.txt
+Found result in: 65790 microseconds
+# Running with 62 workers: input/bsgs_40_2.txt
+Found result in: 52693 microseconds
+# Running with 62 workers: input/bsgs_40_3.txt
+Found result in: 88253 microseconds
+# Running with 62 workers: input/bsgs_40_4.txt
+Found result in: 54631 microseconds
+# Running with 62 workers: input/bsgs_40_5.txt
+Found result in: 73609 microseconds
+# Running with 62 workers: input/bsgs_40_6.txt
+Found result in: 61005 microseconds
+# Running with 62 workers: input/bsgs_40_7.txt
+Found result in: 60672 microseconds
+# Running with 62 workers: input/bsgs_40_8.txt
+Found result in: 68336 microseconds
+# Running with 62 workers: input/bsgs_40_9.txt
+Found result in: 66425 microseconds
+# Running with 62 workers: input/bsgs_48_0.txt
+Found result in: 1197518 microseconds
+# Running with 62 workers: input/bsgs_48_1.txt
+Found result in: 645054 microseconds
+# Running with 62 workers: input/bsgs_48_2.txt
+Found result in: 1084960 microseconds
+# Running with 62 workers: input/bsgs_48_3.txt
+Found result in: 682576 microseconds
+# Running with 62 workers: input/bsgs_48_4.txt
+Found result in: 923473 microseconds
+# Running with 62 workers: input/bsgs_48_5.txt
+Found result in: 556363 microseconds
+# Running with 62 workers: input/bsgs_48_6.txt
+Found result in: 784135 microseconds
+# Running with 62 workers: input/bsgs_48_7.txt
+Found result in: 512854 microseconds
+# Running with 62 workers: input/bsgs_48_8.txt
+Found result in: 839026 microseconds
+# Running with 62 workers: input/bsgs_48_9.txt
+Found result in: 487321 microseconds
+# Running with 63 workers: input/bsgs_40_0.txt
+Found result in: 49272 microseconds
+# Running with 63 workers: input/bsgs_40_1.txt
+Found result in: 58420 microseconds
+# Running with 63 workers: input/bsgs_40_2.txt
+Found result in: 54417 microseconds
+# Running with 63 workers: input/bsgs_40_3.txt
+Found result in: 69310 microseconds
+# Running with 63 workers: input/bsgs_40_4.txt
+Found result in: 80320 microseconds
+# Running with 63 workers: input/bsgs_40_5.txt
+Found result in: 53476 microseconds
+# Running with 63 workers: input/bsgs_40_6.txt
+Found result in: 69061 microseconds
+# Running with 63 workers: input/bsgs_40_7.txt
+Found result in: 70811 microseconds
+# Running with 63 workers: input/bsgs_40_8.txt
+Found result in: 87304 microseconds
+# Running with 63 workers: input/bsgs_40_9.txt
+Found result in: 64517 microseconds
+# Running with 63 workers: input/bsgs_48_0.txt
+Found result in: 769778 microseconds
+# Running with 63 workers: input/bsgs_48_1.txt
+Found result in: 639605 microseconds
+# Running with 63 workers: input/bsgs_48_2.txt
+Found result in: 1176926 microseconds
+# Running with 63 workers: input/bsgs_48_3.txt
+Found result in: 1002872 microseconds
+# Running with 63 workers: input/bsgs_48_4.txt
+Found result in: 588477 microseconds
+# Running with 63 workers: input/bsgs_48_5.txt
+Found result in: 726208 microseconds
+# Running with 63 workers: input/bsgs_48_6.txt
+Found result in: 616090 microseconds
+# Running with 63 workers: input/bsgs_48_7.txt
+Found result in: 585804 microseconds
+# Running with 63 workers: input/bsgs_48_8.txt
+Found result in: 692544 microseconds
+# Running with 63 workers: input/bsgs_48_9.txt
+Found result in: 548185 microseconds
+# Running with 64 workers: input/bsgs_40_0.txt
+Found result in: 79175 microseconds
+# Running with 64 workers: input/bsgs_40_1.txt
+Found result in: 70253 microseconds
+# Running with 64 workers: input/bsgs_40_2.txt
+Found result in: 65628 microseconds
+# Running with 64 workers: input/bsgs_40_3.txt
+Found result in: 67741 microseconds
+# Running with 64 workers: input/bsgs_40_4.txt
+Found result in: 63691 microseconds
+# Running with 64 workers: input/bsgs_40_5.txt
+Found result in: 61391 microseconds
+# Running with 64 workers: input/bsgs_40_6.txt
+Found result in: 54189 microseconds
+# Running with 64 workers: input/bsgs_40_7.txt
+Found result in: 75699 microseconds
+# Running with 64 workers: input/bsgs_40_8.txt
+Found result in: 75698 microseconds
+# Running with 64 workers: input/bsgs_40_9.txt
+Found result in: 56144 microseconds
+# Running with 64 workers: input/bsgs_48_0.txt
+Found result in: 992852 microseconds
+# Running with 64 workers: input/bsgs_48_1.txt
+Found result in: 630963 microseconds
+# Running with 64 workers: input/bsgs_48_2.txt
+Found result in: 701923 microseconds
+# Running with 64 workers: input/bsgs_48_3.txt
+Found result in: 647038 microseconds
+# Running with 64 workers: input/bsgs_48_4.txt
+Found result in: 815946 microseconds
+# Running with 64 workers: input/bsgs_48_5.txt
+Found result in: 861320 microseconds
+# Running with 64 workers: input/bsgs_48_6.txt
+Found result in: 826635 microseconds
+# Running with 64 workers: input/bsgs_48_7.txt
+Found result in: 567071 microseconds
+# Running with 64 workers: input/bsgs_48_8.txt
+Found result in: 1160548 microseconds
+# Running with 64 workers: input/bsgs_48_9.txt
+Found result in: 645638 microseconds

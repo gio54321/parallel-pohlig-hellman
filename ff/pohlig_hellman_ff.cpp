@@ -17,7 +17,12 @@
 
 using namespace ff;
 
+// load factor for the open addressing table
 #define DEFAULT_LOAD_FACTOR 4.5
+
+// number of chunks on average computed by a worker
+#define TASK_GRANULARITY 4
+
 
 /*
  * Table initialization stage, sets all values in the table to the sentinel value (max uint64_t)
@@ -42,21 +47,20 @@ struct TableConstructionStage : ff_Map<bsgs_task_t> {
     TableConstructionStage(int num_workers):num_workers(num_workers) {}
 
     bsgs_task_t *svc(bsgs_task_t *t) {
-        const int task_granularity = 4;
-        size_t chunk_size = t->m.get_ui() / num_workers / task_granularity;
+        size_t chunk_size = t->m.get_ui() / num_workers / TASK_GRANULARITY;
         if (chunk_size == 0) {
             chunk_size = 1;
         }
 
-        parallel_for(0,t->m.get_ui(), chunk_size, 1, [&](long start) {
-            const long end = std::min(start + chunk_size, t->m.get_ui());
+        parallel_for(0,t->m.get_ui(), chunk_size, 1, [&](uint64_t start) {
+            const uint64_t end = std::min(start + chunk_size, t->m.get_ui());
 
             if (start == 0) {
                 table_insert(t->table, 1, 0);
                 start += 1;
             }
             mpz_class val = powerMod(t->g, mpz_class(start), t->p);
-            for (size_t i = start; i < end; ++i){
+            for (uint64_t i = start; i < end; ++i){
                 table_insert(t->table, val, i);
                 val = (val * t->g) % t->p;
             }
@@ -73,8 +77,7 @@ struct TableSearchStage : ff_Map<bsgs_task_t> {
     TableSearchStage(int num_workers):num_workers(num_workers) {}
 
     bsgs_task_t *svc(bsgs_task_t *t) {
-        const int task_granularity = 4;
-        size_t chunk_size = t->m.get_ui() / num_workers / task_granularity;
+        size_t chunk_size = t->m.get_ui() / num_workers / TASK_GRANULARITY;
         if (chunk_size == 0) {
             chunk_size = 1;
         }
@@ -82,13 +85,13 @@ struct TableSearchStage : ff_Map<bsgs_task_t> {
         std::mutex result_lock;
         std::atomic_bool found = false;
 
-        parallel_for(0,t->m.get_ui(), chunk_size, 1, [&](long start) {
-            const long end = std::min(start + chunk_size, t->m.get_ui());
+        parallel_for(0,t->m.get_ui(), chunk_size, 1, [&](uint64_t start) {
+            const uint64_t end = std::min(start + chunk_size, t->m.get_ui());
 
             mpz_class gm = (powerMod(modInversePrime(t->g, t->p), t->m, t->p)) % t->p;
             mpz_class val = (t->b * powerMod(gm, start, t->p)) % t->p;
 
-            for (size_t i = start; i < end; ++i) {
+            for (uint64_t i = start; i < end; ++i) {
                 if (found) {
                     return;
                 }
@@ -146,6 +149,7 @@ struct Emitter : ff_monode_t<bsgs_task_t> {
             return input_task;
         }
 
+        // first time the svc is called:
         // create all instances of poh_pp_task_t and bsgs_task_t
         int i=0;
         for (auto factor : pohlig_hellman_task->order_factorization) {
@@ -168,7 +172,6 @@ struct Emitter : ff_monode_t<bsgs_task_t> {
             bsgs_task_t *t2 = create_bsgs_task_from_poh_pp(t);
             ff_send_out(t2);
             i++;
-
         }
 
         return GO_ON;
@@ -213,7 +216,6 @@ struct Collector : ff_monode_t<bsgs_task_t> {
                 if (t->parent_task->parent_task->completed_subgroups == t->parent_task->parent_task->order_factorization.size()) {
                     // combine the results using crt
                     mpz_class result = crt(t->parent_task->parent_task->x, t->parent_task->parent_task->h_i);
-                    std::cout << "general P-H result: " << result << std::endl;
 
                     // check heck that we actually found the correct result for the whole task
                     assert(powerMod(t->parent_task->parent_task->g, result, t->parent_task->parent_task->p) == t->parent_task->parent_task->b);
@@ -329,14 +331,12 @@ int main(int argc, char * argv[]) {
 
     long time_taken;
     {
-        utimer timer("ff", &time_taken);
-
+        utimer timer("Pohlig-Hellman FastFlow", &time_taken);
         if (bsgs_farm.run_and_wait_end()<0) {
             error("running pipe");
             return -1;
         }
     }
-
     std::cout << "Found result in " << time_taken << " microseconds" << std::endl;
 
     return 0;

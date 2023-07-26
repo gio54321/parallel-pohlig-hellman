@@ -1,10 +1,9 @@
 #!/bin/bash
 
-for i in {1..64}
+for i in {0..64}
 do
-    echo "# Running with $i workers"
     for f in input/bsgs_*; do
-        echo "# Running with $f"
-        LD_LIBRARY_PATH=./lib/ ./bin/test_bsgs $f $i 3
+        echo "# Running with $i workers: $f"
+        LD_LIBRARY_PATH=./lib/ ./bin/test_bsgs $f $i 4.5
     done
 done

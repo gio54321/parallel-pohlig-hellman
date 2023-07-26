@@ -6,7 +6,10 @@
 #include <vector>
 #include <gmpxx.h>
 
-
+/*
+ * Modular binary exponentiation, it computes a^b mod m
+ * in O(log(b)) time
+ */
 inline mpz_class powerMod(mpz_class a, mpz_class b, mpz_class m)
 {
     if (b == 0) {
@@ -24,6 +27,9 @@ inline mpz_class powerMod(mpz_class a, mpz_class b, mpz_class m)
     return res % m;
 }
 
+/*
+ * Compute gcd(a, b) and x, y such that ax + by = gcd(a, b)
+ */
 inline mpz_class gcdExtended(mpz_class a, mpz_class b, mpz_class* x, mpz_class* y)
 {
     // Base Case
@@ -41,7 +47,9 @@ inline mpz_class gcdExtended(mpz_class a, mpz_class b, mpz_class* x, mpz_class* 
     return gcd;
 }
 
-// Function to find modulo inverse of a
+/*
+ * Compute inverse of a modulo m
+ */
 inline mpz_class modInverse(mpz_class A, mpz_class M)
 {
     mpz_class x, y;
@@ -54,14 +62,18 @@ inline mpz_class modInverse(mpz_class A, mpz_class M)
     }
 }
 
-// Function to find inverse of a modulo prime p
+/*
+ * Compute inverse of a modulo p, where p is prime
+ * this case is faster than the general case, because we can use Fermat's little theorem
+ * to compute a^(p-2) mod p, which is the inverse of a mod p
+ */
 inline mpz_class modInversePrime(mpz_class A, mpz_class p)
 {
     return powerMod(A, p - 2, p);
 }
 
 /*
- * Chinese Remainder Theorem
+ * compute the solutions following the chinese Remainder Theorem
  *
  * coeffs: vector of coefficients
  * moduli: vector of moduli, assumed to be coprime
@@ -82,10 +94,11 @@ inline mpz_class crt(std::vector<mpz_class> &coeffs, std::vector<mpz_class> &mod
     return result % prod;
 }
 
-
-// implement hash() for mpz_class
-// since hashing is used only after doing modular exponentiation, we can just use the least significant 64 bits
-// as the hash value
+/*
+ * Define the hash() function for mpz_class
+ * since hashing is used only after doing modular exponentiation, we can just use
+ * the least significant 64 bits as the hash value
+ */
 template<> struct std::hash<mpz_class> {
     size_t operator()(const mpz_class &x) const;
 };
